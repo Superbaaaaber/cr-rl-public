@@ -78,3 +78,7 @@ BC 存档是扩容前的结构，装进新结构要用 `load_weights(net, sd, gr
 ## 依赖
 
 Python 3.10+、PyTorch 2.x（CUDA）、`requirements.txt` / `requirements-linux.txt`。
+
+## 许可证
+
+代码和 Releases 里的权重都按 MIT 许可证发布（见 `LICENSE`）。
