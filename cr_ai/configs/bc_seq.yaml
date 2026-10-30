@@ -1,0 +1,16 @@
+# 带记忆的模仿学习（叠加在 bc.yaml 之上）。用法见 cr_ai/train/bc_seq.py
+bc:
+  data_dirs: [data_bc/il_seq]             # replay_resim --seq 的分片（每步都有样本）
+  val_shards: 200                         # 验证只扫前 N 个分片里的验证局（约 200 局）
+  seq_len: 64                             # 每段算损失的步数（16 秒，与 PPO 的 seq_len 相同）
+  burn_in: 32                             # 每段前面只推进记忆、不算损失的步数（8 秒）；从开局切的段没有
+  seq_batch: 32                           # 每批段数（算损失的步 ≤ 32 × 64 = 2048）。16 段时一批只来自约 16 局，梯度噪声大
+  accum: 1                                # 梯度累积：一批切成几份前向/反向（arch_v2 在 24 GB 卡上 32 段一次放不下，用 2）
+  steps: 15000                            # 微调总步数（× 2048 ≈ 3,000 万个算损失的步）
+  lr: 3.0e-5                              # 从单步 BC（末尾学习率 1e-5）出发微调。2026-10-17 试过 1e-4 + 16 段：前 4000 步验证全面变差（落点 −0.5、胜负 −1.4 个点）
+  lr_end: 1.0e-6
+  warmup_steps: 500
+  forget_bias: -4.0                       # 起点：init_recurrence（同 PPO）
+  shards_in_buffer: 4                     # 每个 loader 进程同时混洗的分片数（每片 50 局、约 8 万步）
+  eval_every: 2000
+  ckpt_every: 2000

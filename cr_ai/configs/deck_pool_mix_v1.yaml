@@ -1,0 +1,12932 @@
+source: 老池：deck_pool.yaml ＋ 新版本：cr_scrape/data/battles.jsonl（8829 场 17506 方，Grand Challenge/Ranked/Ladder/Classic Challenge）
+note: 新旧混合对手卡组池：老池 299 套占 50%；新版本使用量前 300 套（覆盖新数据 69.4% 的方）占 50%，其中 73 套两边都有、权重相加；共 526 套，按 weight 加权抽样
+decks:
+- cards:
+  - BarbLog
+  - BattleRam
+  - AngryBarbarians
+  - GiantSkeleton
+  - WitchMother
+  - Vines
+  - Wizard
+  - MiniSparkys
+  forms:
+    AngryBarbarians: evo
+    BattleRam: evo
+    Wizard: hero
+  weight: 46801
+  winrate: 0.841
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - elite-barbarians
+  - giant-skeleton
+  - mother-witch
+  - vines
+  - wizard
+  - zappies
+  src: old+new
+- cards:
+  - Cannon
+  - Fireball
+  - HogRider
+  - IceGolemite
+  - IceSpirits
+  - Musketeer
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Musketeer: hero
+    Skeletons: evo
+  weight: 33061
+  winrate: 0.338
+  slugs:
+  - cannon
+  - fireball
+  - hog-rider
+  - ice-golem
+  - ice-spirit
+  - musketeer
+  - skeletons
+  - the-log
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroDragon
+  - AngryBarbarians
+  - Elixir Collector
+  - Golem
+  - SkeletonDragons
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    Berserker: hero
+    ElectroDragon: evo
+  weight: 15993
+  winrate: 0.409
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - skeleton-dragons
+  - tornado
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - Fireball
+  - FirespiritHut
+  - GoblinHut
+  - Ghost
+  - RoyalHogs
+  forms:
+    Berserker: hero
+    Ghost: evo
+    RoyalHogs: evo
+  weight: 13265
+  winrate: 0.5343
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - fireball
+  - furnace
+  - goblin-hut
+  - royal-ghost
+  - royal-hogs
+  src: old
+- cards:
+  - Balloon
+  - BarbLog
+  - BombTower
+  - Snowball
+  - IceGolemite
+  - Miner
+  - Musketeer
+  - Skeletons
+  forms:
+    Balloon: hero
+    Musketeer: evo
+    Snowball: evo
+  weight: 14735
+  winrate: 0.182
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - bomb-tower
+  - giant-snowball
+  - ice-golem
+  - miner
+  - musketeer
+  - skeletons
+  src: old+new
+- cards:
+  - BabyDragon
+  - Balloon
+  - BarbLog
+  - Bowler
+  - Freeze
+  - InfernoDragon
+  - Knight
+  - Tornado
+  forms:
+    BabyDragon: evo
+    InfernoDragon: evo
+    Knight: hero
+  weight: 10666
+  winrate: 0.417
+  slugs:
+  - baby-dragon
+  - balloon
+  - barbarian-barrel
+  - bowler
+  - freeze
+  - inferno-dragon
+  - knight
+  - tornado
+  src: old+new
+- cards:
+  - Cannon
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - MightyMiner
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Firecracker: evo
+  weight: 10561
+  winrate: 0.455
+  slugs:
+  - cannon
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - mighty-miner
+  - skeletons
+  - the-log
+  src: old+new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - Ghost
+  - RoyalGiant
+  - Skeletons
+  forms:
+    BarbLog: hero
+    Ghost: evo
+    RoyalGiant: evo
+  weight: 15985
+  winrate: 0.51
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - royal-ghost
+  - royal-giant
+  - skeletons
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - MovingCannon
+  - Fireball
+  - Minions
+  - Mortar
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 9796
+  winrate: 0.333
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - cannon-cart
+  - fireball
+  - minions
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: old+new
+- cards:
+  - Giant
+  - Heal
+  - MiniPekka
+  - ZapMachine
+  - Tornado
+  - Vines
+  - Wizard
+  - Zap
+  forms:
+    MiniPekka: hero
+    Wizard: evo
+    Zap: evo
+  weight: 10401
+  winrate: 0.724
+  slugs:
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - sparky
+  - tornado
+  - vines
+  - wizard
+  - zap
+  src: old+new
+- cards:
+  - BarbLog
+  - Cannon
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - MightyMiner
+  - Skeletons
+  forms:
+    Cannon: evo
+    Firecracker: evo
+  weight: 7884
+  winrate: 0.647
+  slugs:
+  - barbarian-barrel
+  - cannon
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - mighty-miner
+  - skeletons
+  src: old+new
+- cards:
+  - Cannon
+  - BlowdartGoblin
+  - GoblinBarrel
+  - IceSpirits
+  - Princess
+  - SkeletonArmy
+  - Valkyrie
+  - Wallbreakers
+  forms:
+    GoblinBarrel: evo
+    SkeletonArmy: evo
+    Valkyrie: hero
+  weight: 15938
+  winrate: 0.436
+  slugs:
+  - cannon
+  - dart-goblin
+  - goblin-barrel
+  - ice-spirit
+  - princess
+  - skeleton-army
+  - valkyrie
+  - wall-breakers
+  src: old+new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Graveyard
+  - IceWizard
+  - Knight
+  - Poison
+  - Tombstone
+  - Tornado
+  forms:
+    BabyDragon: evo
+    IceWizard: hero
+    Tombstone: hero
+  weight: 7831
+  winrate: 0.229
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - graveyard
+  - ice-wizard
+  - knight
+  - poison
+  - tombstone
+  - tornado
+  src: old+new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Fireball
+  - EliteArcher
+  - Pekka
+  - Ghost
+  - Zap
+  forms:
+    BattleRam: evo
+    EliteArcher: hero
+    Ghost: evo
+  weight: 7640
+  winrate: 0.196
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - fireball
+  - magic-archer
+  - pekka
+  - royal-ghost
+  - zap
+  src: old+new
+- cards:
+  - DarkPrince
+  - ElectroWizard
+  - AngryBarbarians
+  - GoblinGiant
+  - Heal
+  - Rage
+  - ZapMachine
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    ElectroWizard: hero
+    GoblinGiant: evo
+  weight: 17764
+  winrate: 0.869
+  slugs:
+  - dark-prince
+  - electro-wizard
+  - elite-barbarians
+  - goblin-giant
+  - heal-spirit
+  - rage
+  - sparky
+  - zap
+  src: old+new
+- cards:
+  - Archer
+  - ElectroSpirit
+  - Fireball
+  - Knight
+  - Skeletons
+  - Tesla
+  - Log
+  - Xbow
+  forms:
+    Archer: evo
+    Knight: hero
+    Tesla: evo
+  weight: 7528
+  winrate: 0.255
+  slugs:
+  - archers
+  - electro-spirit
+  - fireball
+  - knight
+  - skeletons
+  - tesla
+  - the-log
+  - x-bow
+  src: old+new
+- cards:
+  - Arrows
+  - Bomber
+  - AngryBarbarians
+  - Golem
+  - RageBarbarian
+  - MegaMinion
+  - DarkWitch
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 5121
+  winrate: 0.465
+  slugs:
+  - arrows
+  - bomber
+  - elite-barbarians
+  - golem
+  - lumberjack
+  - mega-minion
+  - night-witch
+  - zap
+  src: old
+- cards:
+  - Archer
+  - BarbLog
+  - BombTower
+  - ElectroSpirit
+  - Goblinstein
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  forms:
+    Archer: evo
+    RoyalHogs: evo
+  weight: 4969
+  winrate: 0.5767
+  slugs:
+  - archers
+  - barbarian-barrel
+  - bomb-tower
+  - electro-spirit
+  - goblinstein
+  - lightning
+  - royal-hogs
+  - skeletons
+  src: old
+- cards:
+  - Arrows
+  - Bats
+  - Giant
+  - MiniPekka
+  - MinionHorde
+  - SkeletonArmy
+  - ZapMachine
+  - Zap
+  forms:
+    Bats: evo
+    MiniPekka: hero
+    MinionHorde: evo
+  weight: 9124
+  winrate: 0.68
+  slugs:
+  - arrows
+  - bats
+  - giant
+  - mini-pekka
+  - minion-horde
+  - skeleton-army
+  - sparky
+  - zap
+  src: old+new
+- cards:
+  - DarkPrince
+  - ElectroWizard
+  - AngryBarbarians
+  - Giant
+  - Heal
+  - Rage
+  - ZapMachine
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    Zap: evo
+  weight: 4864
+  winrate: 0.5144
+  slugs:
+  - dark-prince
+  - electro-wizard
+  - elite-barbarians
+  - giant
+  - heal-spirit
+  - rage
+  - sparky
+  - zap
+  src: old
+- cards:
+  - AxeMan
+  - Goblins
+  - HogRider
+  - IceSpirits
+  - Rocket
+  - Log
+  - Tornado
+  - Valkyrie
+  forms:
+    AxeMan: evo
+    Goblins: hero
+    Valkyrie: evo
+  weight: 5177
+  winrate: 0.333
+  slugs:
+  - executioner
+  - goblins
+  - hog-rider
+  - ice-spirit
+  - rocket
+  - the-log
+  - tornado
+  - valkyrie
+  src: old+new
+- cards:
+  - BarbLog
+  - BattleRam
+  - GiantSkeleton
+  - WitchMother
+  - Ghost
+  - Vines
+  - Wizard
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    Ghost: evo
+    Wizard: hero
+  weight: 6478
+  winrate: 0.132
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - giant-skeleton
+  - mother-witch
+  - royal-ghost
+  - vines
+  - wizard
+  - zappies
+  src: old+new
+- cards:
+  - Berserker
+  - Bomber
+  - Cannon
+  - FireSpirits
+  - Snowball
+  - GoblinDrill
+  - Rocket
+  - Skeletons
+  forms:
+    Berserker: hero
+    Cannon: evo
+    Snowball: evo
+  weight: 4267
+  winrate: 0.5261
+  slugs:
+  - berserker
+  - bomber
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - rocket
+  - skeletons
+  src: old
+- cards:
+  - Balloon
+  - Barbarians
+  - Fireball
+  - LavaHound
+  - MegaMinion
+  - SkeletonDragons
+  - Tombstone
+  - Zap
+  forms:
+    Barbarians: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 4217
+  winrate: 0.5037
+  slugs:
+  - balloon
+  - barbarians
+  - fireball
+  - lava-hound
+  - mega-minion
+  - skeleton-dragons
+  - tombstone
+  - zap
+  src: old
+- cards:
+  - ArcherQueen
+  - Cannon
+  - Earthquake
+  - IceSpirits
+  - RoyalDelivery
+  - RoyalHogs
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    RoyalHogs: evo
+  weight: 7559
+  winrate: 0.209
+  slugs:
+  - archer-queen
+  - cannon
+  - earthquake
+  - ice-spirit
+  - royal-delivery
+  - royal-hogs
+  - skeletons
+  - the-log
+  src: old+new
+- cards:
+  - BabyDragon
+  - Balloon
+  - BarbLog
+  - Bowler
+  - Freeze
+  - InfernoDragon
+  - RageBarbarian
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Balloon: hero
+    InfernoDragon: evo
+  weight: 4432
+  winrate: 0.083
+  slugs:
+  - baby-dragon
+  - balloon
+  - barbarian-barrel
+  - bowler
+  - freeze
+  - inferno-dragon
+  - lumberjack
+  - tornado
+  src: old+new
+- cards:
+  - Cannon
+  - ElectroSpirit
+  - Fireball
+  - HogRider
+  - IceGolemite
+  - Musketeer
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Musketeer: hero
+    Skeletons: evo
+  weight: 3750
+  winrate: 0.5269
+  slugs:
+  - cannon
+  - electro-spirit
+  - fireball
+  - hog-rider
+  - ice-golem
+  - musketeer
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - Bowler
+  - AxeMan
+  - Freeze
+  - GoldenKnight
+  - Graveyard
+  - InfernoDragon
+  - Tornado
+  - MiniSparkys
+  forms:
+    AxeMan: evo
+    InfernoDragon: evo
+  weight: 4813
+  winrate: 0.464
+  slugs:
+  - bowler
+  - executioner
+  - freeze
+  - golden-knight
+  - graveyard
+  - inferno-dragon
+  - tornado
+  - zappies
+  src: old+new
+- cards:
+  - Berserker
+  - Bomber
+  - Cannon
+  - FireSpirits
+  - Snowball
+  - GoblinDrill
+  - Poison
+  - Skeletons
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 3369
+  winrate: 0.4959
+  slugs:
+  - berserker
+  - bomber
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - poison
+  - skeletons
+  src: old
+- cards:
+  - Arrows
+  - Bomber
+  - AngryBarbarians
+  - Golem
+  - RageBarbarian
+  - DarkWitch
+  - Phoenix
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Zap: evo
+  weight: 3234
+  winrate: 0.5341
+  slugs:
+  - arrows
+  - bomber
+  - elite-barbarians
+  - golem
+  - lumberjack
+  - night-witch
+  - phoenix
+  - zap
+  src: old
+- cards:
+  - BlowdartGoblin
+  - GoblinBarrel
+  - IceSpirits
+  - InfernoTower
+  - Knight
+  - Princess
+  - SkeletonArmy
+  - Log
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    SkeletonArmy: evo
+  weight: 4372
+  winrate: 0.176
+  slugs:
+  - dart-goblin
+  - goblin-barrel
+  - ice-spirit
+  - inferno-tower
+  - knight
+  - princess
+  - skeleton-army
+  - the-log
+  src: old+new
+- cards:
+  - Balloon
+  - BarbLog
+  - Bowler
+  - ElectroDragon
+  - Freeze
+  - InfernoDragon
+  - RageBarbarian
+  - Tornado
+  forms:
+    Balloon: hero
+    ElectroDragon: evo
+    InfernoDragon: evo
+  weight: 2876
+  winrate: 0.5108
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - bowler
+  - electro-dragon
+  - freeze
+  - inferno-dragon
+  - lumberjack
+  - tornado
+  src: old
+- cards:
+  - BarbLog
+  - MovingCannon
+  - Goblinstein
+  - Lightning
+  - Minions
+  - Mortar
+  - Ghost
+  - Skeletons
+  forms:
+    Mortar: evo
+    Ghost: evo
+  weight: 2857
+  winrate: 0.5938
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - goblinstein
+  - lightning
+  - minions
+  - mortar
+  - royal-ghost
+  - skeletons
+  src: old
+- cards:
+  - Cannon
+  - GoblinBarrel
+  - Goblins
+  - IceSpirits
+  - MightyMiner
+  - Princess
+  - Rocket
+  - Log
+  forms:
+    Cannon: evo
+    Princess: evo
+  weight: 2805
+  winrate: 0.5876
+  slugs:
+  - cannon
+  - goblin-barrel
+  - goblins
+  - ice-spirit
+  - mighty-miner
+  - princess
+  - rocket
+  - the-log
+  src: old
+- cards:
+  - Arrows
+  - Berserker
+  - Bowler
+  - Giant
+  - Snowball
+  - Graveyard
+  - Witch
+  - MiniSparkys
+  forms:
+    Berserker: hero
+    Snowball: evo
+    Witch: evo
+  weight: 2753
+  winrate: 0.531
+  slugs:
+  - arrows
+  - berserker
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - witch
+  - zappies
+  src: old
+- cards:
+  - Balloon
+  - Bomber
+  - Fireball
+  - Snowball
+  - InfernoDragon
+  - LavaHound
+  - Minions
+  - SkeletonArmy
+  forms:
+    Balloon: hero
+    InfernoDragon: evo
+    SkeletonArmy: evo
+  weight: 3062
+  winrate: 0.75
+  slugs:
+  - balloon
+  - bomber
+  - fireball
+  - giant-snowball
+  - inferno-dragon
+  - lava-hound
+  - minions
+  - skeleton-army
+  src: old+new
+- cards:
+  - Arrows
+  - Bomber
+  - AngryBarbarians
+  - Golem
+  - MiniPekka
+  - DarkWitch
+  - Phoenix
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 5035
+  winrate: 0.339
+  slugs:
+  - arrows
+  - bomber
+  - elite-barbarians
+  - golem
+  - mini-pekka
+  - night-witch
+  - phoenix
+  - zap
+  src: old+new
+- cards:
+  - BarbLog
+  - MovingCannon
+  - Fireball
+  - GoblinGang
+  - Goblinstein
+  - IceWizard
+  - MinionHorde
+  - Mortar
+  forms:
+    MinionHorde: evo
+    Mortar: evo
+  weight: 2636
+  winrate: 0.5768
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblin-gang
+  - goblinstein
+  - ice-wizard
+  - minion-horde
+  - mortar
+  src: old
+- cards:
+  - Balloon
+  - Fireball
+  - LavaHound
+  - MegaMinion
+  - SkeletonDragons
+  - Tombstone
+  - Valkyrie
+  - Zap
+  forms:
+    Balloon: hero
+    Valkyrie: evo
+    Zap: evo
+  weight: 2457
+  winrate: 0.527
+  slugs:
+  - balloon
+  - fireball
+  - lava-hound
+  - mega-minion
+  - skeleton-dragons
+  - tombstone
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - MovingCannon
+  - Fireball
+  - GoblinGang
+  - Goblinstein
+  - MinionHorde
+  - Mortar
+  - WitchMother
+  forms:
+    MinionHorde: evo
+    Mortar: evo
+  weight: 6429
+  winrate: 0.258
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblin-gang
+  - goblinstein
+  - minion-horde
+  - mortar
+  - mother-witch
+  src: old+new
+- cards:
+  - Archer
+  - Berserker
+  - ElectroSpirit
+  - Fireball
+  - Skeletons
+  - Tesla
+  - Log
+  - Xbow
+  forms:
+    Archer: evo
+    Berserker: hero
+    Tesla: evo
+  weight: 2381
+  winrate: 0.5264
+  slugs:
+  - archers
+  - berserker
+  - electro-spirit
+  - fireball
+  - skeletons
+  - tesla
+  - the-log
+  - x-bow
+  src: old
+- cards:
+  - Balloon
+  - Fireball
+  - GoblinCage
+  - IceGolemite
+  - InfernoDragon
+  - MegaMinion
+  - Miner
+  - Zap
+  forms:
+    InfernoDragon: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 2720
+  winrate: 0.444
+  slugs:
+  - balloon
+  - fireball
+  - goblin-cage
+  - ice-golem
+  - inferno-dragon
+  - mega-minion
+  - miner
+  - zap
+  src: old+new
+- cards:
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - MightyMiner
+  - Skeletons
+  - Tesla
+  - Log
+  forms:
+    Firecracker: evo
+    Tesla: evo
+  weight: 4626
+  winrate: 0.589
+  slugs:
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - mighty-miner
+  - skeletons
+  - tesla
+  - the-log
+  src: old+new
+- cards:
+  - Arrows
+  - BarbLog
+  - ElectroSpirit
+  - DartBarrell
+  - GoblinCage
+  - RoyalHogs
+  - RoyalRecruits
+  - MiniSparkys
+  forms:
+    BarbLog: hero
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 2708
+  winrate: 0.5
+  slugs:
+  - arrows
+  - barbarian-barrel
+  - electro-spirit
+  - flying-machine
+  - goblin-cage
+  - royal-hogs
+  - royal-recruits
+  - zappies
+  src: old+new
+- cards:
+  - Bomber
+  - DarkPrince
+  - Fireball
+  - Giant
+  - MegaMinion
+  - Prince
+  - Rage
+  - Zap
+  forms:
+    Giant: hero
+    MegaMinion: hero
+    Zap: evo
+  weight: 6306
+  winrate: 0.83
+  slugs:
+  - bomber
+  - dark-prince
+  - fireball
+  - giant
+  - mega-minion
+  - prince
+  - rage
+  - zap
+  src: old+new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - AngryBarbarians
+  - Heal
+  - WitchMother
+  - Valkyrie
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+    Valkyrie: hero
+  weight: 2160
+  winrate: 0.5363
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - elite-barbarians
+  - heal-spirit
+  - mother-witch
+  - valkyrie
+  - zappies
+  src: old
+- cards:
+  - ElectroSpirit
+  - GoblinBarrel
+  - Knight
+  - Princess
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  forms:
+    Knight: hero
+    Princess: evo
+    Tesla: evo
+  weight: 2426
+  winrate: 0.286
+  slugs:
+  - electro-spirit
+  - goblin-barrel
+  - knight
+  - princess
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  src: old+new
+- cards:
+  - ElixirGolem
+  - AxeMan
+  - Freeze
+  - GoblinMachine
+  - MiniPekka
+  - DarkWitch
+  - SkeletonArmy
+  - Vines
+  forms:
+    AxeMan: evo
+    MiniPekka: hero
+    SkeletonArmy: evo
+  weight: 2079
+  winrate: 0.4668
+  slugs:
+  - elixir-golem
+  - executioner
+  - freeze
+  - goblin-machine
+  - mini-pekka
+  - night-witch
+  - skeleton-army
+  - vines
+  src: old
+- cards:
+  - BossBandit
+  - AngryBarbarians
+  - AxeMan
+  - Freeze
+  - SkeletonWarriors
+  - HogRider
+  - MinionHorde
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MinionHorde: evo
+  weight: 2050
+  winrate: 0.492
+  slugs:
+  - boss-bandit
+  - elite-barbarians
+  - executioner
+  - freeze
+  - guards
+  - hog-rider
+  - minion-horde
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroSpirit
+  - AngryBarbarians
+  - GoldenKnight
+  - WitchMother
+  - Zap
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 2033
+  winrate: 0.5293
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-spirit
+  - elite-barbarians
+  - golden-knight
+  - mother-witch
+  - zap
+  - zappies
+  src: old
+- cards:
+  - BattleRam
+  - Bomber
+  - Freeze
+  - InfernoDragon
+  - MegaKnight
+  - MiniPekka
+  - WitchMother
+  - Zap
+  forms:
+    BattleRam: evo
+    InfernoDragon: evo
+    MiniPekka: hero
+  weight: 2010
+  winrate: 0.4966
+  slugs:
+  - battle-ram
+  - bomber
+  - freeze
+  - inferno-dragon
+  - mega-knight
+  - mini-pekka
+  - mother-witch
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - MovingCannon
+  - AngryBarbarians
+  - Fireball
+  - Goblinstein
+  - Minions
+  - Mortar
+  - Skeletons
+  forms:
+    AngryBarbarians: evo
+    Mortar: evo
+  weight: 1926
+  winrate: 0.5783
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - elite-barbarians
+  - fireball
+  - goblinstein
+  - minions
+  - mortar
+  - skeletons
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - FirespiritHut
+  - Golem
+  - Lightning
+  - Tombstone
+  - Tornado
+  - Valkyrie
+  forms:
+    BabyDragon: evo
+    FirespiritHut: evo
+    Valkyrie: hero
+  weight: 1895
+  winrate: 0.5041
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - furnace
+  - golem
+  - lightning
+  - tombstone
+  - tornado
+  - valkyrie
+  src: old
+- cards:
+  - Arrows
+  - BarbLog
+  - Fireball
+  - DartBarrell
+  - GoblinCage
+  - RoyalHogs
+  - RoyalRecruits
+  - MiniSparkys
+  forms:
+    BarbLog: hero
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 2337
+  winrate: 0.273
+  slugs:
+  - arrows
+  - barbarian-barrel
+  - fireball
+  - flying-machine
+  - goblin-cage
+  - royal-hogs
+  - royal-recruits
+  - zappies
+  src: old+new
+- cards:
+  - Berserker
+  - BombTower
+  - GoblinDemolisher
+  - GoblinDrill
+  - EliteArcher
+  - Skeletons
+  - Log
+  - Tornado
+  forms:
+    Berserker: hero
+    GoblinDrill: evo
+    Skeletons: evo
+  weight: 1881
+  winrate: 0.5142
+  slugs:
+  - berserker
+  - bomb-tower
+  - goblin-demolisher
+  - goblin-drill
+  - magic-archer
+  - skeletons
+  - the-log
+  - tornado
+  src: old
+- cards:
+  - Barbarians
+  - Firecracker
+  - GiantSkeleton
+  - SkeletonWarriors
+  - HogRider
+  - Lightning
+  - MinionHorde
+  - Log
+  forms:
+    Firecracker: evo
+    MinionHorde: evo
+  weight: 1847
+  winrate: 0.4902
+  slugs:
+  - barbarians
+  - firecracker
+  - giant-skeleton
+  - guards
+  - hog-rider
+  - lightning
+  - minion-horde
+  - the-log
+  src: old
+- cards:
+  - Berserker
+  - Fireball
+  - FirespiritHut
+  - MegaKnight
+  - RamRider
+  - Ghost
+  - MergeMaiden
+  - Zap
+  forms:
+    Berserker: hero
+    MegaKnight: evo
+    Ghost: evo
+  weight: 1836
+  winrate: 0.5596
+  slugs:
+  - berserker
+  - fireball
+  - furnace
+  - mega-knight
+  - ram-rider
+  - royal-ghost
+  - spirit-empress
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - Bowler
+  - Giant
+  - Snowball
+  - Graveyard
+  - MiniPekka
+  - Minions
+  - Witch
+  forms:
+    Bowler: hero
+    Snowball: evo
+    Witch: evo
+  weight: 2121
+  winrate: 0.143
+  slugs:
+  - arrows
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - mini-pekka
+  - minions
+  - witch
+  src: old+new
+- cards:
+  - Balloon
+  - BarbLog
+  - Bowler
+  - ElectroDragon
+  - Freeze
+  - InfernoDragon
+  - Knight
+  - Tornado
+  forms:
+    Balloon: hero
+    InfernoDragon: evo
+    Knight: hero
+  weight: 14757
+  winrate: 0.758
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - bowler
+  - electro-dragon
+  - freeze
+  - inferno-dragon
+  - knight
+  - tornado
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - BlowdartGoblin
+  - Fireball
+  - Minions
+  - Mortar
+  - SkeletonBalloon
+  - Skeletons
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 1774
+  winrate: 0.5481
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - dart-goblin
+  - fireball
+  - minions
+  - mortar
+  - skeleton-barrel
+  - skeletons
+  src: old
+- cards:
+  - DarkPrince
+  - ElectroWizard
+  - GoblinGiant
+  - Heal
+  - MiniPekka
+  - Rage
+  - ZapMachine
+  - Zap
+  forms:
+    GoblinGiant: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 3285
+  winrate: 0.459
+  slugs:
+  - dark-prince
+  - electro-wizard
+  - goblin-giant
+  - heal-spirit
+  - mini-pekka
+  - rage
+  - sparky
+  - zap
+  src: old+new
+- cards:
+  - Assassin
+  - BattleRam
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - Minions
+  - Pekka
+  - Zap
+  forms:
+    BattleRam: evo
+    DarkPrince: hero
+    Zap: evo
+  weight: 1762
+  winrate: 0.5391
+  slugs:
+  - bandit
+  - battle-ram
+  - dark-prince
+  - electro-wizard
+  - fireball
+  - minions
+  - pekka
+  - zap
+  src: old
+- cards:
+  - ArcherQueen
+  - Arrows
+  - Assassin
+  - MegaKnight
+  - Minions
+  - Prince
+  - Wallbreakers
+  - Zap
+  forms:
+    MegaKnight: evo
+    Wallbreakers: evo
+  weight: 3230
+  winrate: 0.649
+  slugs:
+  - archer-queen
+  - arrows
+  - bandit
+  - mega-knight
+  - minions
+  - prince
+  - wall-breakers
+  - zap
+  src: old+new
+- cards:
+  - Berserker
+  - AngryBarbarians
+  - Fireball
+  - Heal
+  - Minions
+  - WitchMother
+  - GiantBuffer
+  - Zap
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+    Zap: evo
+  weight: 1700
+  winrate: 0.5487
+  slugs:
+  - berserker
+  - elite-barbarians
+  - fireball
+  - heal-spirit
+  - minions
+  - mother-witch
+  - rune-giant
+  - zap
+  src: old
+- cards:
+  - Berserker
+  - ElectroSpirit
+  - FirespiritHut
+  - GoblinHut
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  - Log
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    RoyalHogs: evo
+  weight: 1671
+  winrate: 0.5387
+  slugs:
+  - berserker
+  - electro-spirit
+  - furnace
+  - goblin-hut
+  - lightning
+  - royal-hogs
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - BarbLog
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - MightyMiner
+  - Skeletons
+  - Tesla
+  forms:
+    Firecracker: evo
+    Tesla: evo
+  weight: 16135
+  winrate: 0.446
+  slugs:
+  - barbarian-barrel
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - mighty-miner
+  - skeletons
+  - tesla
+  src: old+new
+- cards:
+  - Berserker
+  - Bomber
+  - Cannon
+  - FireSpirits
+  - Fireball
+  - Snowball
+  - GoblinDrill
+  - Skeletons
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 1634
+  winrate: 0.5549
+  slugs:
+  - berserker
+  - bomber
+  - cannon
+  - fire-spirit
+  - fireball
+  - giant-snowball
+  - goblin-drill
+  - skeletons
+  src: old
+- cards:
+  - Berserker
+  - GoblinCurse
+  - GoblinDemolisher
+  - InfernoDragon
+  - LittlePrince
+  - Miner
+  - GiantBuffer
+  - Zap
+  forms:
+    Berserker: hero
+    InfernoDragon: evo
+  weight: 1631
+  winrate: 0.5581
+  slugs:
+  - berserker
+  - goblin-curse
+  - goblin-demolisher
+  - inferno-dragon
+  - little-prince
+  - miner
+  - rune-giant
+  - zap
+  src: old
+- cards:
+  - Archer
+  - AngryBarbarians
+  - Elixir Collector
+  - Heal
+  - Knight
+  - Monk
+  - Rage
+  - ThreeMusketeers
+  forms:
+    AngryBarbarians: evo
+    Knight: evo
+  weight: 4132
+  winrate: 0.508
+  slugs:
+  - archers
+  - elite-barbarians
+  - elixir-collector
+  - heal-spirit
+  - knight
+  - monk
+  - rage
+  - three-musketeers
+  src: old+new
+- cards:
+  - Assassin
+  - MovingCannon
+  - DarkPrince
+  - Snowball
+  - GoblinBarrel
+  - Princess
+  - Rascals
+  - Rocket
+  forms:
+    DarkPrince: hero
+    GoblinBarrel: evo
+    Snowball: evo
+  weight: 2046
+  winrate: 0.455
+  slugs:
+  - bandit
+  - cannon-cart
+  - dark-prince
+  - giant-snowball
+  - goblin-barrel
+  - princess
+  - rascals
+  - rocket
+  src: old+new
+- cards:
+  - GoblinBarrel
+  - GoblinGang
+  - IceSpirits
+  - InfernoTower
+  - Knight
+  - Princess
+  - Rocket
+  - Log
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    Princess: evo
+  weight: 2607
+  winrate: 0.04
+  slugs:
+  - goblin-barrel
+  - goblin-gang
+  - ice-spirit
+  - inferno-tower
+  - knight
+  - princess
+  - rocket
+  - the-log
+  src: old+new
+- cards:
+  - Arrows
+  - Balloon
+  - Barbarians
+  - InfernoDragon
+  - LavaHound
+  - Miner
+  - SkeletonDragons
+  - Zap
+  forms:
+    Balloon: hero
+    Barbarians: evo
+    InfernoDragon: evo
+  weight: 6581
+  winrate: 0.861
+  slugs:
+  - arrows
+  - balloon
+  - barbarians
+  - inferno-dragon
+  - lava-hound
+  - miner
+  - skeleton-dragons
+  - zap
+  src: old+new
+- cards:
+  - Berserker
+  - Cannon
+  - FireSpirits
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - Poison
+  - Skeletons
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 1557
+  winrate: 0.5493
+  slugs:
+  - berserker
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - poison
+  - skeletons
+  src: old
+- cards:
+  - AngryBarbarians
+  - Elixir Collector
+  - FirespiritHut
+  - GoldenKnight
+  - Heal
+  - IceGolemite
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    FirespiritHut: evo
+  weight: 1545
+  winrate: 0.5033
+  slugs:
+  - elite-barbarians
+  - elixir-collector
+  - furnace
+  - golden-knight
+  - heal-spirit
+  - ice-golem
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - GiantSkeleton
+  - GoldenKnight
+  - Heal
+  - WitchMother
+  - Ghost
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 1972
+  winrate: 0.636
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - giant-skeleton
+  - golden-knight
+  - heal-spirit
+  - mother-witch
+  - royal-ghost
+  src: old+new
+- cards:
+  - BarbLog
+  - MovingCannon
+  - Fireball
+  - Goblins
+  - Minions
+  - Mortar
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    Goblins: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 2373
+  winrate: 0.048
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblins
+  - minions
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - FirespiritHut
+  - GoblinHut
+  - Graveyard
+  - IceSpirits
+  - Poison
+  - Valkyrie
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    Valkyrie: hero
+  weight: 1495
+  winrate: 0.4533
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - furnace
+  - goblin-hut
+  - graveyard
+  - ice-spirit
+  - poison
+  - valkyrie
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Berserker
+  - AngryBarbarians
+  - FirespiritHut
+  - Golem
+  - Minions
+  - Vines
+  forms:
+    BabyDragon: evo
+    Berserker: hero
+    AngryBarbarians: evo
+  weight: 1474
+  winrate: 0.4982
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - berserker
+  - elite-barbarians
+  - furnace
+  - golem
+  - minions
+  - vines
+  src: old
+- cards:
+  - Arrows
+  - Balloon
+  - Bats
+  - Freeze
+  - GiantSkeleton
+  - InfernoDragon
+  - SkeletonArmy
+  - SkeletonKing
+  forms:
+    InfernoDragon: evo
+    SkeletonArmy: evo
+  weight: 1472
+  winrate: 0.5738
+  slugs:
+  - arrows
+  - balloon
+  - bats
+  - freeze
+  - giant-skeleton
+  - inferno-dragon
+  - skeleton-army
+  - skeleton-king
+  src: old
+- cards:
+  - Balloon
+  - Fireball
+  - SkeletonWarriors
+  - InfernoDragon
+  - LavaHound
+  - SkeletonDragons
+  - Valkyrie
+  - Zap
+  forms:
+    Balloon: hero
+    InfernoDragon: evo
+    Valkyrie: evo
+  weight: 1462
+  winrate: 0.5177
+  slugs:
+  - balloon
+  - fireball
+  - guards
+  - inferno-dragon
+  - lava-hound
+  - skeleton-dragons
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - DarkPrince
+  - ElectroDragon
+  - Fireball
+  - Giant
+  - Miner
+  - Phoenix
+  - Prince
+  - Zap
+  forms:
+    ElectroDragon: evo
+    Giant: hero
+    Zap: evo
+  weight: 1462
+  winrate: 0.625
+  slugs:
+  - dark-prince
+  - electro-dragon
+  - fireball
+  - giant
+  - miner
+  - phoenix
+  - prince
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - Golem
+  - InfernoDragon
+  - DarkWitch
+  - SkeletonArmy
+  - SkeletonKing
+  - DarkMagic
+  forms:
+    InfernoDragon: evo
+    SkeletonArmy: evo
+  weight: 1460
+  winrate: 0.4841
+  slugs:
+  - arrows
+  - elixir-golem
+  - golem
+  - inferno-dragon
+  - night-witch
+  - skeleton-army
+  - skeleton-king
+  - void
+  src: old
+- cards:
+  - Giant
+  - MiniPekka
+  - Minions
+  - ZapMachine
+  - Tornado
+  - Vines
+  - Wizard
+  - Zap
+  forms:
+    MiniPekka: hero
+    Wizard: evo
+    Zap: evo
+  weight: 2901
+  winrate: 0.6
+  slugs:
+  - giant
+  - mini-pekka
+  - minions
+  - sparky
+  - tornado
+  - vines
+  - wizard
+  - zap
+  src: old+new
+- cards:
+  - Arrows
+  - BarbLog
+  - DartBarrell
+  - GoblinCage
+  - GoldenKnight
+  - RoyalHogs
+  - RoyalRecruits
+  - MiniSparkys
+  forms:
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 1863
+  winrate: 0.1
+  slugs:
+  - arrows
+  - barbarian-barrel
+  - flying-machine
+  - goblin-cage
+  - golden-knight
+  - royal-hogs
+  - royal-recruits
+  - zappies
+  src: old+new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - Knight
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 6549
+  winrate: 0.548
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - knight
+  - lightning
+  - tornado
+  src: old+new
+- cards:
+  - IceWizard
+  - Knight
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  - Tornado
+  - Xbow
+  forms:
+    IceWizard: hero
+    Knight: evo
+    Tesla: evo
+  weight: 3077
+  winrate: 0.268
+  slugs:
+  - ice-wizard
+  - knight
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  - tornado
+  - x-bow
+  src: old+new
+- cards:
+  - AngryBarbarians
+  - Elixir Collector
+  - GoldenKnight
+  - Heal
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Zap: evo
+  weight: 2731
+  winrate: 0.727
+  slugs:
+  - elite-barbarians
+  - elixir-collector
+  - golden-knight
+  - heal-spirit
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  - zap
+  src: old+new
+- cards:
+  - Bats
+  - Berserker
+  - Cannon
+  - Fireball
+  - Miner
+  - SpearGoblins
+  - Log
+  - Wallbreakers
+  forms:
+    Bats: evo
+    Berserker: hero
+    Wallbreakers: evo
+  weight: 1364
+  winrate: 0.5032
+  slugs:
+  - bats
+  - berserker
+  - cannon
+  - fireball
+  - miner
+  - spear-goblins
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - GoldenKnight
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    ElectroGiant: evo
+  weight: 7703
+  winrate: 0.857
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - golden-knight
+  - lightning
+  - tornado
+  src: old+new
+- cards:
+  - GoblinCurse
+  - Golem
+  - InfernoDragon
+  - Miner
+  - DarkWitch
+  - SkeletonArmy
+  - SkeletonKing
+  - Zap
+  forms:
+    InfernoDragon: evo
+    SkeletonArmy: evo
+  weight: 3215
+  winrate: 0.267
+  slugs:
+  - goblin-curse
+  - golem
+  - inferno-dragon
+  - miner
+  - night-witch
+  - skeleton-army
+  - skeleton-king
+  - zap
+  src: old+new
+- cards:
+  - Bomber
+  - DarkPrince
+  - Giant
+  - Lightning
+  - MegaMinion
+  - Prince
+  - Rage
+  - Zap
+  forms:
+    Giant: hero
+    MegaMinion: hero
+    Zap: evo
+  weight: 1353
+  winrate: 0.5159
+  slugs:
+  - bomber
+  - dark-prince
+  - giant
+  - lightning
+  - mega-minion
+  - prince
+  - rage
+  - zap
+  src: old
+- cards:
+  - Berserker
+  - ElectroSpirit
+  - GoblinBarrel
+  - Princess
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  forms:
+    Berserker: hero
+    Princess: evo
+    Tesla: evo
+  weight: 1352
+  winrate: 0.4911
+  slugs:
+  - berserker
+  - electro-spirit
+  - goblin-barrel
+  - princess
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  src: old
+- cards:
+  - Arrows
+  - Bomber
+  - AngryBarbarians
+  - Golem
+  - DarkWitch
+  - Phoenix
+  - Valkyrie
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Valkyrie: hero
+    Zap: evo
+  weight: 1348
+  winrate: 0.5409
+  slugs:
+  - arrows
+  - bomber
+  - elite-barbarians
+  - golem
+  - night-witch
+  - phoenix
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - Berserker
+  - MovingCannon
+  - ElectroSpirit
+  - Fireball
+  - Minions
+  - Mortar
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 1297
+  winrate: 0.5199
+  slugs:
+  - berserker
+  - cannon-cart
+  - electro-spirit
+  - fireball
+  - minions
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: old
+- cards:
+  - Arrows
+  - Bomber
+  - Fisherman
+  - GoblinGiant
+  - Goblinstein
+  - Pekka
+  - Rage
+  - DarkMagic
+  forms:
+    GoblinGiant: evo
+    Pekka: evo
+  weight: 1284
+  winrate: 0.5208
+  slugs:
+  - arrows
+  - bomber
+  - fisherman
+  - goblin-giant
+  - goblinstein
+  - pekka
+  - rage
+  - void
+  src: old
+- cards:
+  - Bomber
+  - AngryBarbarians
+  - Freeze
+  - HogRider
+  - IceGolemite
+  - Minions
+  - Tesla
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Bomber: evo
+    IceGolemite: hero
+  weight: 1646
+  winrate: 0.333
+  slugs:
+  - bomber
+  - elite-barbarians
+  - freeze
+  - hog-rider
+  - ice-golem
+  - minions
+  - tesla
+  - zap
+  src: old+new
+- cards:
+  - Bomber
+  - DarkPrince
+  - AngryBarbarians
+  - Fireball
+  - Giant
+  - MegaMinion
+  - Rage
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    MegaMinion: hero
+  weight: 1276
+  winrate: 0.6054
+  slugs:
+  - bomber
+  - dark-prince
+  - elite-barbarians
+  - fireball
+  - giant
+  - mega-minion
+  - rage
+  - zap
+  src: old
+- cards:
+  - Bats
+  - BlowdartGoblin
+  - GoblinBarrel
+  - MegaKnight
+  - Prince
+  - Princess
+  - RoyalGiant
+  - SkeletonArmy
+  forms:
+    BlowdartGoblin: evo
+    Princess: evo
+  weight: 1243
+  winrate: 0.5243
+  slugs:
+  - bats
+  - dart-goblin
+  - goblin-barrel
+  - mega-knight
+  - prince
+  - princess
+  - royal-giant
+  - skeleton-army
+  src: old
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - AngryBarbarians
+  - GoldenKnight
+  - Heal
+  - WitchMother
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 1212
+  winrate: 0.5818
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - elite-barbarians
+  - golden-knight
+  - heal-spirit
+  - mother-witch
+  - zappies
+  src: old
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - GoblinHut
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  - Valkyrie
+  - Wizard
+  forms:
+    RoyalHogs: evo
+    Valkyrie: hero
+    Wizard: hero
+  weight: 1203
+  winrate: 0.4742
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - goblin-hut
+  - lightning
+  - royal-hogs
+  - skeletons
+  - valkyrie
+  - wizard
+  src: old
+- cards:
+  - Arrows
+  - Bats
+  - MovingCannon
+  - GoblinGang
+  - Goblinstein
+  - IceWizard
+  - Miner
+  - Mortar
+  forms:
+    Bats: evo
+    Mortar: evo
+  weight: 1181
+  winrate: 0.5547
+  slugs:
+  - arrows
+  - bats
+  - cannon-cart
+  - goblin-gang
+  - goblinstein
+  - ice-wizard
+  - miner
+  - mortar
+  src: old
+- cards:
+  - BlowdartGoblin
+  - WitchMother
+  - Rascals
+  - SkeletonArmy
+  - SkeletonBalloon
+  - SkeletonKing
+  - SuspiciousBush
+  - Vines
+  forms:
+    SkeletonArmy: evo
+    SkeletonBalloon: evo
+  weight: 1164
+  winrate: 0.5422
+  slugs:
+  - dart-goblin
+  - mother-witch
+  - rascals
+  - skeleton-army
+  - skeleton-barrel
+  - skeleton-king
+  - suspicious-bush
+  - vines
+  src: old
+- cards:
+  - BarbLog
+  - Fireball
+  - Fisherman
+  - RoyalGiant
+  - SkeletonKing
+  - Tombstone
+  - Witch
+  - MiniSparkys
+  forms:
+    RoyalGiant: evo
+    Witch: evo
+  weight: 1162
+  winrate: 0.5504
+  slugs:
+  - barbarian-barrel
+  - fireball
+  - fisherman
+  - royal-giant
+  - skeleton-king
+  - tombstone
+  - witch
+  - zappies
+  src: old
+- cards:
+  - Barbarians
+  - Bomber
+  - Snowball
+  - GoblinDrill
+  - SkeletonWarriors
+  - Vines
+  - Wallbreakers
+  - Wizard
+  forms:
+    Barbarians: evo
+    Snowball: evo
+    Wizard: hero
+  weight: 1162
+  winrate: 0.4822
+  slugs:
+  - barbarians
+  - bomber
+  - giant-snowball
+  - goblin-drill
+  - guards
+  - vines
+  - wall-breakers
+  - wizard
+  src: old
+- cards:
+  - BombTower
+  - GoblinDemolisher
+  - GoblinDrill
+  - Knight
+  - EliteArcher
+  - Skeletons
+  - Log
+  - Tornado
+  forms:
+    GoblinDrill: evo
+    Knight: hero
+    Skeletons: evo
+  weight: 1562
+  winrate: 0.3
+  slugs:
+  - bomb-tower
+  - goblin-demolisher
+  - goblin-drill
+  - knight
+  - magic-archer
+  - skeletons
+  - the-log
+  - tornado
+  src: old+new
+- cards:
+  - Giant
+  - Heal
+  - MiniPekka
+  - Skeletons
+  - ZapMachine
+  - Tornado
+  - Wizard
+  - Zap
+  forms:
+    MiniPekka: hero
+    Wizard: evo
+    Zap: evo
+  weight: 3572
+  winrate: 0.576
+  slugs:
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - skeletons
+  - sparky
+  - tornado
+  - wizard
+  - zap
+  src: old+new
+- cards:
+  - ArcherQueen
+  - Arrows
+  - Assassin
+  - Bats
+  - MegaKnight
+  - Prince
+  - Wallbreakers
+  - Zap
+  forms:
+    MegaKnight: evo
+    Wallbreakers: evo
+  weight: 1378
+  winrate: 0.333
+  slugs:
+  - archer-queen
+  - arrows
+  - bandit
+  - bats
+  - mega-knight
+  - prince
+  - wall-breakers
+  - zap
+  src: old+new
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - Ghost
+  - RoyalGiant
+  forms:
+    Berserker: hero
+    Ghost: evo
+    RoyalGiant: evo
+  weight: 1126
+  winrate: 0.5069
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - royal-ghost
+  - royal-giant
+  src: old
+- cards:
+  - Balloon
+  - BarbLog
+  - Bats
+  - Berserker
+  - BombTower
+  - Snowball
+  - Miner
+  - Musketeer
+  forms:
+    Bats: evo
+    Berserker: hero
+    Musketeer: evo
+  weight: 1121
+  winrate: 0.5708
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - bats
+  - berserker
+  - bomb-tower
+  - giant-snowball
+  - miner
+  - musketeer
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - FirespiritHut
+  - Graveyard
+  - IceSpirits
+  - Knight
+  - Poison
+  - Tesla
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    Tesla: evo
+  weight: 1119
+  winrate: 0.473
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - furnace
+  - graveyard
+  - ice-spirit
+  - knight
+  - poison
+  - tesla
+  src: old
+- cards:
+  - IceWizard
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  - Tornado
+  - Valkyrie
+  - Xbow
+  forms:
+    Skeletons: evo
+    Tesla: evo
+    Valkyrie: hero
+  weight: 1112
+  winrate: 0.5194
+  slugs:
+  - ice-wizard
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  - tornado
+  - valkyrie
+  - x-bow
+  src: old
+- cards:
+  - Berserker
+  - Cannon
+  - FirespiritHut
+  - Snowball
+  - GoblinDrill
+  - Poison
+  - RoyalDelivery
+  - Skeletons
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    Snowball: evo
+  weight: 2127
+  winrate: 0.64
+  slugs:
+  - berserker
+  - cannon
+  - furnace
+  - giant-snowball
+  - goblin-drill
+  - poison
+  - royal-delivery
+  - skeletons
+  src: old+new
+- cards:
+  - DarkPrince
+  - AngryBarbarians
+  - Giant
+  - Minions
+  - WitchMother
+  - ZapMachine
+  - Vines
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    Zap: evo
+  weight: 1084
+  winrate: 0.4913
+  slugs:
+  - dark-prince
+  - elite-barbarians
+  - giant
+  - minions
+  - mother-witch
+  - sparky
+  - vines
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - AngryBarbarians
+  - Elixir Collector
+  - GoldenKnight
+  - Heal
+  - IceGolemite
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    IceGolemite: hero
+  weight: 1532
+  winrate: 0.818
+  slugs:
+  - bandit
+  - elite-barbarians
+  - elixir-collector
+  - golden-knight
+  - heal-spirit
+  - ice-golem
+  - three-musketeers
+  - zap
+  src: old+new
+- cards:
+  - Bats
+  - Berserker
+  - BombTower
+  - Miner
+  - Poison
+  - SpearGoblins
+  - Log
+  - Wallbreakers
+  forms:
+    Bats: evo
+    Berserker: hero
+    Wallbreakers: evo
+  weight: 1064
+  winrate: 0.4943
+  slugs:
+  - bats
+  - berserker
+  - bomb-tower
+  - miner
+  - poison
+  - spear-goblins
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - Arrows
+  - AngryBarbarians
+  - Fireball
+  - InfernoDragon
+  - GiantBuffer
+  - SkeletonDragons
+  - Tombstone
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    InfernoDragon: evo
+    Tombstone: hero
+  weight: 1057
+  winrate: 0.5367
+  slugs:
+  - arrows
+  - elite-barbarians
+  - fireball
+  - inferno-dragon
+  - rune-giant
+  - skeleton-dragons
+  - tombstone
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - BombTower
+  - ElectroSpirit
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  - Wizard
+  forms:
+    Berserker: hero
+    RoyalHogs: evo
+    Wizard: hero
+  weight: 1033
+  winrate: 0.5058
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - bomb-tower
+  - electro-spirit
+  - lightning
+  - royal-hogs
+  - skeletons
+  - wizard
+  src: old
+- cards:
+  - Bats
+  - Goblins
+  - InfernoDragon
+  - MegaKnight
+  - Miner
+  - SkeletonBalloon
+  - SpearGoblins
+  - Zap
+  forms:
+    Bats: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 1012
+  winrate: 0.552
+  slugs:
+  - bats
+  - goblins
+  - inferno-dragon
+  - mega-knight
+  - miner
+  - skeleton-barrel
+  - spear-goblins
+  - zap
+  src: old
+- cards:
+  - AngryBarbarians
+  - AxeMan
+  - Freeze
+  - HogRider
+  - IceGolemite
+  - MiniPekka
+  - Minions
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    AxeMan: evo
+    MiniPekka: hero
+  weight: 1007
+  winrate: 0.5668
+  slugs:
+  - elite-barbarians
+  - executioner
+  - freeze
+  - hog-rider
+  - ice-golem
+  - mini-pekka
+  - minions
+  - zap
+  src: old
+- cards:
+  - Archer
+  - Berserker
+  - ElectroSpirit
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  - Xbow
+  forms:
+    Archer: evo
+    Berserker: hero
+    Tesla: evo
+  weight: 998
+  winrate: 0.563
+  slugs:
+  - archers
+  - berserker
+  - electro-spirit
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  - x-bow
+  src: old
+- cards:
+  - Arrows
+  - BarbLog
+  - Knight
+  - LittlePrince
+  - MegaMinion
+  - Pekka
+  - RamRider
+  - Zap
+  forms:
+    Knight: evo
+    MegaMinion: hero
+  weight: 991
+  winrate: 0.5496
+  slugs:
+  - arrows
+  - barbarian-barrel
+  - knight
+  - little-prince
+  - mega-minion
+  - pekka
+  - ram-rider
+  - zap
+  src: old
+- cards:
+  - Barbarians
+  - DartBarrell
+  - GoblinCurse
+  - LavaHound
+  - Miner
+  - Phoenix
+  - Tombstone
+  - Zap
+  forms:
+    Barbarians: evo
+    Tombstone: hero
+    Zap: evo
+  weight: 1228
+  winrate: 0.167
+  slugs:
+  - barbarians
+  - flying-machine
+  - goblin-curse
+  - lava-hound
+  - miner
+  - phoenix
+  - tombstone
+  - zap
+  src: old+new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - AngryBarbarians
+  - GoblinHut
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  - Wizard
+  forms:
+    AngryBarbarians: evo
+    RoyalHogs: evo
+    Wizard: hero
+  weight: 976
+  winrate: 0.4947
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - elite-barbarians
+  - goblin-hut
+  - lightning
+  - royal-hogs
+  - skeletons
+  - wizard
+  src: old
+- cards:
+  - ElectroSpirit
+  - GoblinBarrel
+  - GoblinGang
+  - Knight
+  - Princess
+  - Rocket
+  - Tesla
+  - Log
+  forms:
+    Knight: hero
+    Princess: evo
+    Tesla: evo
+  weight: 966
+  winrate: 0.5125
+  slugs:
+  - electro-spirit
+  - goblin-barrel
+  - goblin-gang
+  - knight
+  - princess
+  - rocket
+  - tesla
+  - the-log
+  src: old
+- cards:
+  - DarkPrince
+  - Elixir Collector
+  - Giant
+  - MiniPekka
+  - MinionHorde
+  - Rage
+  - ZapMachine
+  - Wizard
+  forms:
+    Giant: hero
+    MinionHorde: evo
+    Wizard: evo
+  weight: 1624
+  winrate: 0.438
+  slugs:
+  - dark-prince
+  - elixir-collector
+  - giant
+  - mini-pekka
+  - minion-horde
+  - rage
+  - sparky
+  - wizard
+  src: old+new
+- cards:
+  - Barbarians
+  - Bowler
+  - Fireball
+  - GoblinBarrel
+  - GoblinGang
+  - MinionHorde
+  - Mortar
+  - Princess
+  forms:
+    Bowler: hero
+    MinionHorde: evo
+    Mortar: evo
+  weight: 964
+  winrate: 0.5403
+  slugs:
+  - barbarians
+  - bowler
+  - fireball
+  - goblin-barrel
+  - goblin-gang
+  - minion-horde
+  - mortar
+  - princess
+  src: old
+- cards:
+  - Arrows
+  - BattleRam
+  - AngryBarbarians
+  - GoldenKnight
+  - Heal
+  - WitchMother
+  - Ghost
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 959
+  winrate: 0.5126
+  slugs:
+  - arrows
+  - battle-ram
+  - elite-barbarians
+  - golden-knight
+  - heal-spirit
+  - mother-witch
+  - royal-ghost
+  - zappies
+  src: old
+- cards:
+  - Giant
+  - Heal
+  - MiniPekka
+  - SkeletonArmy
+  - ZapMachine
+  - Vines
+  - Wizard
+  - Zap
+  forms:
+    MiniPekka: hero
+    SkeletonArmy: evo
+    Wizard: evo
+  weight: 1284
+  winrate: 0.375
+  slugs:
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - skeleton-army
+  - sparky
+  - vines
+  - wizard
+  - zap
+  src: old+new
+- cards:
+  - Arrows
+  - BabyDragon
+  - BarbLog
+  - Berserker
+  - FirespiritHut
+  - Lightning
+  - Skeletons
+  - Tombstone
+  forms:
+    BabyDragon: evo
+    FirespiritHut: evo
+    Tombstone: hero
+  weight: 952
+  winrate: 0.5344
+  slugs:
+  - arrows
+  - baby-dragon
+  - barbarian-barrel
+  - berserker
+  - furnace
+  - lightning
+  - skeletons
+  - tombstone
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - FirespiritHut
+  - GoblinHut
+  - Graveyard
+  - IceSpirits
+  - Knight
+  - Poison
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    Knight: evo
+  weight: 952
+  winrate: 0.4801
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - furnace
+  - goblin-hut
+  - graveyard
+  - ice-spirit
+  - knight
+  - poison
+  src: old
+- cards:
+  - Arrows
+  - Bowler
+  - Giant
+  - Snowball
+  - Graveyard
+  - SkeletonWarriors
+  - Musketeer
+  - DarkWitch
+  forms:
+    Giant: hero
+    Musketeer: evo
+    Snowball: evo
+  weight: 1569
+  winrate: 0.4
+  slugs:
+  - arrows
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - guards
+  - musketeer
+  - night-witch
+  src: old+new
+- cards:
+  - Arrows
+  - Bats
+  - MovingCannon
+  - GoblinGang
+  - Goblinstein
+  - Miner
+  - Mortar
+  - SpearGoblins
+  forms:
+    Bats: evo
+    Mortar: evo
+  weight: 952
+  winrate: 0.587
+  slugs:
+  - arrows
+  - bats
+  - cannon-cart
+  - goblin-gang
+  - goblinstein
+  - miner
+  - mortar
+  - spear-goblins
+  src: old
+- cards:
+  - BarbLog
+  - GoblinCage
+  - Goblinstein
+  - Graveyard
+  - SkeletonWarriors
+  - IceWizard
+  - Poison
+  - Valkyrie
+  forms:
+    GoblinCage: evo
+    Valkyrie: hero
+  weight: 947
+  winrate: 0.4954
+  slugs:
+  - barbarian-barrel
+  - goblin-cage
+  - goblinstein
+  - graveyard
+  - guards
+  - ice-wizard
+  - poison
+  - valkyrie
+  src: old
+- cards:
+  - ArcherQueen
+  - Arrows
+  - Assassin
+  - GoblinGang
+  - MegaKnight
+  - Prince
+  - Wallbreakers
+  - Zap
+  forms:
+    MegaKnight: evo
+    Wallbreakers: evo
+  weight: 945
+  winrate: 0.5401
+  slugs:
+  - archer-queen
+  - arrows
+  - bandit
+  - goblin-gang
+  - mega-knight
+  - prince
+  - wall-breakers
+  - zap
+  src: old
+- cards:
+  - GoblinGang
+  - InfernoTower
+  - Knight
+  - Miner
+  - MinionHorde
+  - Princess
+  - Log
+  - Wallbreakers
+  forms:
+    Knight: hero
+    MinionHorde: evo
+    Wallbreakers: evo
+  weight: 936
+  winrate: 0.5562
+  slugs:
+  - goblin-gang
+  - inferno-tower
+  - knight
+  - miner
+  - minion-horde
+  - princess
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - BattleRam
+  - ElectroWizard
+  - Fireball
+  - GoldenKnight
+  - WitchMother
+  - Pekka
+  - Ghost
+  - Zap
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 934
+  winrate: 0.4502
+  slugs:
+  - battle-ram
+  - electro-wizard
+  - fireball
+  - golden-knight
+  - mother-witch
+  - pekka
+  - royal-ghost
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - DarkWitch
+  - Rage
+  - SkeletonKing
+  - Skeletons
+  - DarkMagic
+  - Wizard
+  forms:
+    Skeletons: evo
+    Wizard: evo
+  weight: 928
+  winrate: 0.5372
+  slugs:
+  - arrows
+  - elixir-golem
+  - night-witch
+  - rage
+  - skeleton-king
+  - skeletons
+  - void
+  - wizard
+  src: old
+- cards:
+  - Cannon
+  - BlowdartGoblin
+  - Rascals
+  - SkeletonArmy
+  - SkeletonBalloon
+  - SkeletonKing
+  - SuspiciousBush
+  - Vines
+  forms:
+    SkeletonArmy: evo
+    SkeletonBalloon: evo
+  weight: 916
+  winrate: 0.5593
+  slugs:
+  - cannon
+  - dart-goblin
+  - rascals
+  - skeleton-army
+  - skeleton-barrel
+  - skeleton-king
+  - suspicious-bush
+  - vines
+  src: old
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - Monk
+  - RoyalGiant
+  - Skeletons
+  forms:
+    Hunter: evo
+    RoyalGiant: evo
+  weight: 1315
+  winrate: 0.5
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - monk
+  - royal-giant
+  - skeletons
+  src: old+new
+- cards:
+  - Berserker
+  - BlowdartGoblin
+  - AngryBarbarians
+  - Rascals
+  - SkeletonArmy
+  - SuspiciousBush
+  - Vines
+  - Wallbreakers
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+    SkeletonArmy: evo
+  weight: 900
+  winrate: 0.5307
+  slugs:
+  - berserker
+  - dart-goblin
+  - elite-barbarians
+  - rascals
+  - skeleton-army
+  - suspicious-bush
+  - vines
+  - wall-breakers
+  src: old
+- cards:
+  - BabyDragon
+  - Balloon
+  - BarbLog
+  - Freeze
+  - IceWizard
+  - RageBarbarian
+  - Pekka
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Balloon: hero
+    Pekka: evo
+  weight: 898
+  winrate: 0.5355
+  slugs:
+  - baby-dragon
+  - balloon
+  - barbarian-barrel
+  - freeze
+  - ice-wizard
+  - lumberjack
+  - pekka
+  - tornado
+  src: old
+- cards:
+  - BabyDragon
+  - Balloon
+  - BarbLog
+  - ElectroWizard
+  - Freeze
+  - RageBarbarian
+  - Pekka
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Balloon: hero
+    Pekka: evo
+  weight: 898
+  winrate: 0.5278
+  slugs:
+  - baby-dragon
+  - balloon
+  - barbarian-barrel
+  - electro-wizard
+  - freeze
+  - lumberjack
+  - pekka
+  - tornado
+  src: old
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Fireball
+  - Pekka
+  - Ghost
+  - SkeletonDragons
+  - Zap
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 895
+  winrate: 0.5356
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - fireball
+  - pekka
+  - royal-ghost
+  - skeleton-dragons
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - BattleRam
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - EliteArcher
+  - Pekka
+  - Zap
+  forms:
+    BattleRam: evo
+    DarkPrince: hero
+    Zap: evo
+  weight: 893
+  winrate: 0.4923
+  slugs:
+  - bandit
+  - battle-ram
+  - dark-prince
+  - electro-wizard
+  - fireball
+  - magic-archer
+  - pekka
+  - zap
+  src: old
+- cards:
+  - Archer
+  - BarbLog
+  - Berserker
+  - BombTower
+  - ElectroSpirit
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  forms:
+    Archer: evo
+    Berserker: hero
+    RoyalHogs: evo
+  weight: 891
+  winrate: 0.5397
+  slugs:
+  - archers
+  - barbarian-barrel
+  - berserker
+  - bomb-tower
+  - electro-spirit
+  - lightning
+  - royal-hogs
+  - skeletons
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - AngryBarbarians
+  - Elixir Collector
+  - Golem
+  - SkeletonDragons
+  - Vines
+  - Witch
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+    Witch: evo
+  weight: 890
+  winrate: 0.5581
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - skeleton-dragons
+  - vines
+  - witch
+  src: old
+- cards:
+  - Arrows
+  - DarkPrince
+  - Elixir Collector
+  - Giant
+  - MiniPekka
+  - Rage
+  - Witch
+  - Zap
+  forms:
+    Giant: hero
+    Witch: evo
+    Zap: evo
+  weight: 1670
+  winrate: 0.789
+  slugs:
+  - arrows
+  - dark-prince
+  - elixir-collector
+  - giant
+  - mini-pekka
+  - rage
+  - witch
+  - zap
+  src: old+new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - DarkPrince
+  - ElectroWizard
+  - Lightning
+  - GiantBuffer
+  - Tombstone
+  - Tornado
+  forms:
+    BabyDragon: evo
+    DarkPrince: hero
+    Tombstone: hero
+  weight: 884
+  winrate: 0.5419
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - dark-prince
+  - electro-wizard
+  - lightning
+  - rune-giant
+  - tombstone
+  - tornado
+  src: old
+- cards:
+  - Arrows
+  - Bats
+  - DarkPrince
+  - ElectroWizard
+  - Giant
+  - SkeletonArmy
+  - ZapMachine
+  - Zap
+  forms:
+    Bats: evo
+    Giant: hero
+    Zap: evo
+  weight: 859
+  winrate: 0.5261
+  slugs:
+  - arrows
+  - bats
+  - dark-prince
+  - electro-wizard
+  - giant
+  - skeleton-army
+  - sparky
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - Fireball
+  - DartBarrell
+  - GoblinCage
+  - GoldenKnight
+  - RoyalHogs
+  - RoyalRecruits
+  - MiniSparkys
+  forms:
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 855
+  winrate: 0.5121
+  slugs:
+  - arrows
+  - fireball
+  - flying-machine
+  - goblin-cage
+  - golden-knight
+  - royal-hogs
+  - royal-recruits
+  - zappies
+  src: old
+- cards:
+  - Archer
+  - Arrows
+  - Bowler
+  - DarkPrince
+  - Giant
+  - SkeletonWarriors
+  - Musketeer
+  - Vines
+  forms:
+    Archer: evo
+    Giant: hero
+    Musketeer: evo
+  weight: 847
+  winrate: 0.6477
+  slugs:
+  - archers
+  - arrows
+  - bowler
+  - dark-prince
+  - giant
+  - guards
+  - musketeer
+  - vines
+  src: old
+- cards:
+  - BarbLog
+  - Fisherman
+  - Lightning
+  - RoyalGiant
+  - SkeletonKing
+  - Tombstone
+  - Witch
+  - MiniSparkys
+  forms:
+    RoyalGiant: evo
+    Witch: evo
+  weight: 845
+  winrate: 0.5306
+  slugs:
+  - barbarian-barrel
+  - fisherman
+  - lightning
+  - royal-giant
+  - skeleton-king
+  - tombstone
+  - witch
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - Bomber
+  - ElectroDragon
+  - AngryBarbarians
+  - Elixir Collector
+  - Golem
+  - SkeletonDragons
+  - Tornado
+  forms:
+    Berserker: hero
+    ElectroDragon: evo
+    AngryBarbarians: evo
+  weight: 840
+  winrate: 0.6181
+  slugs:
+  - berserker
+  - bomber
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - skeleton-dragons
+  - tornado
+  src: old
+- cards:
+  - Balloon
+  - BarbLog
+  - ElectroDragon
+  - Freeze
+  - IceWizard
+  - RageBarbarian
+  - Pekka
+  - Tornado
+  forms:
+    Balloon: hero
+    ElectroDragon: evo
+    Pekka: evo
+  weight: 833
+  winrate: 0.4865
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - electro-dragon
+  - freeze
+  - ice-wizard
+  - lumberjack
+  - pekka
+  - tornado
+  src: old
+- cards:
+  - Arrows
+  - Bomber
+  - Golem
+  - RageBarbarian
+  - MiniPekka
+  - DarkWitch
+  - Phoenix
+  - Zap
+  forms:
+    RageBarbarian: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 829
+  winrate: 0.5177
+  slugs:
+  - arrows
+  - bomber
+  - golem
+  - lumberjack
+  - mini-pekka
+  - night-witch
+  - phoenix
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - Bowler
+  - Cannon
+  - ElectroGiant
+  - Knight
+  - Lightning
+  - Phoenix
+  - Tornado
+  forms:
+    Bowler: hero
+    Cannon: evo
+    Knight: evo
+  weight: 824
+  winrate: 0.5816
+  slugs:
+  - barbarian-barrel
+  - bowler
+  - cannon
+  - electro-giant
+  - knight
+  - lightning
+  - phoenix
+  - tornado
+  src: old
+- cards:
+  - Cannon
+  - ElectroSpirit
+  - HogRider
+  - IceGolemite
+  - Musketeer
+  - Rocket
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Musketeer: hero
+    Skeletons: evo
+  weight: 821
+  winrate: 0.5189
+  slugs:
+  - cannon
+  - electro-spirit
+  - hog-rider
+  - ice-golem
+  - musketeer
+  - rocket
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - Arrows
+  - Balloon
+  - Bats
+  - Bowler
+  - Freeze
+  - GiantSkeleton
+  - InfernoDragon
+  - SkeletonArmy
+  forms:
+    Balloon: hero
+    Bowler: hero
+    InfernoDragon: evo
+  weight: 819
+  winrate: 0.5116
+  slugs:
+  - arrows
+  - balloon
+  - bats
+  - bowler
+  - freeze
+  - giant-skeleton
+  - inferno-dragon
+  - skeleton-army
+  src: old
+- cards:
+  - BarbLog
+  - BattleRam
+  - Elixir Collector
+  - GoldenKnight
+  - Hunter
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 817
+  winrate: 0.5253
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - elixir-collector
+  - golden-knight
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: old
+- cards:
+  - Arrows
+  - Bats
+  - Bomber
+  - AngryBarbarians
+  - SkeletonWarriors
+  - Heal
+  - MightyMiner
+  - Rage
+  forms:
+    Bats: evo
+    AngryBarbarians: evo
+  weight: 817
+  winrate: 0.4578
+  slugs:
+  - arrows
+  - bats
+  - bomber
+  - elite-barbarians
+  - guards
+  - heal-spirit
+  - mighty-miner
+  - rage
+  src: old
+- cards:
+  - BarbLog
+  - AngryBarbarians
+  - Fireball
+  - GoldenKnight
+  - IceGolemite
+  - InfernoDragon
+  - RamRider
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Zap: evo
+  weight: 817
+  winrate: 0.5464
+  slugs:
+  - barbarian-barrel
+  - elite-barbarians
+  - fireball
+  - golden-knight
+  - ice-golem
+  - inferno-dragon
+  - ram-rider
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - Bats
+  - BattleRam
+  - Fireball
+  - GoblinGang
+  - Pekka
+  - SkeletonArmy
+  - SkeletonKing
+  forms:
+    BattleRam: evo
+    SkeletonArmy: evo
+  weight: 816
+  winrate: 0.5687
+  slugs:
+  - arrows
+  - bats
+  - battle-ram
+  - fireball
+  - goblin-gang
+  - pekka
+  - skeleton-army
+  - skeleton-king
+  src: old
+- cards:
+  - DarkPrince
+  - Elixir Collector
+  - Giant
+  - Heal
+  - MiniPekka
+  - Rage
+  - Witch
+  - Zap
+  forms:
+    Giant: hero
+    MiniPekka: hero
+    Zap: evo
+  weight: 809
+  winrate: 0.5458
+  slugs:
+  - dark-prince
+  - elixir-collector
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - rage
+  - witch
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - Bowler
+  - Freeze
+  - Graveyard
+  - SkeletonWarriors
+  - InfernoTower
+  - Musketeer
+  - Valkyrie
+  forms:
+    Bowler: hero
+    Musketeer: evo
+    Valkyrie: hero
+  weight: 807
+  winrate: 0.5043
+  slugs:
+  - arrows
+  - bowler
+  - freeze
+  - graveyard
+  - guards
+  - inferno-tower
+  - musketeer
+  - valkyrie
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - Lightning
+  - Skeletons
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    GoblinCage: evo
+  weight: 805
+  winrate: 0.5567
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - lightning
+  - skeletons
+  - tornado
+  src: old
+- cards:
+  - Arrows
+  - BabyDragon
+  - Balloon
+  - Barbarians
+  - LavaHound
+  - Phoenix
+  - Tombstone
+  - Vines
+  forms:
+    BabyDragon: evo
+    Balloon: hero
+    Barbarians: evo
+  weight: 793
+  winrate: 0.4804
+  slugs:
+  - arrows
+  - baby-dragon
+  - balloon
+  - barbarians
+  - lava-hound
+  - phoenix
+  - tombstone
+  - vines
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - Golem
+  - InfernoDragon
+  - DarkWitch
+  - Rage
+  - SkeletonArmy
+  - SkeletonKing
+  forms:
+    InfernoDragon: evo
+    SkeletonArmy: evo
+  weight: 1694
+  winrate: 0.136
+  slugs:
+  - arrows
+  - elixir-golem
+  - golem
+  - inferno-dragon
+  - night-witch
+  - rage
+  - skeleton-army
+  - skeleton-king
+  src: old+new
+- cards:
+  - Arrows
+  - Giant
+  - MiniPekka
+  - MinionHorde
+  - Minions
+  - SkeletonArmy
+  - ZapMachine
+  - Zap
+  forms:
+    Giant: hero
+    MinionHorde: evo
+    Zap: evo
+  weight: 1380
+  winrate: 0.8
+  slugs:
+  - arrows
+  - giant
+  - mini-pekka
+  - minion-horde
+  - minions
+  - skeleton-army
+  - sparky
+  - zap
+  src: old+new
+- cards:
+  - Bomber
+  - ElectroDragon
+  - AngryBarbarians
+  - Golem
+  - MegaMinion
+  - DarkWitch
+  - SkeletonArmy
+  - Zap
+  forms:
+    ElectroDragon: evo
+    AngryBarbarians: evo
+    MegaMinion: hero
+  weight: 762
+  winrate: 0.491
+  slugs:
+  - bomber
+  - electro-dragon
+  - elite-barbarians
+  - golem
+  - mega-minion
+  - night-witch
+  - skeleton-army
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - ElectroGiant
+  - FireSpirits
+  - GoblinCage
+  - GoldenKnight
+  - InfernoDragon
+  - Lightning
+  - Tornado
+  forms:
+    GoblinCage: evo
+    InfernoDragon: evo
+  weight: 757
+  winrate: 0.5171
+  slugs:
+  - barbarian-barrel
+  - electro-giant
+  - fire-spirit
+  - goblin-cage
+  - golden-knight
+  - inferno-dragon
+  - lightning
+  - tornado
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - Knight
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 1169
+  winrate: 0.8
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - knight
+  - lightning
+  - tornado
+  src: old+new
+- cards:
+  - Bomber
+  - AngryBarbarians
+  - Fireball
+  - Golem
+  - RageBarbarian
+  - MegaMinion
+  - DarkWitch
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 753
+  winrate: 0.5332
+  slugs:
+  - bomber
+  - elite-barbarians
+  - fireball
+  - golem
+  - lumberjack
+  - mega-minion
+  - night-witch
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - BarbLog
+  - AngryBarbarians
+  - Fireball
+  - EliteArcher
+  - Ghost
+  - RoyalHogs
+  - MiniSparkys
+  forms:
+    AngryBarbarians: evo
+    EliteArcher: hero
+    RoyalHogs: evo
+  weight: 753
+  winrate: 0.5149
+  slugs:
+  - bandit
+  - barbarian-barrel
+  - elite-barbarians
+  - fireball
+  - magic-archer
+  - royal-ghost
+  - royal-hogs
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - Bomber
+  - Snowball
+  - GoblinDrill
+  - IceSpirits
+  - Poison
+  - RoyalDelivery
+  - Tesla
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 750
+  winrate: 0.4782
+  slugs:
+  - berserker
+  - bomber
+  - giant-snowball
+  - goblin-drill
+  - ice-spirit
+  - poison
+  - royal-delivery
+  - tesla
+  src: old
+- cards:
+  - Arrows
+  - GiantSkeleton
+  - Hunter
+  - Lightning
+  - MiniPekka
+  - RoyalGiant
+  - Log
+  - MiniSparkys
+  forms:
+    Hunter: evo
+    MiniPekka: hero
+    RoyalGiant: evo
+  weight: 750
+  winrate: 0.5218
+  slugs:
+  - arrows
+  - giant-skeleton
+  - hunter
+  - lightning
+  - mini-pekka
+  - royal-giant
+  - the-log
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - Bomber
+  - FireSpirits
+  - Snowball
+  - GoblinDrill
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 745
+  winrate: 0.4769
+  slugs:
+  - berserker
+  - bomber
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - poison
+  - skeletons
+  - tesla
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - DarkPrince
+  - ElectroGiant
+  - GoblinCage
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    DarkPrince: hero
+    GoblinCage: evo
+  weight: 743
+  winrate: 0.5592
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - dark-prince
+  - electro-giant
+  - goblin-cage
+  - ice-wizard
+  - lightning
+  - tornado
+  src: old
+- cards:
+  - Berserker
+  - InfernoDragon
+  - LavaHound
+  - Miner
+  - GiantBuffer
+  - SkeletonDragons
+  - DarkMagic
+  - Zap
+  forms:
+    Berserker: hero
+    InfernoDragon: evo
+    Zap: evo
+  weight: 738
+  winrate: 0.514
+  slugs:
+  - berserker
+  - inferno-dragon
+  - lava-hound
+  - miner
+  - rune-giant
+  - skeleton-dragons
+  - void
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - BattleRam
+  - MovingCannon
+  - AngryBarbarians
+  - GoldenKnight
+  - Heal
+  - WitchMother
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 738
+  winrate: 0.6332
+  slugs:
+  - arrows
+  - battle-ram
+  - cannon-cart
+  - elite-barbarians
+  - golden-knight
+  - heal-spirit
+  - mother-witch
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - Fireball
+  - GoblinGang
+  - Minions
+  - Mortar
+  - Musketeer
+  - SkeletonBalloon
+  - Log
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 734
+  winrate: 0.5587
+  slugs:
+  - berserker
+  - fireball
+  - goblin-gang
+  - minions
+  - mortar
+  - musketeer
+  - skeleton-barrel
+  - the-log
+  src: old
+- cards:
+  - BossBandit
+  - AxeMan
+  - Freeze
+  - FirespiritHut
+  - Snowball
+  - HogRider
+  - Ronin
+  - Ghost
+  forms:
+    AxeMan: evo
+    Snowball: evo
+  weight: 726
+  winrate: 0.5439
+  slugs:
+  - boss-bandit
+  - executioner
+  - freeze
+  - furnace
+  - giant-snowball
+  - hog-rider
+  - ronin
+  - royal-ghost
+  src: old
+- cards:
+  - BarbLog
+  - BlowdartGoblin
+  - GoblinGang
+  - MiniPekka
+  - Rascals
+  - SkeletonBalloon
+  - SuspiciousBush
+  - Wallbreakers
+  forms:
+    MiniPekka: hero
+    SkeletonBalloon: evo
+    Wallbreakers: evo
+  weight: 717
+  winrate: 0.5312
+  slugs:
+  - barbarian-barrel
+  - dart-goblin
+  - goblin-gang
+  - mini-pekka
+  - rascals
+  - skeleton-barrel
+  - suspicious-bush
+  - wall-breakers
+  src: old
+- cards:
+  - Earthquake
+  - ElectroGiant
+  - ElectroWizard
+  - AxeMan
+  - SkeletonArmy
+  - ZapMachine
+  - Tornado
+  - Vines
+  forms:
+    AxeMan: evo
+    SkeletonArmy: evo
+  weight: 710
+  winrate: 0.5752
+  slugs:
+  - earthquake
+  - electro-giant
+  - electro-wizard
+  - executioner
+  - skeleton-army
+  - sparky
+  - tornado
+  - vines
+  src: old
+- cards:
+  - BarbLog
+  - AngryBarbarians
+  - Elixir Collector
+  - GoldenKnight
+  - Hunter
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+  weight: 702
+  winrate: 0.5012
+  slugs:
+  - barbarian-barrel
+  - elite-barbarians
+  - elixir-collector
+  - golden-knight
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: old
+- cards:
+  - Cannon
+  - Earthquake
+  - Firecracker
+  - HogRider
+  - IceSpirits
+  - MightyMiner
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Firecracker: evo
+  weight: 700
+  winrate: 0.5443
+  slugs:
+  - cannon
+  - earthquake
+  - firecracker
+  - hog-rider
+  - ice-spirit
+  - mighty-miner
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Graveyard
+  - IceWizard
+  - Poison
+  - Tombstone
+  - Tornado
+  - Valkyrie
+  forms:
+    BabyDragon: evo
+    Tombstone: hero
+    Valkyrie: hero
+  weight: 697
+  winrate: 0.5644
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - graveyard
+  - ice-wizard
+  - poison
+  - tombstone
+  - tornado
+  - valkyrie
+  src: old
+- cards:
+  - Arrows
+  - GoblinGang
+  - MightyMiner
+  - Minions
+  - Rocket
+  - RoyalRecruits
+  - SkeletonBalloon
+  - Wallbreakers
+  forms:
+    SkeletonBalloon: evo
+    Wallbreakers: evo
+  weight: 695
+  winrate: 0.5782
+  slugs:
+  - arrows
+  - goblin-gang
+  - mighty-miner
+  - minions
+  - rocket
+  - royal-recruits
+  - skeleton-barrel
+  - wall-breakers
+  src: old
+- cards:
+  - Arrows
+  - BattleRam
+  - AngryBarbarians
+  - FirespiritHut
+  - GiantSkeleton
+  - GoldenKnight
+  - SkeletonDragons
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 690
+  winrate: 0.6375
+  slugs:
+  - arrows
+  - battle-ram
+  - elite-barbarians
+  - furnace
+  - giant-skeleton
+  - golden-knight
+  - skeleton-dragons
+  - zappies
+  src: old
+- cards:
+  - Balloon
+  - BarbLog
+  - Bats
+  - BombTower
+  - Snowball
+  - IceGolemite
+  - Miner
+  - Musketeer
+  forms:
+    Balloon: hero
+    Bats: evo
+    Musketeer: evo
+  weight: 684
+  winrate: 0.5718
+  slugs:
+  - balloon
+  - barbarian-barrel
+  - bats
+  - bomb-tower
+  - giant-snowball
+  - ice-golem
+  - miner
+  - musketeer
+  src: old
+- cards:
+  - BarbLog
+  - MovingCannon
+  - ElectroSpirit
+  - AngryBarbarians
+  - Goblinstein
+  - Lightning
+  - Minions
+  - Mortar
+  forms:
+    AngryBarbarians: evo
+    Mortar: evo
+  weight: 679
+  winrate: 0.5863
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - electro-spirit
+  - elite-barbarians
+  - goblinstein
+  - lightning
+  - minions
+  - mortar
+  src: old
+- cards:
+  - BarbLog
+  - AngryBarbarians
+  - Elixir Collector
+  - GoldenKnight
+  - Heal
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+  weight: 1336
+  winrate: 0.812
+  slugs:
+  - barbarian-barrel
+  - elite-barbarians
+  - elixir-collector
+  - golden-knight
+  - heal-spirit
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: old+new
+- cards:
+  - FireSpirits
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - Knight
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    GoblinDrill: evo
+    Knight: hero
+    Snowball: evo
+  weight: 2364
+  winrate: 0.22
+  slugs:
+  - fire-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: old+new
+- cards:
+  - BabyDragon
+  - Berserker
+  - Cannon
+  - ElectroSpirit
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  - Log
+  forms:
+    BabyDragon: evo
+    Berserker: hero
+    RoyalHogs: evo
+  weight: 676
+  winrate: 0.6173
+  slugs:
+  - baby-dragon
+  - berserker
+  - cannon
+  - electro-spirit
+  - lightning
+  - royal-hogs
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - MovingCannon
+  - AxeMan
+  - GoblinBarrel
+  - GoblinGang
+  - Goblinstein
+  - Knight
+  - Rocket
+  - Log
+  forms:
+    AxeMan: evo
+    GoblinBarrel: evo
+  weight: 674
+  winrate: 0.4962
+  slugs:
+  - cannon-cart
+  - executioner
+  - goblin-barrel
+  - goblin-gang
+  - goblinstein
+  - knight
+  - rocket
+  - the-log
+  src: old
+- cards:
+  - Arrows
+  - Balloon
+  - BarbLog
+  - Fireball
+  - GoblinCage
+  - GoblinDemolisher
+  - RoyalRecruits
+  - MiniSparkys
+  forms:
+    Balloon: hero
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 674
+  winrate: 0.5371
+  slugs:
+  - arrows
+  - balloon
+  - barbarian-barrel
+  - fireball
+  - goblin-cage
+  - goblin-demolisher
+  - royal-recruits
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - FireSpirits
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 671
+  winrate: 0.4422
+  slugs:
+  - berserker
+  - fire-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - poison
+  - skeletons
+  - tesla
+  src: old
+- cards:
+  - DarkPrince
+  - GoblinGiant
+  - MegaMinion
+  - MiniPekka
+  - WitchMother
+  - Rage
+  - ZapMachine
+  - Zap
+  forms:
+    DarkPrince: hero
+    GoblinGiant: evo
+    MiniPekka: hero
+  weight: 666
+  winrate: 0.5259
+  slugs:
+  - dark-prince
+  - goblin-giant
+  - mega-minion
+  - mini-pekka
+  - mother-witch
+  - rage
+  - sparky
+  - zap
+  src: old
+- cards:
+  - Archer
+  - Arrows
+  - Bowler
+  - ElectroWizard
+  - Fireball
+  - Graveyard
+  - SkeletonWarriors
+  - Pekka
+  forms:
+    Archer: evo
+    Bowler: hero
+    Pekka: evo
+  weight: 664
+  winrate: 0.5403
+  slugs:
+  - archers
+  - arrows
+  - bowler
+  - electro-wizard
+  - fireball
+  - graveyard
+  - guards
+  - pekka
+  src: old
+- cards:
+  - Berserker
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - Skeletons
+  - Tesla
+  - Log
+  forms:
+    Berserker: hero
+    Firecracker: evo
+    Tesla: evo
+  weight: 660
+  winrate: 0.4804
+  slugs:
+  - berserker
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - skeletons
+  - tesla
+  - the-log
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - ElectroDragon
+  - Golem
+  - Lightning
+  - MiniPekka
+  - DarkWitch
+  - Tornado
+  forms:
+    BabyDragon: evo
+    ElectroDragon: evo
+    MiniPekka: hero
+  weight: 659
+  winrate: 0.5497
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - electro-dragon
+  - golem
+  - lightning
+  - mini-pekka
+  - night-witch
+  - tornado
+  src: old
+- cards:
+  - Arrows
+  - DarkPrince
+  - Giant
+  - GoblinGang
+  - MinionHorde
+  - SkeletonArmy
+  - ZapMachine
+  - Zap
+  forms:
+    Giant: hero
+    MinionHorde: evo
+    SkeletonArmy: evo
+  weight: 657
+  winrate: 0.4908
+  slugs:
+  - arrows
+  - dark-prince
+  - giant
+  - goblin-gang
+  - minion-horde
+  - skeleton-army
+  - sparky
+  - zap
+  src: old
+- cards:
+  - Balloon
+  - ElectroSpirit
+  - GiantSkeleton
+  - Hunter
+  - IceGolemite
+  - Miner
+  - Minions
+  - Zap
+  forms:
+    Balloon: hero
+    Hunter: evo
+    Zap: evo
+  weight: 655
+  winrate: 0.5842
+  slugs:
+  - balloon
+  - electro-spirit
+  - giant-skeleton
+  - hunter
+  - ice-golem
+  - miner
+  - minions
+  - zap
+  src: old
+- cards:
+  - Berserker
+  - Fireball
+  - LavaHound
+  - SkeletonDragons
+  - MergeMaiden
+  - Tombstone
+  - Valkyrie
+  - Zap
+  forms:
+    Berserker: hero
+    Valkyrie: hero
+    Zap: evo
+  weight: 655
+  winrate: 0.5289
+  slugs:
+  - berserker
+  - fireball
+  - lava-hound
+  - skeleton-dragons
+  - spirit-empress
+  - tombstone
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - BabyDragon
+  - Bomber
+  - AngryBarbarians
+  - Golem
+  - MegaMinion
+  - DarkWitch
+  - Tornado
+  - Zap
+  forms:
+    BabyDragon: evo
+    AngryBarbarians: evo
+    MegaMinion: hero
+  weight: 653
+  winrate: 0.4063
+  slugs:
+  - baby-dragon
+  - bomber
+  - elite-barbarians
+  - golem
+  - mega-minion
+  - night-witch
+  - tornado
+  - zap
+  src: old
+- cards:
+  - Assassin
+  - BarbLog
+  - BattleRam
+  - Elixir Collector
+  - Hunter
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  forms:
+    BarbLog: hero
+    BattleRam: evo
+    Ghost: evo
+  weight: 653
+  winrate: 0.4723
+  slugs:
+  - bandit
+  - barbarian-barrel
+  - battle-ram
+  - elixir-collector
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: old
+- cards:
+  - Berserker
+  - BlowdartGoblin
+  - ElectroSpirit
+  - GoblinBarrel
+  - InfernoTower
+  - Princess
+  - SkeletonArmy
+  - Log
+  forms:
+    Berserker: hero
+    GoblinBarrel: evo
+    SkeletonArmy: evo
+  weight: 650
+  winrate: 0.5279
+  slugs:
+  - berserker
+  - dart-goblin
+  - electro-spirit
+  - goblin-barrel
+  - inferno-tower
+  - princess
+  - skeleton-army
+  - the-log
+  src: old
+- cards:
+  - Arrows
+  - Balloon
+  - Barbarians
+  - AxeMan
+  - InfernoTower
+  - Knight
+  - Miner
+  - Tornado
+  forms:
+    Barbarians: evo
+    AxeMan: evo
+    Knight: hero
+  weight: 647
+  winrate: 0.4933
+  slugs:
+  - arrows
+  - balloon
+  - barbarians
+  - executioner
+  - inferno-tower
+  - knight
+  - miner
+  - tornado
+  src: old
+- cards:
+  - DarkPrince
+  - Giant
+  - MiniPekka
+  - Minions
+  - WitchMother
+  - ZapMachine
+  - Vines
+  - Zap
+  forms:
+    Giant: hero
+    MiniPekka: hero
+    Zap: evo
+  weight: 643
+  winrate: 0.5657
+  slugs:
+  - dark-prince
+  - giant
+  - mini-pekka
+  - minions
+  - mother-witch
+  - sparky
+  - vines
+  - zap
+  src: old
+- cards:
+  - Cannon
+  - BlowdartGoblin
+  - GoblinBarrel
+  - Knight
+  - Princess
+  - Skeletons
+  - Log
+  - Wallbreakers
+  forms:
+    BlowdartGoblin: evo
+    Knight: hero
+    Wallbreakers: evo
+  weight: 634
+  winrate: 0.5408
+  slugs:
+  - cannon
+  - dart-goblin
+  - goblin-barrel
+  - knight
+  - princess
+  - skeletons
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - Berserker
+  - BlowdartGoblin
+  - Rascals
+  - Rocket
+  - Ghost
+  - SkeletonBalloon
+  - SuspiciousBush
+  - Log
+  forms:
+    Berserker: hero
+    BlowdartGoblin: evo
+    SkeletonBalloon: evo
+  weight: 629
+  winrate: 0.5123
+  slugs:
+  - berserker
+  - dart-goblin
+  - rascals
+  - rocket
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - the-log
+  src: old
+- cards:
+  - Berserker
+  - BombTower
+  - BlowdartGoblin
+  - Rascals
+  - Ghost
+  - SkeletonBalloon
+  - SuspiciousBush
+  - Vines
+  forms:
+    Berserker: hero
+    Ghost: evo
+    SkeletonBalloon: evo
+  weight: 622
+  winrate: 0.5512
+  slugs:
+  - berserker
+  - bomb-tower
+  - dart-goblin
+  - rascals
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - vines
+  src: old
+- cards:
+  - BossBandit
+  - Freeze
+  - Snowball
+  - SkeletonWarriors
+  - HogRider
+  - Hunter
+  - Ghost
+  - Wizard
+  forms:
+    Snowball: evo
+    Wizard: evo
+  weight: 622
+  winrate: 0.5235
+  slugs:
+  - boss-bandit
+  - freeze
+  - giant-snowball
+  - guards
+  - hog-rider
+  - hunter
+  - royal-ghost
+  - wizard
+  src: old
+- cards:
+  - BarbLog
+  - BattleRam
+  - AngryBarbarians
+  - GoldenKnight
+  - Heal
+  - IceGolemite
+  - ThreeMusketeers
+  - Zap
+  forms:
+    BattleRam: evo
+    AngryBarbarians: evo
+  weight: 619
+  winrate: 0.5348
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - elite-barbarians
+  - golden-knight
+  - heal-spirit
+  - ice-golem
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - GiantSkeleton
+  - HogRider
+  - IceWizard
+  - InfernoTower
+  - Miner
+  - Princess
+  - SkeletonArmy
+  forms:
+    Princess: evo
+    SkeletonArmy: evo
+  weight: 616
+  winrate: 0.521
+  slugs:
+  - arrows
+  - giant-skeleton
+  - hog-rider
+  - ice-wizard
+  - inferno-tower
+  - miner
+  - princess
+  - skeleton-army
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - RoyalGiant
+  - Skeletons
+  forms:
+    BarbLog: hero
+    Berserker: hero
+    RoyalGiant: evo
+  weight: 614
+  winrate: 0.4494
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - royal-giant
+  - skeletons
+  src: old
+- cards:
+  - Arrows
+  - Berserker
+  - Bowler
+  - Fisherman
+  - GiantSkeleton
+  - WitchMother
+  - RoyalHogs
+  - MiniSparkys
+  forms:
+    Berserker: hero
+    RoyalHogs: evo
+  weight: 614
+  winrate: 0.5253
+  slugs:
+  - arrows
+  - berserker
+  - bowler
+  - fisherman
+  - giant-skeleton
+  - mother-witch
+  - royal-hogs
+  - zappies
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - DarkWitch
+  - Rage
+  - SkeletonArmy
+  - SkeletonKing
+  - DarkMagic
+  - Wizard
+  forms:
+    SkeletonArmy: evo
+    Wizard: evo
+  weight: 612
+  winrate: 0.4113
+  slugs:
+  - arrows
+  - elixir-golem
+  - night-witch
+  - rage
+  - skeleton-army
+  - skeleton-king
+  - void
+  - wizard
+  src: old
+- cards:
+  - ElectroSpirit
+  - GoblinBarrel
+  - GoblinGang
+  - InfernoTower
+  - Knight
+  - Princess
+  - Rocket
+  - Log
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    Princess: evo
+  weight: 610
+  winrate: 0.5
+  slugs:
+  - electro-spirit
+  - goblin-barrel
+  - goblin-gang
+  - inferno-tower
+  - knight
+  - princess
+  - rocket
+  - the-log
+  src: old
+- cards:
+  - Archer
+  - ElectroSpirit
+  - Knight
+  - Rocket
+  - Skeletons
+  - Tesla
+  - Log
+  - Xbow
+  forms:
+    Archer: evo
+    Knight: hero
+    Tesla: evo
+  weight: 609
+  winrate: 0.5212
+  slugs:
+  - archers
+  - electro-spirit
+  - knight
+  - rocket
+  - skeletons
+  - tesla
+  - the-log
+  - x-bow
+  src: old
+- cards:
+  - Berserker
+  - ElectroSpirit
+  - Elixir Collector
+  - Snowball
+  - IceSpirits
+  - Musketeer
+  - Skeletons
+  - Xbow
+  forms:
+    Berserker: hero
+    Snowball: evo
+    Skeletons: evo
+  weight: 609
+  winrate: 0.5241
+  slugs:
+  - berserker
+  - electro-spirit
+  - elixir-collector
+  - giant-snowball
+  - ice-spirit
+  - musketeer
+  - skeletons
+  - x-bow
+  src: old
+- cards:
+  - Assassin
+  - BattleRam
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - Pekka
+  - RamRider
+  - Zap
+  forms:
+    BattleRam: evo
+    DarkPrince: hero
+    Pekka: evo
+  weight: 607
+  winrate: 0.5114
+  slugs:
+  - bandit
+  - battle-ram
+  - dark-prince
+  - electro-wizard
+  - fireball
+  - pekka
+  - ram-rider
+  - zap
+  src: old
+- cards:
+  - BlowdartGoblin
+  - ElectroSpirit
+  - Rascals
+  - SkeletonArmy
+  - SkeletonBalloon
+  - SkeletonKing
+  - SuspiciousBush
+  - Vines
+  forms:
+    SkeletonArmy: evo
+    SkeletonBalloon: evo
+  weight: 603
+  winrate: 0.4914
+  slugs:
+  - dart-goblin
+  - electro-spirit
+  - rascals
+  - skeleton-army
+  - skeleton-barrel
+  - skeleton-king
+  - suspicious-bush
+  - vines
+  src: old
+- cards:
+  - Arrows
+  - ElectroDragon
+  - ElixirGolem
+  - GoblinCurse
+  - Lightning
+  - DarkWitch
+  - SkeletonArmy
+  - SkeletonKing
+  forms:
+    ElectroDragon: evo
+    SkeletonArmy: evo
+  weight: 16205
+  winrate: 0.831
+  slugs:
+  - arrows
+  - electro-dragon
+  - elixir-golem
+  - goblin-curse
+  - lightning
+  - night-witch
+  - skeleton-army
+  - skeleton-king
+  src: old+new
+- cards:
+  - Arrows
+  - Fisherman
+  - GoblinGiant
+  - Goblinstein
+  - Minions
+  - Pekka
+  - Rage
+  - DarkMagic
+  forms:
+    GoblinGiant: evo
+    Pekka: evo
+  weight: 603
+  winrate: 0.4543
+  slugs:
+  - arrows
+  - fisherman
+  - goblin-giant
+  - goblinstein
+  - minions
+  - pekka
+  - rage
+  - void
+  src: old
+- cards:
+  - BlowdartGoblin
+  - GoblinBarrel
+  - GoblinGang
+  - Prince
+  - Princess
+  - Rascals
+  - Rocket
+  - Log
+  forms:
+    BlowdartGoblin: evo
+    GoblinBarrel: evo
+  weight: 602
+  winrate: 0.5645
+  slugs:
+  - dart-goblin
+  - goblin-barrel
+  - goblin-gang
+  - prince
+  - princess
+  - rascals
+  - rocket
+  - the-log
+  src: old
+- cards:
+  - Berserker
+  - FirespiritHut
+  - GiantSkeleton
+  - GoblinCurse
+  - GoblinHut
+  - Graveyard
+  - Minions
+  - Zap
+  forms:
+    Berserker: hero
+    FirespiritHut: evo
+    Zap: evo
+  weight: 600
+  winrate: 0.5
+  slugs:
+  - berserker
+  - furnace
+  - giant-skeleton
+  - goblin-curse
+  - goblin-hut
+  - graveyard
+  - minions
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - GoblinCage
+  - SkeletonWarriors
+  - InfernoDragon
+  - LavaHound
+  - Lightning
+  - SkeletonDragons
+  - Valkyrie
+  forms:
+    GoblinCage: evo
+    InfernoDragon: evo
+    Valkyrie: hero
+  weight: 600
+  winrate: 0.5
+  slugs:
+  - arrows
+  - goblin-cage
+  - guards
+  - inferno-dragon
+  - lava-hound
+  - lightning
+  - skeleton-dragons
+  - valkyrie
+  src: old
+- cards:
+  - Bowler
+  - AngryBarbarians
+  - Knight
+  - Minions
+  - Princess
+  - Rage
+  - RamRider
+  - DarkMagic
+  forms:
+    Bowler: hero
+    AngryBarbarians: evo
+    Princess: evo
+  weight: 593
+  winrate: 0.5785
+  slugs:
+  - bowler
+  - elite-barbarians
+  - knight
+  - minions
+  - princess
+  - rage
+  - ram-rider
+  - void
+  src: old
+- cards:
+  - Balloon
+  - BombTower
+  - ElectroSpirit
+  - GiantSkeleton
+  - InfernoDragon
+  - Miner
+  - Tornado
+  - Zap
+  forms:
+    Balloon: hero
+    InfernoDragon: evo
+    Zap: evo
+  weight: 583
+  winrate: 0.6598
+  slugs:
+  - balloon
+  - bomb-tower
+  - electro-spirit
+  - giant-skeleton
+  - inferno-dragon
+  - miner
+  - tornado
+  - zap
+  src: old
+- cards:
+  - Bats
+  - BombTower
+  - FireSpirits
+  - EliteArcher
+  - Miner
+  - Skeletons
+  - Log
+  - Wallbreakers
+  forms:
+    Bats: evo
+    EliteArcher: hero
+    Wallbreakers: evo
+  weight: 581
+  winrate: 0.5252
+  slugs:
+  - bats
+  - bomb-tower
+  - fire-spirit
+  - magic-archer
+  - miner
+  - skeletons
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - ArcherQueen
+  - Cannon
+  - Earthquake
+  - AngryBarbarians
+  - Freeze
+  - RamRider
+  - Valkyrie
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Valkyrie: hero
+  weight: 578
+  winrate: 0.5403
+  slugs:
+  - archer-queen
+  - cannon
+  - earthquake
+  - elite-barbarians
+  - freeze
+  - ram-rider
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - MovingCannon
+  - Clone
+  - GiantSkeleton
+  - WitchMother
+  - SkeletonBalloon
+  - Skeletons
+  - Tornado
+  - MiniSparkys
+  forms:
+    SkeletonBalloon: evo
+    Skeletons: evo
+  weight: 571
+  winrate: 0.5378
+  slugs:
+  - cannon-cart
+  - clone
+  - giant-skeleton
+  - mother-witch
+  - skeleton-barrel
+  - skeletons
+  - tornado
+  - zappies
+  src: old
+- cards:
+  - Bomber
+  - Cannon
+  - FireSpirits
+  - Snowball
+  - GoblinDrill
+  - Knight
+  - Poison
+  - Skeletons
+  forms:
+    Snowball: evo
+    GoblinDrill: evo
+    Knight: hero
+  weight: 569
+  winrate: 0.5424
+  slugs:
+  - bomber
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - knight
+  - poison
+  - skeletons
+  src: old
+- cards:
+  - DarkPrince
+  - ElectroSpirit
+  - Miner
+  - Rocket
+  - RoyalDelivery
+  - Skeletons
+  - Tesla
+  - Log
+  forms:
+    DarkPrince: hero
+    Skeletons: evo
+    Tesla: evo
+  weight: 854
+  winrate: 0.143
+  slugs:
+  - dark-prince
+  - electro-spirit
+  - miner
+  - rocket
+  - royal-delivery
+  - skeletons
+  - tesla
+  - the-log
+  src: old+new
+- cards:
+  - Arrows
+  - ElixirGolem
+  - GoblinCurse
+  - Lightning
+  - DarkWitch
+  - SkeletonArmy
+  - SkeletonKing
+  - Witch
+  forms:
+    SkeletonArmy: evo
+    Witch: evo
+  weight: 1058
+  winrate: 0.167
+  slugs:
+  - arrows
+  - elixir-golem
+  - goblin-curse
+  - lightning
+  - night-witch
+  - skeleton-army
+  - skeleton-king
+  - witch
+  src: old+new
+- cards:
+  - Arrows
+  - Fireball
+  - SkeletonWarriors
+  - MightyMiner
+  - Minions
+  - RoyalRecruits
+  - SuspiciousBush
+  - Wallbreakers
+  forms:
+    RoyalRecruits: evo
+    Wallbreakers: evo
+  weight: 559
+  winrate: 0.466
+  slugs:
+  - arrows
+  - fireball
+  - guards
+  - mighty-miner
+  - minions
+  - royal-recruits
+  - suspicious-bush
+  - wall-breakers
+  src: old
+- cards:
+  - MovingCannon
+  - Fireball
+  - Goblinstein
+  - SkeletonWarriors
+  - Miner
+  - MinionHorde
+  - Mortar
+  - Log
+  forms:
+    MinionHorde: evo
+    Mortar: evo
+  weight: 553
+  winrate: 0.5421
+  slugs:
+  - cannon-cart
+  - fireball
+  - goblinstein
+  - guards
+  - miner
+  - minion-horde
+  - mortar
+  - the-log
+  src: old
+- cards:
+  - BattleRam
+  - Elixir Collector
+  - GoblinGang
+  - IceGolemite
+  - Miner
+  - MinionHorde
+  - ThreeMusketeers
+  - Zap
+  forms:
+    BattleRam: evo
+    IceGolemite: hero
+    MinionHorde: evo
+  weight: 550
+  winrate: 0.6019
+  slugs:
+  - battle-ram
+  - elixir-collector
+  - goblin-gang
+  - ice-golem
+  - miner
+  - minion-horde
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - Bowler
+  - Fireball
+  - Giant
+  - GoblinGang
+  - InfernoTower
+  - Miner
+  - DarkWitch
+  - Zap
+  forms:
+    Bowler: hero
+    Giant: hero
+    Zap: evo
+  weight: 550
+  winrate: 0.5893
+  slugs:
+  - bowler
+  - fireball
+  - giant
+  - goblin-gang
+  - inferno-tower
+  - miner
+  - night-witch
+  - zap
+  src: old
+- cards:
+  - DarkPrince
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - Phoenix
+  - Prince
+  - Tornado
+  - Zap
+  forms:
+    DarkPrince: hero
+    ElectroDragon: evo
+    Zap: evo
+  weight: 550
+  winrate: 0.5298
+  slugs:
+  - dark-prince
+  - electro-dragon
+  - elixir-collector
+  - golem
+  - phoenix
+  - prince
+  - tornado
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - Berserker
+  - AngryBarbarians
+  - InfernoDragon
+  - LavaHound
+  - GiantBuffer
+  - SkeletonDragons
+  - Zap
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+    Zap: evo
+  weight: 548
+  winrate: 0.4528
+  slugs:
+  - arrows
+  - berserker
+  - elite-barbarians
+  - inferno-dragon
+  - lava-hound
+  - rune-giant
+  - skeleton-dragons
+  - zap
+  src: old
+- cards:
+  - BlowdartGoblin
+  - Princess
+  - Rascals
+  - SkeletonArmy
+  - SkeletonBalloon
+  - SkeletonKing
+  - SuspiciousBush
+  - Vines
+  forms:
+    SkeletonArmy: evo
+    SkeletonBalloon: evo
+  weight: 548
+  winrate: 0.5566
+  slugs:
+  - dart-goblin
+  - princess
+  - rascals
+  - skeleton-army
+  - skeleton-barrel
+  - skeleton-king
+  - suspicious-bush
+  - vines
+  src: old
+- cards:
+  - Berserker
+  - Cannon
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - Phoenix
+  - Poison
+  - Skeletons
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 545
+  winrate: 0.5791
+  slugs:
+  - berserker
+  - cannon
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - phoenix
+  - poison
+  - skeletons
+  src: old
+- cards:
+  - Bats
+  - Bomber
+  - Giant
+  - MiniPekka
+  - Poison
+  - SkeletonArmy
+  - Witch
+  - Zap
+  forms:
+    MiniPekka: hero
+    SkeletonArmy: evo
+    Witch: evo
+  weight: 543
+  winrate: 0.4952
+  slugs:
+  - bats
+  - bomber
+  - giant
+  - mini-pekka
+  - poison
+  - skeleton-army
+  - witch
+  - zap
+  src: old
+- cards:
+  - Arrows
+  - ElectroWizard
+  - AxeMan
+  - GoldenKnight
+  - Knight
+  - Pekka
+  - RamRider
+  - Tornado
+  forms:
+    AxeMan: evo
+    Knight: hero
+  weight: 543
+  winrate: 0.5333
+  slugs:
+  - arrows
+  - electro-wizard
+  - executioner
+  - golden-knight
+  - knight
+  - pekka
+  - ram-rider
+  - tornado
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - Lightning
+  - DarkWitch
+  - Rage
+  - SkeletonKing
+  - Skeletons
+  - Witch
+  forms:
+    Skeletons: evo
+    Witch: evo
+  weight: 536
+  winrate: 0.5048
+  slugs:
+  - arrows
+  - elixir-golem
+  - lightning
+  - night-witch
+  - rage
+  - skeleton-king
+  - skeletons
+  - witch
+  src: old
+- cards:
+  - MovingCannon
+  - ElectroSpirit
+  - Fireball
+  - Goblins
+  - Minions
+  - Mortar
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    Goblins: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 534
+  winrate: 0.5806
+  slugs:
+  - cannon-cart
+  - electro-spirit
+  - fireball
+  - goblins
+  - minions
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - Lightning
+  - DarkWitch
+  - Rage
+  - SkeletonKing
+  - Skeletons
+  - Wizard
+  forms:
+    Skeletons: evo
+    Wizard: evo
+  weight: 533
+  winrate: 0.5081
+  slugs:
+  - arrows
+  - elixir-golem
+  - lightning
+  - night-witch
+  - rage
+  - skeleton-king
+  - skeletons
+  - wizard
+  src: old
+- cards:
+  - BombTower
+  - Earthquake
+  - Firecracker
+  - GiantSkeleton
+  - SkeletonWarriors
+  - HogRider
+  - Monk
+  - Log
+  forms:
+    Firecracker: evo
+  weight: 529
+  winrate: 0.5375
+  slugs:
+  - bomb-tower
+  - earthquake
+  - firecracker
+  - giant-skeleton
+  - guards
+  - hog-rider
+  - monk
+  - the-log
+  src: old
+- cards:
+  - Bats
+  - GoblinGang
+  - InfernoDragon
+  - MegaKnight
+  - Miner
+  - SkeletonBalloon
+  - SpearGoblins
+  - Zap
+  forms:
+    InfernoDragon: evo
+    SkeletonBalloon: evo
+  weight: 529
+  winrate: 0.456
+  slugs:
+  - bats
+  - goblin-gang
+  - inferno-dragon
+  - mega-knight
+  - miner
+  - skeleton-barrel
+  - spear-goblins
+  - zap
+  src: old
+- cards:
+  - BabyDragon
+  - Bowler
+  - Freeze
+  - GoblinCage
+  - Graveyard
+  - IceWizard
+  - Tornado
+  - Valkyrie
+  forms:
+    Bowler: hero
+    GoblinCage: evo
+    Valkyrie: hero
+  weight: 526
+  winrate: 0.5377
+  slugs:
+  - baby-dragon
+  - bowler
+  - freeze
+  - goblin-cage
+  - graveyard
+  - ice-wizard
+  - tornado
+  - valkyrie
+  src: old
+- cards:
+  - BlowdartGoblin
+  - Fireball
+  - GoblinDrill
+  - InfernoTower
+  - SkeletonArmy
+  - SkeletonKing
+  - Log
+  - Wallbreakers
+  forms:
+    SkeletonArmy: evo
+    Wallbreakers: evo
+  weight: 524
+  winrate: 0.6053
+  slugs:
+  - dart-goblin
+  - fireball
+  - goblin-drill
+  - inferno-tower
+  - skeleton-army
+  - skeleton-king
+  - the-log
+  - wall-breakers
+  src: old
+- cards:
+  - Arrows
+  - Bomber
+  - Bowler
+  - Cannon
+  - ElectroGiant
+  - RoyalRecruits
+  - MergeMaiden
+  - Tornado
+  forms:
+    Bomber: evo
+    Bowler: hero
+    RoyalRecruits: evo
+  weight: 521
+  winrate: 0.5464
+  slugs:
+  - arrows
+  - bomber
+  - bowler
+  - cannon
+  - electro-giant
+  - royal-recruits
+  - spirit-empress
+  - tornado
+  src: old
+- cards:
+  - BabyDragon
+  - Bowler
+  - Freeze
+  - Graveyard
+  - InfernoDragon
+  - Knight
+  - Tombstone
+  - Tornado
+  forms:
+    BabyDragon: evo
+    InfernoDragon: evo
+    Tombstone: hero
+  weight: 521
+  winrate: 0.5497
+  slugs:
+  - baby-dragon
+  - bowler
+  - freeze
+  - graveyard
+  - inferno-dragon
+  - knight
+  - tombstone
+  - tornado
+  src: old
+- cards:
+  - Berserker
+  - AngryBarbarians
+  - Elixir Collector
+  - IceGolemite
+  - Monk
+  - SkeletonDragons
+  - ThreeMusketeers
+  - Zap
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+  weight: 519
+  winrate: 0.4485
+  slugs:
+  - berserker
+  - elite-barbarians
+  - elixir-collector
+  - ice-golem
+  - monk
+  - skeleton-dragons
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - FirespiritHut
+  - Graveyard
+  - IceSpirits
+  - Knight
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    BarbLog: hero
+    FirespiritHut: evo
+    Tesla: evo
+  weight: 10888
+  winrate: 0.861
+  slugs:
+  - barbarian-barrel
+  - furnace
+  - graveyard
+  - ice-spirit
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: old+new
+- cards:
+  - Arrows
+  - BattleRam
+  - ElectroWizard
+  - GoldenKnight
+  - RageBarbarian
+  - WitchMother
+  - Pekka
+  - Ghost
+  forms:
+    BattleRam: evo
+    RageBarbarian: evo
+  weight: 4376
+  winrate: 0.872
+  slugs:
+  - arrows
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - lumberjack
+  - mother-witch
+  - pekka
+  - royal-ghost
+  src: old+new
+- cards:
+  - Balloon
+  - Bats
+  - Cannon
+  - Fisherman
+  - Snowball
+  - Miner
+  - Rascals
+  - RoyalDelivery
+  forms:
+    Balloon: hero
+    Bats: evo
+    Cannon: evo
+  weight: 507
+  winrate: 0.5544
+  slugs:
+  - balloon
+  - bats
+  - cannon
+  - fisherman
+  - giant-snowball
+  - miner
+  - rascals
+  - royal-delivery
+  src: old
+- cards:
+  - Arrows
+  - Bowler
+  - Giant
+  - Snowball
+  - Graveyard
+  - SkeletonWarriors
+  - Witch
+  - MiniSparkys
+  forms:
+    Bowler: hero
+    Snowball: evo
+    Witch: evo
+  weight: 1159
+  winrate: 0.312
+  slugs:
+  - arrows
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - guards
+  - witch
+  - zappies
+  src: old+new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - GoblinHut
+  - Lightning
+  - RoyalHogs
+  - Skeletons
+  forms:
+    BabyDragon: evo
+    Berserker: hero
+    RoyalHogs: evo
+  weight: 498
+  winrate: 0.5017
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - goblin-hut
+  - lightning
+  - royal-hogs
+  - skeletons
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - GoblinCage
+  - Golem
+  - Lightning
+  - DarkWitch
+  - SkeletonDragons
+  - Tornado
+  forms:
+    BabyDragon: evo
+    BarbLog: hero
+    GoblinCage: evo
+  weight: 498
+  winrate: 0.5329
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - goblin-cage
+  - golem
+  - lightning
+  - night-witch
+  - skeleton-dragons
+  - tornado
+  src: old
+- cards:
+  - BabyDragon
+  - Balloon
+  - Berserker
+  - Bomber
+  - ElectroSpirit
+  - Freeze
+  - Knight
+  - Tornado
+  forms:
+    Berserker: hero
+    Bomber: evo
+    Knight: evo
+  weight: 497
+  winrate: 0.5451
+  slugs:
+  - baby-dragon
+  - balloon
+  - berserker
+  - bomber
+  - electro-spirit
+  - freeze
+  - knight
+  - tornado
+  src: old
+- cards:
+  - DarkPrince
+  - Giant
+  - Heal
+  - MiniPekka
+  - ZapMachine
+  - Tornado
+  - Wizard
+  - Zap
+  forms:
+    Giant: hero
+    Wizard: evo
+    Zap: evo
+  weight: 497
+  winrate: 0.4722
+  slugs:
+  - dark-prince
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - sparky
+  - tornado
+  - wizard
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - MovingCannon
+  - Fireball
+  - Mortar
+  - WitchMother
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 493
+  winrate: 0.6224
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - cannon-cart
+  - fireball
+  - mortar
+  - mother-witch
+  - rascals
+  - skeleton-barrel
+  src: old
+- cards:
+  - BarbLog
+  - BattleRam
+  - DarkPrince
+  - Fireball
+  - GiantSkeleton
+  - RageBarbarian
+  - Wizard
+  - MiniSparkys
+  forms:
+    BattleRam: evo
+    RageBarbarian: evo
+    Wizard: hero
+  weight: 493
+  winrate: 0.493
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - dark-prince
+  - fireball
+  - giant-skeleton
+  - lumberjack
+  - wizard
+  - zappies
+  src: old
+- cards:
+  - Berserker
+  - ElectroSpirit
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Berserker: hero
+    Snowball: evo
+    Tesla: evo
+  weight: 490
+  winrate: 0.581
+  slugs:
+  - berserker
+  - electro-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - poison
+  - skeletons
+  - tesla
+  src: old
+- cards:
+  - ElectroGiant
+  - AngryBarbarians
+  - Lightning
+  - Musketeer
+  - Princess
+  - SkeletonArmy
+  - Tornado
+  - Valkyrie
+  forms:
+    AngryBarbarians: evo
+    Musketeer: evo
+    Valkyrie: hero
+  weight: 490
+  winrate: 0.4225
+  slugs:
+  - electro-giant
+  - elite-barbarians
+  - lightning
+  - musketeer
+  - princess
+  - skeleton-army
+  - tornado
+  - valkyrie
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - FirespiritHut
+  - GoblinHut
+  - Lightning
+  - Ghost
+  - RoyalHogs
+  forms:
+    Berserker: hero
+    Ghost: evo
+    RoyalHogs: evo
+  weight: 488
+  winrate: 0.4523
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - furnace
+  - goblin-hut
+  - lightning
+  - royal-ghost
+  - royal-hogs
+  src: old
+- cards:
+  - Berserker
+  - GoblinBarrel
+  - IceSpirits
+  - InfernoTower
+  - Princess
+  - Rocket
+  - Skeletons
+  - Log
+  forms:
+    Berserker: hero
+    GoblinBarrel: evo
+    Princess: evo
+  weight: 488
+  winrate: 0.5548
+  slugs:
+  - berserker
+  - goblin-barrel
+  - ice-spirit
+  - inferno-tower
+  - princess
+  - rocket
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - Bats
+  - BattleRam
+  - Elixir Collector
+  - Giant
+  - GoblinGang
+  - MinionHorde
+  - ThreeMusketeers
+  - Zap
+  forms:
+    Bats: evo
+    Giant: hero
+    MinionHorde: evo
+  weight: 486
+  winrate: 0.5177
+  slugs:
+  - bats
+  - battle-ram
+  - elixir-collector
+  - giant
+  - goblin-gang
+  - minion-horde
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - Bomber
+  - ElectroGiant
+  - GoblinCage
+  - GoldenKnight
+  - InfernoDragon
+  - Lightning
+  - WitchMother
+  - Tornado
+  forms:
+    GoblinCage: evo
+    InfernoDragon: evo
+  weight: 483
+  winrate: 0.5679
+  slugs:
+  - bomber
+  - electro-giant
+  - goblin-cage
+  - golden-knight
+  - inferno-dragon
+  - lightning
+  - mother-witch
+  - tornado
+  src: old
+- cards:
+  - Bats
+  - FireSpirits
+  - HogRider
+  - IceGolemite
+  - MiniPekka
+  - Princess
+  - Rocket
+  - Log
+  forms:
+    Bats: evo
+    IceGolemite: hero
+    Princess: evo
+  weight: 730
+  winrate: 0.333
+  slugs:
+  - bats
+  - fire-spirit
+  - hog-rider
+  - ice-golem
+  - mini-pekka
+  - princess
+  - rocket
+  - the-log
+  src: old+new
+- cards:
+  - Cannon
+  - HogRider
+  - IceGolemite
+  - IceSpirits
+  - Lightning
+  - Musketeer
+  - Skeletons
+  - Log
+  forms:
+    Cannon: evo
+    Musketeer: hero
+    Skeletons: evo
+  weight: 481
+  winrate: 0.5305
+  slugs:
+  - cannon
+  - hog-rider
+  - ice-golem
+  - ice-spirit
+  - lightning
+  - musketeer
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - Berserker
+  - Cannon
+  - Fireball
+  - FirespiritHut
+  - GoblinDrill
+  - IceSpirits
+  - Skeletons
+  - Log
+  forms:
+    Berserker: hero
+    Cannon: evo
+    GoblinDrill: evo
+  weight: 479
+  winrate: 0.5072
+  slugs:
+  - berserker
+  - cannon
+  - fireball
+  - furnace
+  - goblin-drill
+  - ice-spirit
+  - skeletons
+  - the-log
+  src: old
+- cards:
+  - Bats
+  - Fireball
+  - GoblinGang
+  - IceGolemite
+  - MiniPekka
+  - Princess
+  - RoyalHogs
+  - Log
+  forms:
+    Bats: evo
+    MiniPekka: hero
+    RoyalHogs: evo
+  weight: 478
+  winrate: 0.5054
+  slugs:
+  - bats
+  - fireball
+  - goblin-gang
+  - ice-golem
+  - mini-pekka
+  - princess
+  - royal-hogs
+  - the-log
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - GoblinCage
+  - Golem
+  - IceWizard
+  - Lightning
+  - Tornado
+  - Valkyrie
+  forms:
+    BabyDragon: evo
+    GoblinCage: evo
+    Valkyrie: hero
+  weight: 476
+  winrate: 0.5507
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - goblin-cage
+  - golem
+  - ice-wizard
+  - lightning
+  - tornado
+  - valkyrie
+  src: old
+- cards:
+  - Cannon
+  - BlowdartGoblin
+  - GoblinBarrel
+  - IceSpirits
+  - Princess
+  - Skeletons
+  - Log
+  - Valkyrie
+  forms:
+    BlowdartGoblin: evo
+    Princess: evo
+    Valkyrie: hero
+  weight: 476
+  winrate: 0.6413
+  slugs:
+  - cannon
+  - dart-goblin
+  - goblin-barrel
+  - ice-spirit
+  - princess
+  - skeletons
+  - the-log
+  - valkyrie
+  src: old
+- cards:
+  - Arrows
+  - ElixirGolem
+  - AxeMan
+  - DarkWitch
+  - Rage
+  - SkeletonArmy
+  - SkeletonKing
+  - DarkMagic
+  forms:
+    AxeMan: evo
+    SkeletonArmy: evo
+  weight: 476
+  winrate: 0.5072
+  slugs:
+  - arrows
+  - elixir-golem
+  - executioner
+  - night-witch
+  - rage
+  - skeleton-army
+  - skeleton-king
+  - void
+  src: old
+- cards:
+  - Clone
+  - AxeMan
+  - GoblinGang
+  - Golem
+  - MiniPekka
+  - DarkWitch
+  - Tornado
+  - Zap
+  forms:
+    AxeMan: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 472
+  winrate: 0.5438
+  slugs:
+  - clone
+  - executioner
+  - goblin-gang
+  - golem
+  - mini-pekka
+  - night-witch
+  - tornado
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - GoblinCage
+  - Graveyard
+  - IceWizard
+  - Phoenix
+  - Poison
+  - Skeletons
+  - Valkyrie
+  forms:
+    BarbLog: hero
+    GoblinCage: evo
+    Valkyrie: evo
+  weight: 471
+  winrate: 0.5641
+  slugs:
+  - barbarian-barrel
+  - goblin-cage
+  - graveyard
+  - ice-wizard
+  - phoenix
+  - poison
+  - skeletons
+  - valkyrie
+  src: old
+- cards:
+  - Archer
+  - BarbLog
+  - BombTower
+  - Goblinstein
+  - Graveyard
+  - IceSpirits
+  - Poison
+  - Skeletons
+  forms:
+    Archer: evo
+    Skeletons: evo
+  weight: 469
+  winrate: 0.4559
+  slugs:
+  - archers
+  - barbarian-barrel
+  - bomb-tower
+  - goblinstein
+  - graveyard
+  - ice-spirit
+  - poison
+  - skeletons
+  src: old
+- cards:
+  - Barbarians
+  - BattleHealer
+  - Bomber
+  - ElectroDragon
+  - Elixir Collector
+  - Giant
+  - Goblinstein
+  - Tornado
+  forms:
+    Barbarians: evo
+    ElectroDragon: evo
+  weight: 469
+  winrate: 0.4816
+  slugs:
+  - barbarians
+  - battle-healer
+  - bomber
+  - electro-dragon
+  - elixir-collector
+  - giant
+  - goblinstein
+  - tornado
+  src: old
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - Freeze
+  - GoblinCage
+  - InfernoDragon
+  - GiantBuffer
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    InfernoDragon: evo
+  weight: 467
+  winrate: 0.6753
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - freeze
+  - goblin-cage
+  - inferno-dragon
+  - rune-giant
+  - tornado
+  src: old
+- cards:
+  - Berserker
+  - Snowball
+  - GoblinDemolisher
+  - GoblinDrill
+  - IceSpirits
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Berserker: hero
+    Snowball: evo
+    GoblinDrill: evo
+  weight: 466
+  winrate: 0.5148
+  slugs:
+  - berserker
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - ice-spirit
+  - poison
+  - skeletons
+  - tesla
+  src: old
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - GoldenKnight
+  - Minions
+  - Pekka
+  - Ghost
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 466
+  winrate: 0.5741
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - minions
+  - pekka
+  - royal-ghost
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - Cannon
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - Skeletons
+  forms:
+    Berserker: hero
+    Cannon: evo
+    Firecracker: evo
+  weight: 464
+  winrate: 0.5204
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - cannon
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - skeletons
+  src: old
+- cards:
+  - Arrows
+  - Bowler
+  - Fisherman
+  - GiantSkeleton
+  - WitchMother
+  - Ghost
+  - RoyalHogs
+  - MiniSparkys
+  forms:
+    Bowler: hero
+    Ghost: evo
+    RoyalHogs: evo
+  weight: 460
+  winrate: 0.4869
+  slugs:
+  - arrows
+  - bowler
+  - fisherman
+  - giant-skeleton
+  - mother-witch
+  - royal-ghost
+  - royal-hogs
+  - zappies
+  src: old
+- cards:
+  - ElectroSpirit
+  - Snowball
+  - Lightning
+  - LittlePrince
+  - MegaKnight
+  - RamRider
+  - Ghost
+  - Skeletons
+  forms:
+    Snowball: evo
+    Ghost: evo
+  weight: 459
+  winrate: 0.5338
+  slugs:
+  - electro-spirit
+  - giant-snowball
+  - lightning
+  - little-prince
+  - mega-knight
+  - ram-rider
+  - royal-ghost
+  - skeletons
+  src: old
+- cards:
+  - Arrows
+  - DarkPrince
+  - ElectroDragon
+  - AngryBarbarians
+  - Golem
+  - Lightning
+  - MegaMinion
+  - DarkWitch
+  forms:
+    ElectroDragon: evo
+    AngryBarbarians: evo
+    MegaMinion: hero
+  weight: 457
+  winrate: 0.6377
+  slugs:
+  - arrows
+  - dark-prince
+  - electro-dragon
+  - elite-barbarians
+  - golem
+  - lightning
+  - mega-minion
+  - night-witch
+  src: old
+- cards:
+  - Balloon
+  - Fireball
+  - IceGolemite
+  - InfernoDragon
+  - MegaMinion
+  - Miner
+  - Tombstone
+  - Zap
+  forms:
+    InfernoDragon: evo
+    MegaMinion: hero
+    Tombstone: hero
+  weight: 455
+  winrate: 0.5568
+  slugs:
+  - balloon
+  - fireball
+  - ice-golem
+  - inferno-dragon
+  - mega-minion
+  - miner
+  - tombstone
+  - zap
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - ElectroSpirit
+  - AngryBarbarians
+  - Fireball
+  - FirespiritHut
+  - GoblinHut
+  - RoyalHogs
+  forms:
+    Berserker: hero
+    AngryBarbarians: evo
+    RoyalHogs: evo
+  weight: 452
+  winrate: 0.542
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - electro-spirit
+  - elite-barbarians
+  - fireball
+  - furnace
+  - goblin-hut
+  - royal-hogs
+  src: old
+- cards:
+  - BlowdartGoblin
+  - ElectroSpirit
+  - GoblinBarrel
+  - InfernoTower
+  - Knight
+  - Princess
+  - SkeletonArmy
+  - Log
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    SkeletonArmy: evo
+  weight: 450
+  winrate: 0.4751
+  slugs:
+  - dart-goblin
+  - electro-spirit
+  - goblin-barrel
+  - inferno-tower
+  - knight
+  - princess
+  - skeleton-army
+  - the-log
+  src: old
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Monk
+  - RoyalGiant
+  - Skeletons
+  - Witch
+  forms:
+    RoyalGiant: evo
+    Witch: evo
+  weight: 450
+  winrate: 0.5556
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - fisherman
+  - monk
+  - royal-giant
+  - skeletons
+  - witch
+  src: old
+- cards:
+  - Fireball
+  - GiantSkeleton
+  - GoblinCurse
+  - HogRider
+  - MinionHorde
+  - Tombstone
+  - Witch
+  - MiniSparkys
+  forms:
+    MinionHorde: evo
+    Tombstone: hero
+    Witch: evo
+  weight: 450
+  winrate: 0.659
+  slugs:
+  - fireball
+  - giant-skeleton
+  - goblin-curse
+  - hog-rider
+  - minion-horde
+  - tombstone
+  - witch
+  - zappies
+  src: old
+- cards:
+  - BarbLog
+  - Berserker
+  - MovingCannon
+  - Fireball
+  - Mortar
+  - Rascals
+  - SkeletonBalloon
+  - SkeletonDragons
+  forms:
+    Berserker: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 445
+  winrate: 0.3953
+  slugs:
+  - barbarian-barrel
+  - berserker
+  - cannon-cart
+  - fireball
+  - mortar
+  - rascals
+  - skeleton-barrel
+  - skeleton-dragons
+  src: old
+- cards:
+  - Bats
+  - DarkPrince
+  - ElectroWizard
+  - GoblinGiant
+  - MiniPekka
+  - Rage
+  - ZapMachine
+  - Zap
+  forms:
+    Bats: evo
+    DarkPrince: hero
+    GoblinGiant: evo
+  weight: 445
+  winrate: 0.4806
+  slugs:
+  - bats
+  - dark-prince
+  - electro-wizard
+  - goblin-giant
+  - mini-pekka
+  - rage
+  - sparky
+  - zap
+  src: old
+- cards:
+  - BabyDragon
+  - Fireball
+  - LavaHound
+  - Skeletons
+  - MergeMaiden
+  - Tombstone
+  - Valkyrie
+  - Zap
+  forms:
+    BabyDragon: evo
+    Valkyrie: hero
+    Zap: evo
+  weight: 438
+  winrate: 0.4409
+  slugs:
+  - baby-dragon
+  - fireball
+  - lava-hound
+  - skeletons
+  - spirit-empress
+  - tombstone
+  - valkyrie
+  - zap
+  src: old
+- cards:
+  - AngryBarbarians
+  - Elixir Collector
+  - GoldenKnight
+  - Hunter
+  - IceGolemite
+  - Ghost
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+  weight: 434
+  winrate: 0.5238
+  slugs:
+  - elite-barbarians
+  - elixir-collector
+  - golden-knight
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  - zap
+  src: old
+- cards:
+  - Balloon
+  - Cannon
+  - AxeMan
+  - GiantSkeleton
+  - Snowball
+  - Miner
+  - Skeletons
+  - Tornado
+  forms:
+    Balloon: hero
+    AxeMan: evo
+    Snowball: evo
+  weight: 429
+  winrate: 0.5422
+  slugs:
+  - balloon
+  - cannon
+  - executioner
+  - giant-skeleton
+  - giant-snowball
+  - miner
+  - skeletons
+  - tornado
+  src: old
+- cards:
+  - BarbLog
+  - Bats
+  - Cannon
+  - GiantBuffer
+  - LittlePrince
+  - MinionGiant
+  - Poison
+  - Skeletons
+  forms:
+    Bats: evo
+    Cannon: evo
+  weight: 16549
+  winrate: 0.356
+  slugs:
+  - barbarian-barrel
+  - bats
+  - cannon
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  src: new
+- cards:
+  - Arrows
+  - Berserker
+  - Miner
+  - MinionHorde
+  - Mortar
+  - MovingCannon
+  - Rascals
+  - WitchMother
+  forms:
+    Berserker: hero
+    MinionHorde: evo
+    Mortar: evo
+  weight: 10909
+  winrate: 0.842
+  slugs:
+  - arrows
+  - berserker
+  - cannon-cart
+  - miner
+  - minion-horde
+  - mortar
+  - mother-witch
+  - rascals
+  src: new
+- cards:
+  - AngryBarbarians
+  - Assassin
+  - Elixir Collector
+  - Ghost
+  - Heal
+  - IceGolemite
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+    IceGolemite: hero
+  weight: 9921
+  winrate: 0.759
+  slugs:
+  - bandit
+  - elite-barbarians
+  - elixir-collector
+  - heal-spirit
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Hunter
+  - IceSpirits
+  - Knight
+  - MinionGiant
+  - Princess
+  - Skeletons
+  forms:
+    Hunter: evo
+    Knight: hero
+    Princess: evo
+  weight: 8686
+  winrate: 0.521
+  slugs:
+  - barbarian-barrel
+  - fireball
+  - hunter
+  - ice-spirit
+  - knight
+  - minion-giant
+  - princess
+  - skeletons
+  src: new
+- cards:
+  - BossBandit
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    Zap: evo
+  weight: 7698
+  winrate: 0.786
+  slugs:
+  - boss-bandit
+  - furnace
+  - golden-knight
+  - hunter
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - ElectroWizard
+  - GoblinGiant
+  - Heal
+  - MiniPekka
+  - Rage
+  - Zap
+  - ZapMachine
+  forms:
+    AngryBarbarians: evo
+    GoblinGiant: evo
+    MiniPekka: hero
+  weight: 7163
+  winrate: 0.805
+  slugs:
+  - electro-wizard
+  - elite-barbarians
+  - goblin-giant
+  - heal-spirit
+  - mini-pekka
+  - rage
+  - sparky
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - IceWizard
+  - InfernoDragon
+  - Lightning
+  - Tornado
+  forms:
+    Bowler: hero
+    IceWizard: hero
+    InfernoDragon: evo
+  weight: 7039
+  winrate: 0.924
+  slugs:
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - ice-wizard
+  - inferno-dragon
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - BossBandit
+  - Bowler
+  - FirespiritHut
+  - Minions
+  - RamRider
+  - SkeletonWarriors
+  - SpearGoblins
+  - Zap
+  forms:
+    FirespiritHut: evo
+    Zap: evo
+  weight: 6216
+  winrate: 0.894
+  slugs:
+  - boss-bandit
+  - bowler
+  - furnace
+  - guards
+  - minions
+  - ram-rider
+  - spear-goblins
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - IceWizard
+  - Minions
+  - Mortar
+  - MovingCannon
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    IceWizard: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 5763
+  winrate: 0.471
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - ice-wizard
+  - minions
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: new
+- cards:
+  - AngryBarbarians
+  - Bomber
+  - Fireball
+  - Giant
+  - Heal
+  - Phoenix
+  - Prince
+  - Rage
+  forms:
+    AngryBarbarians: evo
+    Bomber: evo
+    Giant: hero
+  weight: 5557
+  winrate: 0.815
+  slugs:
+  - bomber
+  - elite-barbarians
+  - fireball
+  - giant
+  - heal-spirit
+  - phoenix
+  - prince
+  - rage
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GiantSkeleton
+  - GoldenKnight
+  - Heal
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 5310
+  winrate: 0.589
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - giant-skeleton
+  - golden-knight
+  - heal-spirit
+  - royal-ghost
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Cannon
+  - Fireball
+  - IceWizard
+  - Knight
+  - MinionGiant
+  - Skeletons
+  forms:
+    Bats: evo
+    Cannon: evo
+    IceWizard: hero
+  weight: 5146
+  winrate: 0.816
+  slugs:
+  - barbarian-barrel
+  - bats
+  - cannon
+  - fireball
+  - ice-wizard
+  - knight
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Goblinstein
+  - MinionHorde
+  - Mortar
+  - MovingCannon
+  - SkeletonWarriors
+  - WitchMother
+  forms:
+    MinionHorde: evo
+    Mortar: evo
+  weight: 4775
+  winrate: 0.862
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblinstein
+  - guards
+  - minion-horde
+  - mortar
+  - mother-witch
+  src: new
+- cards:
+  - AngryBarbarians
+  - ElectroWizard
+  - MegaKnight
+  - MiniPekka
+  - Phoenix
+  - Rage
+  - Wizard
+  - ZapMachine
+  forms:
+    MegaKnight: evo
+    MiniPekka: hero
+    Wizard: evo
+  weight: 4775
+  winrate: 0.767
+  slugs:
+  - electro-wizard
+  - elite-barbarians
+  - mega-knight
+  - mini-pekka
+  - phoenix
+  - rage
+  - sparky
+  - wizard
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 4364
+  winrate: 0.236
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - AxeMan
+  - BarbLog
+  - Graveyard
+  - IceSpirits
+  - Knight
+  - Poison
+  - Tombstone
+  - Tornado
+  forms:
+    Knight: evo
+  weight: 4364
+  winrate: 0.925
+  slugs:
+  - barbarian-barrel
+  - executioner
+  - graveyard
+  - ice-spirit
+  - knight
+  - poison
+  - tombstone
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - GoblinGang
+  - IceWizard
+  - MegaKnight
+  - Miner
+  - Minions
+  - Wallbreakers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    IceWizard: hero
+    Wallbreakers: evo
+  weight: 3993
+  winrate: 0.928
+  slugs:
+  - elite-barbarians
+  - goblin-gang
+  - ice-wizard
+  - mega-knight
+  - miner
+  - minions
+  - wall-breakers
+  - zap
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - IceWizard
+  - Knight
+  - Lightning
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    IceWizard: hero
+    Tesla: evo
+  weight: 3828
+  winrate: 0.57
+  slugs:
+  - archers
+  - barbarian-barrel
+  - ice-wizard
+  - knight
+  - lightning
+  - minion-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    IceWizard: hero
+  weight: 3828
+  winrate: 0.882
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - ice-wizard
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Goblinstein
+  - MinionHorde
+  - Mortar
+  - MovingCannon
+  - Skeletons
+  - WitchMother
+  forms:
+    MinionHorde: evo
+    Mortar: evo
+  weight: 3581
+  winrate: 0.563
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblinstein
+  - minion-horde
+  - mortar
+  - mother-witch
+  - skeletons
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - DarkPrince
+  - ElectroWizard
+  - Minions
+  - Pekka
+  - Poison
+  - Zap
+  forms:
+    BattleRam: evo
+    DarkPrince: hero
+    Zap: evo
+  weight: 3581
+  winrate: 0.805
+  slugs:
+  - bandit
+  - battle-ram
+  - dark-prince
+  - electro-wizard
+  - minions
+  - pekka
+  - poison
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - GoblinGang
+  - IceWizard
+  - Mortar
+  - MovingCannon
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    IceWizard: hero
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 3376
+  winrate: 0.402
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - goblin-gang
+  - ice-wizard
+  - mortar
+  - rascals
+  - skeleton-barrel
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - ElectroSpirit
+  - GoblinHut
+  - Lightning
+  - MightyMiner
+  - MinionGiant
+  - Skeletons
+  forms:
+    BabyDragon: evo
+    Skeletons: evo
+  weight: 3293
+  winrate: 0.55
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - electro-spirit
+  - goblin-hut
+  - lightning
+  - mighty-miner
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Cannon
+  - GiantBuffer
+  - LittlePrince
+  - Miner
+  - Poison
+  - Skeletons
+  forms:
+    Bats: evo
+    Cannon: evo
+  weight: 3087
+  winrate: 0.413
+  slugs:
+  - barbarian-barrel
+  - bats
+  - cannon
+  - little-prince
+  - miner
+  - poison
+  - rune-giant
+  - skeletons
+  src: new
+- cards:
+  - AngryBarbarians
+  - Bomber
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - Giant
+  - Rage
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    Zap: evo
+  weight: 2676
+  winrate: 0.8
+  slugs:
+  - bomber
+  - dark-prince
+  - electro-wizard
+  - elite-barbarians
+  - fireball
+  - giant
+  - rage
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - DarkPrince
+  - ElectroGiant
+  - ElectroSpirit
+  - GoblinHut
+  - Lightning
+  - RoyalDelivery
+  - Tornado
+  forms:
+    BabyDragon: evo
+    DarkPrince: hero
+    ElectroGiant: evo
+  weight: 2635
+  winrate: 0.656
+  slugs:
+  - baby-dragon
+  - dark-prince
+  - electro-giant
+  - electro-spirit
+  - goblin-hut
+  - lightning
+  - royal-delivery
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - Arrows
+  - Elixir Collector
+  - Giant
+  - Heal
+  - MiniPekka
+  - Rage
+  - Witch
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    Witch: evo
+  weight: 2635
+  winrate: 0.328
+  slugs:
+  - arrows
+  - elite-barbarians
+  - elixir-collector
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - rage
+  - witch
+  src: new
+- cards:
+  - BlowdartGoblin
+  - GoblinBarrel
+  - IceSpirits
+  - Princess
+  - SkeletonArmy
+  - Tesla
+  - Valkyrie
+  - Wallbreakers
+  forms:
+    GoblinBarrel: evo
+    SkeletonArmy: evo
+    Valkyrie: hero
+  weight: 2593
+  winrate: 0.381
+  slugs:
+  - dart-goblin
+  - goblin-barrel
+  - ice-spirit
+  - princess
+  - skeleton-army
+  - tesla
+  - valkyrie
+  - wall-breakers
+  src: new
+- cards:
+  - BattleRam
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 2346
+  winrate: 0.719
+  slugs:
+  - battle-ram
+  - furnace
+  - golden-knight
+  - hunter
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - Bomber
+  - Giant
+  - Lightning
+  - MegaMinion
+  - Prince
+  - Rage
+  - RageBarbarian
+  - Zap
+  forms:
+    Giant: hero
+    RageBarbarian: evo
+    Zap: evo
+  weight: 2264
+  winrate: 0.545
+  slugs:
+  - bomber
+  - giant
+  - lightning
+  - lumberjack
+  - mega-minion
+  - prince
+  - rage
+  - zap
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Pekka
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 2223
+  winrate: 0.389
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - pekka
+  - royal-ghost
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    BattleRam: evo
+    Zap: evo
+  weight: 2182
+  winrate: 0.264
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - Cannon
+  - DarkPrince
+  - ElectroGiant
+  - Lightning
+  - Phoenix
+  - Tornado
+  forms:
+    Archer: evo
+    DarkPrince: hero
+    ElectroGiant: evo
+  weight: 2182
+  winrate: 0.34
+  slugs:
+  - archers
+  - barbarian-barrel
+  - cannon
+  - dark-prince
+  - electro-giant
+  - lightning
+  - phoenix
+  - tornado
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Cannon
+  - FireSpirits
+  - GoblinBarrel
+  - IceSpirits
+  - Princess
+  - Valkyrie
+  - Wallbreakers
+  forms:
+    GoblinBarrel: evo
+    Valkyrie: hero
+    Wallbreakers: evo
+  weight: 2141
+  winrate: 0.596
+  slugs:
+  - cannon
+  - dart-goblin
+  - fire-spirit
+  - goblin-barrel
+  - ice-spirit
+  - princess
+  - valkyrie
+  - wall-breakers
+  src: new
+- cards:
+  - BarbLog
+  - FirespiritHut
+  - GoblinHut
+  - Graveyard
+  - IceSpirits
+  - Poison
+  - Skeletons
+  - Valkyrie
+  forms:
+    FirespiritHut: evo
+    Skeletons: evo
+    Valkyrie: hero
+  weight: 2141
+  winrate: 0.673
+  slugs:
+  - barbarian-barrel
+  - furnace
+  - goblin-hut
+  - graveyard
+  - ice-spirit
+  - poison
+  - skeletons
+  - valkyrie
+  src: new
+- cards:
+  - BarbLog
+  - FirespiritHut
+  - GoblinHut
+  - Graveyard
+  - IceWizard
+  - Knight
+  - Poison
+  - Skeletons
+  forms:
+    FirespiritHut: evo
+    IceWizard: hero
+    Knight: evo
+  weight: 2017
+  winrate: 0.592
+  slugs:
+  - barbarian-barrel
+  - furnace
+  - goblin-hut
+  - graveyard
+  - ice-wizard
+  - knight
+  - poison
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - IceWizard
+  - InfernoDragon
+  - Lightning
+  - Tornado
+  forms:
+    GoblinCage: evo
+    IceWizard: hero
+    InfernoDragon: evo
+  weight: 2017
+  winrate: 0.816
+  slugs:
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - ice-wizard
+  - inferno-dragon
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - Assassin
+  - Elixir Collector
+  - Ghost
+  - IceGolemite
+  - Log
+  - MiniSparkys
+  - ThreeMusketeers
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+    IceGolemite: hero
+  weight: 1894
+  winrate: 0.87
+  slugs:
+  - bandit
+  - elite-barbarians
+  - elixir-collector
+  - ice-golem
+  - royal-ghost
+  - the-log
+  - three-musketeers
+  - zappies
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  - WitchMother
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 1852
+  winrate: 0.511
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - mother-witch
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - ElectroSpirit
+  - GoblinHut
+  - Goblinstein
+  - Lightning
+  - MinionGiant
+  - Skeletons
+  forms:
+    Archer: evo
+    Skeletons: evo
+  weight: 1811
+  winrate: 0.818
+  slugs:
+  - archers
+  - barbarian-barrel
+  - electro-spirit
+  - goblin-hut
+  - goblinstein
+  - lightning
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Fireball
+  - Hunter
+  - IceSpirits
+  - Knight
+  - MinionGiant
+  - Skeletons
+  forms:
+    Bats: evo
+    Hunter: evo
+    Knight: hero
+  weight: 1770
+  winrate: 0.605
+  slugs:
+  - barbarian-barrel
+  - bats
+  - fireball
+  - hunter
+  - ice-spirit
+  - knight
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - IceWizard
+  - Knight
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    IceWizard: hero
+    Skeletons: evo
+    Tesla: evo
+  weight: 1729
+  winrate: 0.5
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - ice-wizard
+  - knight
+  - minion-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - GiantBuffer
+  - GoblinCage
+  - InfernoDragon
+  - LittlePrince
+  - MinionGiant
+  - Poison
+  - Skeletons
+  - Zap
+  forms:
+    InfernoDragon: evo
+    Zap: evo
+  weight: 1647
+  winrate: 0.375
+  slugs:
+  - goblin-cage
+  - inferno-dragon
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Ghost
+  - GoblinHut
+  - Goblinstein
+  - MinionGiant
+  - Musketeer
+  - Skeletons
+  forms:
+    Ghost: evo
+    Musketeer: evo
+  weight: 1564
+  winrate: 0.368
+  slugs:
+  - barbarian-barrel
+  - fireball
+  - goblin-hut
+  - goblinstein
+  - minion-giant
+  - musketeer
+  - royal-ghost
+  - skeletons
+  src: new
+- cards:
+  - AngryBarbarians
+  - Bomber
+  - Fireball
+  - Giant
+  - MegaMinion
+  - Prince
+  - Rage
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Giant: hero
+    MegaMinion: hero
+  weight: 1523
+  winrate: 0.676
+  slugs:
+  - bomber
+  - elite-barbarians
+  - fireball
+  - giant
+  - mega-minion
+  - prince
+  - rage
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - BabyDragon
+  - BarbLog
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - MiniPekka
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+    MiniPekka: hero
+  weight: 1441
+  winrate: 0.829
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - mini-pekka
+  - tornado
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Fireball
+  - Goblins
+  - Log
+  - Minions
+  - Mortar
+  - SkeletonBalloon
+  - Valkyrie
+  forms:
+    BlowdartGoblin: evo
+    Valkyrie: evo
+  weight: 1441
+  winrate: 0.743
+  slugs:
+  - dart-goblin
+  - fireball
+  - goblins
+  - minions
+  - mortar
+  - skeleton-barrel
+  - the-log
+  - valkyrie
+  src: new
+- cards:
+  - FireSpirits
+  - GoblinDrill
+  - IceWizard
+  - Knight
+  - Poison
+  - Skeletons
+  - Snowball
+  - Tesla
+  forms:
+    GoblinDrill: evo
+    IceWizard: hero
+    Snowball: evo
+  weight: 1400
+  winrate: 0.529
+  slugs:
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - ice-wizard
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Fireball
+  - Ghost
+  - Minions
+  - Pekka
+  - Zap
+  forms:
+    BattleRam: evo
+  weight: 1400
+  winrate: 0.647
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - fireball
+  - minions
+  - pekka
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - Assassin
+  - IceWizard
+  - MegaKnight
+  - Miner
+  - Minions
+  - Wallbreakers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    IceWizard: hero
+    Wallbreakers: evo
+  weight: 1400
+  winrate: 0.882
+  slugs:
+  - bandit
+  - elite-barbarians
+  - ice-wizard
+  - mega-knight
+  - miner
+  - minions
+  - wall-breakers
+  - zap
+  src: new
+- cards:
+  - DarkPrince
+  - ElectroWizard
+  - GoblinGiant
+  - MiniPekka
+  - Minions
+  - Rage
+  - Zap
+  - ZapMachine
+  forms:
+    GoblinGiant: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 1358
+  winrate: 0.848
+  slugs:
+  - dark-prince
+  - electro-wizard
+  - goblin-giant
+  - mini-pekka
+  - minions
+  - rage
+  - sparky
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - BarbLog
+  - Earthquake
+  - ElectroGiant
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 1358
+  winrate: 0.788
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - barbarian-barrel
+  - cannon-cart
+  - earthquake
+  - electro-giant
+  - elite-barbarians
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - Arrows
+  - DarkWitch
+  - Golem
+  - MegaMinion
+  - Phoenix
+  - RageBarbarian
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 1317
+  winrate: 0.688
+  slugs:
+  - arrows
+  - elite-barbarians
+  - golem
+  - lumberjack
+  - mega-minion
+  - night-witch
+  - phoenix
+  - zap
+  src: new
+- cards:
+  - Giant
+  - Heal
+  - MegaMinion
+  - MiniPekka
+  - Tornado
+  - Wizard
+  - Zap
+  - ZapMachine
+  forms:
+    MegaMinion: hero
+    MiniPekka: hero
+    Wizard: evo
+  weight: 1317
+  winrate: 0.5
+  slugs:
+  - giant
+  - heal-spirit
+  - mega-minion
+  - mini-pekka
+  - sparky
+  - tornado
+  - wizard
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - Log
+  - MinionGiant
+  - Monk
+  forms:
+    BabyDragon: evo
+    Hunter: evo
+  weight: 1317
+  winrate: 0.906
+  slugs:
+  - baby-dragon
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - minion-giant
+  - monk
+  - the-log
+  src: new
+- cards:
+  - BossBandit
+  - FirespiritHut
+  - GoldenKnight
+  - Heal
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    Zap: evo
+  weight: 1276
+  winrate: 0.29
+  slugs:
+  - boss-bandit
+  - furnace
+  - golden-knight
+  - heal-spirit
+  - hunter
+  - mother-witch
+  - ronin
+  - zap
+  src: new
+- cards:
+  - Cannon
+  - Fireball
+  - IceGolemite
+  - IceSpirits
+  - Log
+  - MinionGiant
+  - Musketeer
+  - Skeletons
+  forms:
+    Cannon: evo
+    Musketeer: hero
+    Skeletons: evo
+  weight: 1235
+  winrate: 0.4
+  slugs:
+  - cannon
+  - fireball
+  - ice-golem
+  - ice-spirit
+  - minion-giant
+  - musketeer
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Hunter
+  - IceSpirits
+  - MinionGiant
+  - Monk
+  - Princess
+  - Skeletons
+  forms:
+    Hunter: evo
+    Princess: evo
+  weight: 1235
+  winrate: 0.667
+  slugs:
+  - barbarian-barrel
+  - fireball
+  - hunter
+  - ice-spirit
+  - minion-giant
+  - monk
+  - princess
+  - skeletons
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - IceWizard
+  - MinionGiant
+  - MinionHorde
+  - Mortar
+  - MovingCannon
+  - Rascals
+  forms:
+    IceWizard: hero
+    MinionHorde: evo
+    Mortar: evo
+  weight: 1235
+  winrate: 0.6
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - ice-wizard
+  - minion-giant
+  - minion-horde
+  - mortar
+  - rascals
+  src: new
+- cards:
+  - AngryBarbarians
+  - BarbLog
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - MiniSparkys
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    BarbLog: hero
+    ElectroDragon: evo
+  weight: 1235
+  winrate: 0.8
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - tornado
+  - zappies
+  src: new
+- cards:
+  - Bomber
+  - GoblinDrill
+  - IceSpirits
+  - Knight
+  - Poison
+  - Skeletons
+  - Snowball
+  - Tesla
+  forms:
+    GoblinDrill: evo
+    Knight: hero
+    Snowball: evo
+  weight: 1153
+  winrate: 0.929
+  slugs:
+  - bomber
+  - giant-snowball
+  - goblin-drill
+  - ice-spirit
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - Earthquake
+  - ElectroGiant
+  - MiniSparkys
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 1153
+  winrate: 0.857
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - cannon-cart
+  - earthquake
+  - electro-giant
+  - elite-barbarians
+  - tornado
+  - zappies
+  src: new
+- cards:
+  - Assassin
+  - Ghost
+  - IceWizard
+  - MegaKnight
+  - MergeMaiden
+  - Poison
+  - RamRider
+  - Zap
+  forms:
+    Ghost: evo
+    IceWizard: hero
+    MegaKnight: evo
+  weight: 1111
+  winrate: 0.704
+  slugs:
+  - bandit
+  - ice-wizard
+  - mega-knight
+  - poison
+  - ram-rider
+  - royal-ghost
+  - spirit-empress
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - Hunter
+  - MinionGiant
+  - Monk
+  - Princess
+  - Skeletons
+  forms:
+    Hunter: evo
+    Princess: evo
+  weight: 1111
+  winrate: 0.741
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - hunter
+  - minion-giant
+  - monk
+  - princess
+  - skeletons
+  src: new
+- cards:
+  - BossBandit
+  - ElectroWizard
+  - FirespiritHut
+  - GoldenKnight
+  - Heal
+  - Hunter
+  - Ronin
+  - Zap
+  forms:
+    Zap: evo
+  weight: 1070
+  winrate: 0.769
+  slugs:
+  - boss-bandit
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - heal-spirit
+  - hunter
+  - ronin
+  - zap
+  src: new
+- cards:
+  - Arrows
+  - Bowler
+  - Giant
+  - Graveyard
+  - MiniSparkys
+  - Minions
+  - Snowball
+  - Witch
+  forms:
+    Bowler: hero
+    Snowball: evo
+    Witch: evo
+  weight: 1070
+  winrate: 0.462
+  slugs:
+  - arrows
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - minions
+  - witch
+  - zappies
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Fireball
+  - GoblinHut
+  - Goblinstein
+  - IceWizard
+  - MinionGiant
+  - Skeletons
+  forms:
+    Bats: evo
+    IceWizard: hero
+  weight: 1070
+  winrate: 0.731
+  slugs:
+  - barbarian-barrel
+  - bats
+  - fireball
+  - goblin-hut
+  - goblinstein
+  - ice-wizard
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    ElectroGiant: evo
+    IceWizard: hero
+  weight: 1029
+  winrate: 0.28
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - ice-wizard
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - Cannon
+  - Fireball
+  - IceSpirits
+  - Log
+  - MightyMiner
+  - MinionGiant
+  - Skeletons
+  forms:
+    Archer: evo
+    Cannon: evo
+  weight: 1029
+  winrate: 0.92
+  slugs:
+  - archers
+  - cannon
+  - fireball
+  - ice-spirit
+  - mighty-miner
+  - minion-giant
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - GiantBuffer
+  - LittlePrince
+  - MinionGiant
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Skeletons: evo
+    Tesla: evo
+  weight: 947
+  winrate: 0.217
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Graveyard
+  - IceWizard
+  - Knight
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Bats: evo
+    IceWizard: hero
+    Tesla: evo
+  weight: 947
+  winrate: 0.652
+  slugs:
+  - barbarian-barrel
+  - bats
+  - graveyard
+  - ice-wizard
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Ghost
+  - Goblins
+  - Log
+  - Rascals
+  - Rocket
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    BlowdartGoblin: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 906
+  winrate: 0.227
+  slugs:
+  - dart-goblin
+  - goblins
+  - rascals
+  - rocket
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - the-log
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  - Zap
+  forms:
+    BattleRam: evo
+    Zap: evo
+  weight: 906
+  winrate: 0.364
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Freeze
+  - Ghost
+  - Goblins
+  - Log
+  - Rascals
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    BlowdartGoblin: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 906
+  winrate: 0.273
+  slugs:
+  - dart-goblin
+  - freeze
+  - goblins
+  - rascals
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - the-log
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - DarkPrince
+  - ElectroGiant
+  - ElectroSpirit
+  - GoblinHut
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    DarkPrince: hero
+    ElectroGiant: evo
+  weight: 864
+  winrate: 0.714
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - dark-prince
+  - electro-giant
+  - electro-spirit
+  - goblin-hut
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - BombTower
+  - ElectroSpirit
+  - Goblinstein
+  - Lightning
+  - MinionGiant
+  - Skeletons
+  forms:
+    Archer: evo
+    Skeletons: evo
+  weight: 864
+  winrate: 0.524
+  slugs:
+  - archers
+  - barbarian-barrel
+  - bomb-tower
+  - electro-spirit
+  - goblinstein
+  - lightning
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - Assassin
+  - BabyDragon
+  - BarbLog
+  - ElectroWizard
+  - Lightning
+  - Pekka
+  - RamRider
+  - Snowball
+  forms:
+    BabyDragon: evo
+    ElectroWizard: hero
+    Snowball: evo
+  weight: 864
+  winrate: 0.429
+  slugs:
+  - baby-dragon
+  - bandit
+  - barbarian-barrel
+  - electro-wizard
+  - giant-snowball
+  - lightning
+  - pekka
+  - ram-rider
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - ElectroSpirit
+  - Fireball
+  - Goblinstein
+  - Miner
+  - SpearGoblins
+  - Tesla
+  forms:
+    Bats: evo
+    Tesla: evo
+  weight: 864
+  winrate: 0.905
+  slugs:
+  - barbarian-barrel
+  - bats
+  - electro-spirit
+  - fireball
+  - goblinstein
+  - miner
+  - spear-goblins
+  - tesla
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BarbLog
+  - ElectroDragon
+  - Golem
+  - MiniPekka
+  - Poison
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+  weight: 864
+  winrate: 0.81
+  slugs:
+  - archer-queen
+  - barbarian-barrel
+  - electro-dragon
+  - elite-barbarians
+  - golem
+  - mini-pekka
+  - poison
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - IceWizard
+  - Knight
+  - Lightning
+  - Log
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    IceWizard: hero
+    Tesla: evo
+  weight: 864
+  winrate: 0.667
+  slugs:
+  - archers
+  - ice-wizard
+  - knight
+  - lightning
+  - minion-giant
+  - skeletons
+  - tesla
+  - the-log
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - Log
+  - Monk
+  - RoyalGiant
+  - Skeletons
+  forms:
+    Hunter: evo
+    RoyalGiant: evo
+  weight: 823
+  winrate: 0.65
+  slugs:
+  - electro-spirit
+  - fireball
+  - fisherman
+  - hunter
+  - monk
+  - royal-giant
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - Bats
+  - GoblinGang
+  - IceWizard
+  - InfernoDragon
+  - MegaKnight
+  - Miner
+  - SkeletonBalloon
+  - Zap
+  forms:
+    IceWizard: hero
+    InfernoDragon: evo
+    SkeletonBalloon: evo
+  weight: 823
+  winrate: 0.5
+  slugs:
+  - bats
+  - goblin-gang
+  - ice-wizard
+  - inferno-dragon
+  - mega-knight
+  - miner
+  - skeleton-barrel
+  - zap
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - Minions
+  - Pekka
+  - Poison
+  - Zap
+  forms:
+    BattleRam: evo
+    ElectroWizard: hero
+    Pekka: evo
+  weight: 823
+  winrate: 0.7
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - minions
+  - pekka
+  - poison
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - Assassin
+  - BabyDragon
+  - BarbLog
+  - ElectroGiant
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 823
+  winrate: 0.8
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - bandit
+  - barbarian-barrel
+  - cannon-cart
+  - electro-giant
+  - elite-barbarians
+  - tornado
+  src: new
+- cards:
+  - BarbLog
+  - Earthquake
+  - Firecracker
+  - HogRider
+  - IceSpirits
+  - MightyMiner
+  - Skeletons
+  - Tesla
+  forms:
+    Firecracker: evo
+    Tesla: evo
+  weight: 823
+  winrate: 0.7
+  slugs:
+  - barbarian-barrel
+  - earthquake
+  - firecracker
+  - hog-rider
+  - ice-spirit
+  - mighty-miner
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - Fireball
+  - IceSpirits
+  - MightyMiner
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    Tesla: evo
+  weight: 823
+  winrate: 0.95
+  slugs:
+  - archers
+  - barbarian-barrel
+  - fireball
+  - ice-spirit
+  - mighty-miner
+  - minion-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - Golem
+  - IceWizard
+  - InfernoDragon
+  - Lightning
+  - SkeletonKing
+  - Tombstone
+  - Tornado
+  - Wizard
+  forms:
+    IceWizard: hero
+    Wizard: evo
+  weight: 823
+  winrate: 0.65
+  slugs:
+  - golem
+  - ice-wizard
+  - inferno-dragon
+  - lightning
+  - skeleton-king
+  - tombstone
+  - tornado
+  - wizard
+  src: new
+- cards:
+  - AngryBarbarians
+  - Arrows
+  - Bomber
+  - DarkWitch
+  - Golem
+  - MegaMinion
+  - Phoenix
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 782
+  winrate: 0.421
+  slugs:
+  - arrows
+  - bomber
+  - elite-barbarians
+  - golem
+  - mega-minion
+  - night-witch
+  - phoenix
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - Cannon
+  - Fireball
+  - IceWizard
+  - Knight
+  - MinionGiant
+  - Minions
+  - Skeletons
+  forms:
+    Cannon: evo
+    IceWizard: hero
+    Knight: hero
+  weight: 782
+  winrate: 0.526
+  slugs:
+  - barbarian-barrel
+  - cannon
+  - fireball
+  - ice-wizard
+  - knight
+  - minion-giant
+  - minions
+  - skeletons
+  src: new
+- cards:
+  - ElectroSpirit
+  - ElectroWizard
+  - Fireball
+  - Fisherman
+  - Ghost
+  - Log
+  - RoyalGiant
+  - Skeletons
+  forms:
+    ElectroWizard: hero
+    Ghost: evo
+    RoyalGiant: evo
+  weight: 782
+  winrate: 0.684
+  slugs:
+  - electro-spirit
+  - electro-wizard
+  - fireball
+  - fisherman
+  - royal-ghost
+  - royal-giant
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - Lightning
+  - Phoenix
+  - Tornado
+  forms:
+    Archer: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 782
+  winrate: 0.421
+  slugs:
+  - archers
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - lightning
+  - phoenix
+  - tornado
+  src: new
+- cards:
+  - Arrows
+  - Berserker
+  - Bomber
+  - DarkPrince
+  - ElectroSpirit
+  - Pekka
+  - Snowball
+  - Witch
+  forms:
+    Pekka: evo
+  weight: 782
+  winrate: 1.0
+  slugs:
+  - arrows
+  - berserker
+  - bomber
+  - dark-prince
+  - electro-spirit
+  - giant-snowball
+  - pekka
+  - witch
+  src: new
+- cards:
+  - Assassin
+  - BabyDragon
+  - BarbLog
+  - ElectroWizard
+  - Fireball
+  - Pekka
+  - RamRider
+  - Zap
+  forms:
+    BabyDragon: evo
+    ElectroWizard: hero
+    Pekka: evo
+  weight: 741
+  winrate: 0.889
+  slugs:
+  - baby-dragon
+  - bandit
+  - barbarian-barrel
+  - electro-wizard
+  - fireball
+  - pekka
+  - ram-rider
+  - zap
+  src: new
+- cards:
+  - ArcherQueen
+  - Arrows
+  - Assassin
+  - Barbarians
+  - BattleRam
+  - Elixir Collector
+  - Ghost
+  - Heal
+  forms:
+    Barbarians: evo
+    BattleRam: evo
+  weight: 741
+  winrate: 0.389
+  slugs:
+  - archer-queen
+  - arrows
+  - bandit
+  - barbarians
+  - battle-ram
+  - elixir-collector
+  - heal-spirit
+  - royal-ghost
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - Knight
+  - Log
+  - MinionGiant
+  - Musketeer
+  - Skeletons
+  - Tesla
+  forms:
+    Knight: hero
+    Musketeer: evo
+    Tesla: evo
+  weight: 741
+  winrate: 0.667
+  slugs:
+  - electro-spirit
+  - fireball
+  - knight
+  - minion-giant
+  - musketeer
+  - skeletons
+  - tesla
+  - the-log
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - EliteArcher
+  - Ghost
+  - Pekka
+  - Poison
+  - Zap
+  forms:
+    BattleRam: evo
+    ElectroWizard: hero
+    Pekka: evo
+  weight: 741
+  winrate: 0.333
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - magic-archer
+  - pekka
+  - poison
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - GiantBuffer
+  - MegaMinion
+  - Miner
+  - Prince
+  - Zap
+  forms:
+    ElectroWizard: hero
+    MegaMinion: hero
+    Zap: evo
+  weight: 741
+  winrate: 0.944
+  slugs:
+  - dark-prince
+  - electro-wizard
+  - fireball
+  - mega-minion
+  - miner
+  - prince
+  - rune-giant
+  - zap
+  src: new
+- cards:
+  - Berserker
+  - ElectroSpirit
+  - FirespiritHut
+  - Ghost
+  - GoblinHut
+  - Lightning
+  - RoyalDelivery
+  - RoyalHogs
+  forms:
+    Berserker: hero
+    Ghost: evo
+    RoyalHogs: evo
+  weight: 741
+  winrate: 0.833
+  slugs:
+  - berserker
+  - electro-spirit
+  - furnace
+  - goblin-hut
+  - lightning
+  - royal-delivery
+  - royal-ghost
+  - royal-hogs
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Hunter
+  - IceGolemite
+  - IceSpirits
+  - MinionGiant
+  - Princess
+  - Skeletons
+  forms:
+    BarbLog: hero
+    Hunter: evo
+    Princess: evo
+  weight: 741
+  winrate: 0.778
+  slugs:
+  - barbarian-barrel
+  - fireball
+  - hunter
+  - ice-golem
+  - ice-spirit
+  - minion-giant
+  - princess
+  - skeletons
+  src: new
+- cards:
+  - BabyDragon
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - Goblins
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    IceWizard: hero
+  weight: 741
+  winrate: 0.944
+  slugs:
+  - baby-dragon
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - goblins
+  - ice-wizard
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - Fireball
+  - IceSpirits
+  - Knight
+  - Log
+  - Skeletons
+  - Tesla
+  - Xbow
+  forms:
+    Archer: evo
+    Knight: hero
+    Tesla: evo
+  weight: 700
+  winrate: 0.118
+  slugs:
+  - archers
+  - fireball
+  - ice-spirit
+  - knight
+  - skeletons
+  - tesla
+  - the-log
+  - x-bow
+  src: new
+- cards:
+  - Fireball
+  - GiantBuffer
+  - InfernoDragon
+  - LavaHound
+  - SkeletonDragons
+  - Tombstone
+  - Valkyrie
+  - Zap
+  forms:
+    InfernoDragon: evo
+    Valkyrie: hero
+    Zap: evo
+  weight: 700
+  winrate: 0.176
+  slugs:
+  - fireball
+  - inferno-dragon
+  - lava-hound
+  - rune-giant
+  - skeleton-dragons
+  - tombstone
+  - valkyrie
+  - zap
+  src: new
+- cards:
+  - GoldenKnight
+  - Golem
+  - Heal
+  - MegaMinion
+  - Ronin
+  - Tornado
+  - Wizard
+  - Zap
+  forms:
+    Wizard: evo
+    Zap: evo
+  weight: 700
+  winrate: 0.824
+  slugs:
+  - golden-knight
+  - golem
+  - heal-spirit
+  - mega-minion
+  - ronin
+  - tornado
+  - wizard
+  - zap
+  src: new
+- cards:
+  - BarbLog
+  - FirespiritHut
+  - Graveyard
+  - IceSpirits
+  - Phoenix
+  - Poison
+  - Tesla
+  - Valkyrie
+  forms:
+    FirespiritHut: evo
+    Tesla: evo
+    Valkyrie: hero
+  weight: 700
+  winrate: 0.529
+  slugs:
+  - barbarian-barrel
+  - furnace
+  - graveyard
+  - ice-spirit
+  - phoenix
+  - poison
+  - tesla
+  - valkyrie
+  src: new
+- cards:
+  - Bats
+  - ElectroSpirit
+  - GiantBuffer
+  - LittlePrince
+  - Log
+  - MinionGiant
+  - Poison
+  - Skeletons
+  forms:
+    Bats: evo
+    Skeletons: evo
+  weight: 700
+  winrate: 0.471
+  slugs:
+  - bats
+  - electro-spirit
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - BarbLog
+  - ElectroWizard
+  - FirespiritHut
+  - GoblinHut
+  - Goblins
+  - Graveyard
+  - Knight
+  - Poison
+  forms:
+    ElectroWizard: hero
+    FirespiritHut: evo
+    Knight: evo
+  weight: 700
+  winrate: 0.882
+  slugs:
+  - barbarian-barrel
+  - electro-wizard
+  - furnace
+  - goblin-hut
+  - goblins
+  - graveyard
+  - knight
+  - poison
+  src: new
+- cards:
+  - BossBandit
+  - Fireball
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Skeletons
+  - WitchMother
+  forms:
+    FirespiritHut: evo
+  weight: 659
+  winrate: 0.562
+  slugs:
+  - boss-bandit
+  - fireball
+  - furnace
+  - golden-knight
+  - hunter
+  - mother-witch
+  - royal-ghost
+  - skeletons
+  src: new
+- cards:
+  - Bomber
+  - Fireball
+  - Giant
+  - MegaMinion
+  - Prince
+  - Rage
+  - RageBarbarian
+  - Zap
+  forms:
+    Giant: hero
+    RageBarbarian: evo
+    Zap: evo
+  weight: 659
+  winrate: 0.562
+  slugs:
+  - bomber
+  - fireball
+  - giant
+  - lumberjack
+  - mega-minion
+  - prince
+  - rage
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - Goblins
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+  weight: 659
+  winrate: 0.938
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - goblins
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - DarkWitch
+  - GoblinCage
+  - Golem
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    GoblinCage: evo
+    IceWizard: hero
+  weight: 659
+  winrate: 0.625
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - goblin-cage
+  - golem
+  - ice-wizard
+  - lightning
+  - night-witch
+  - tornado
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - Hunter
+  - MinionGiant
+  - Monk
+  - SkeletonWarriors
+  - Zap
+  forms:
+    Hunter: evo
+    Zap: evo
+  weight: 659
+  winrate: 0.812
+  slugs:
+  - electro-spirit
+  - fireball
+  - fisherman
+  - guards
+  - hunter
+  - minion-giant
+  - monk
+  - zap
+  src: new
+- cards:
+  - GoblinHut
+  - Log
+  - Monk
+  - Princess
+  - RamRider
+  - SkeletonWarriors
+  - Tornado
+  - Wizard
+  forms:
+    Princess: evo
+    Wizard: evo
+  weight: 659
+  winrate: 1.0
+  slugs:
+  - goblin-hut
+  - guards
+  - monk
+  - princess
+  - ram-rider
+  - the-log
+  - tornado
+  - wizard
+  src: new
+- cards:
+  - BarbLog
+  - ElectroSpirit
+  - IceWizard
+  - Knight
+  - Lightning
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    IceWizard: hero
+    Skeletons: evo
+    Tesla: evo
+  weight: 617
+  winrate: 0.333
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - ice-wizard
+  - knight
+  - lightning
+  - minion-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Graveyard
+  - IceSpirits
+  - IceWizard
+  - Knight
+  - Poison
+  - Tesla
+  forms:
+    Bats: evo
+    IceWizard: hero
+    Tesla: evo
+  weight: 617
+  winrate: 0.533
+  slugs:
+  - barbarian-barrel
+  - bats
+  - graveyard
+  - ice-spirit
+  - ice-wizard
+  - knight
+  - poison
+  - tesla
+  src: new
+- cards:
+  - ElectroWizard
+  - MegaKnight
+  - MiniPekka
+  - Pekka
+  - RageBarbarian
+  - Tornado
+  - Wizard
+  - Zap
+  forms:
+    MegaKnight: evo
+    MiniPekka: hero
+    Pekka: evo
+  weight: 617
+  winrate: 0.8
+  slugs:
+  - electro-wizard
+  - lumberjack
+  - mega-knight
+  - mini-pekka
+  - pekka
+  - tornado
+  - wizard
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - DarkPrince
+  - ElectroWizard
+  - Lightning
+  - Pekka
+  - RamRider
+  - Snowball
+  forms:
+    BabyDragon: evo
+    ElectroWizard: hero
+    Snowball: evo
+  weight: 617
+  winrate: 0.933
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - dark-prince
+  - electro-wizard
+  - giant-snowball
+  - lightning
+  - pekka
+  - ram-rider
+  src: new
+- cards:
+  - BarbLog
+  - BattleRam
+  - Fireball
+  - FirespiritHut
+  - Ghost
+  - GiantSkeleton
+  - IceWizard
+  - SkeletonWarriors
+  forms:
+    BattleRam: evo
+    Ghost: evo
+    IceWizard: hero
+  weight: 617
+  winrate: 0.8
+  slugs:
+  - barbarian-barrel
+  - battle-ram
+  - fireball
+  - furnace
+  - giant-skeleton
+  - guards
+  - ice-wizard
+  - royal-ghost
+  src: new
+- cards:
+  - Assassin
+  - ElectroWizard
+  - MegaKnight
+  - Miner
+  - Minions
+  - Prince
+  - Wallbreakers
+  - Zap
+  forms:
+    ElectroWizard: hero
+    MegaKnight: evo
+    Wallbreakers: evo
+  weight: 617
+  winrate: 0.867
+  slugs:
+  - bandit
+  - electro-wizard
+  - mega-knight
+  - miner
+  - minions
+  - prince
+  - wall-breakers
+  - zap
+  src: new
+- cards:
+  - Arrows
+  - BabyDragon
+  - BattleRam
+  - Bomber
+  - Minions
+  - Pekka
+  - SkeletonWarriors
+  - Witch
+  forms: {}
+  weight: 617
+  winrate: 1.0
+  slugs:
+  - arrows
+  - baby-dragon
+  - battle-ram
+  - bomber
+  - guards
+  - minions
+  - pekka
+  - witch
+  src: new
+- cards:
+  - DarkPrince
+  - GiantBuffer
+  - GoblinHut
+  - InfernoDragon
+  - LittlePrince
+  - Miner
+  - Poison
+  - Zap
+  forms:
+    InfernoDragon: evo
+    Zap: evo
+  weight: 617
+  winrate: 0.8
+  slugs:
+  - dark-prince
+  - goblin-hut
+  - inferno-dragon
+  - little-prince
+  - miner
+  - poison
+  - rune-giant
+  - zap
+  src: new
+- cards:
+  - BattleRam
+  - Elixir Collector
+  - Ghost
+  - Hunter
+  - IceGolemite
+  - Ronin
+  - ThreeMusketeers
+  - Zap
+  forms:
+    BattleRam: evo
+    IceGolemite: hero
+    Zap: evo
+  weight: 617
+  winrate: 0.933
+  slugs:
+  - battle-ram
+  - elixir-collector
+  - hunter
+  - ice-golem
+  - ronin
+  - royal-ghost
+  - three-musketeers
+  - zap
+  src: new
+- cards:
+  - GiantBuffer
+  - GoblinCage
+  - GoblinCurse
+  - GoblinDemolisher
+  - InfernoDragon
+  - LittlePrince
+  - Miner
+  - Zap
+  forms:
+    InfernoDragon: evo
+    Zap: evo
+  weight: 576
+  winrate: 0.214
+  slugs:
+  - goblin-cage
+  - goblin-curse
+  - goblin-demolisher
+  - inferno-dragon
+  - little-prince
+  - miner
+  - rune-giant
+  - zap
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - IceWizard
+  - Knight
+  - MinionGiant
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    IceWizard: hero
+    Tesla: evo
+  weight: 576
+  winrate: 0.5
+  slugs:
+  - archers
+  - barbarian-barrel
+  - ice-wizard
+  - knight
+  - minion-giant
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - GiantBuffer
+  - GoblinHut
+  - LittlePrince
+  - MinionGiant
+  - Poison
+  - Skeletons
+  forms:
+    Bats: evo
+    Skeletons: evo
+  weight: 576
+  winrate: 0.357
+  slugs:
+  - barbarian-barrel
+  - bats
+  - goblin-hut
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  src: new
+- cards:
+  - Cannon
+  - FireSpirits
+  - GoblinDemolisher
+  - GoblinDrill
+  - Goblinstein
+  - Rocket
+  - Skeletons
+  - Snowball
+  forms:
+    GoblinDrill: evo
+    Snowball: evo
+  weight: 576
+  winrate: 1.0
+  slugs:
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - goblinstein
+  - rocket
+  - skeletons
+  src: new
+- cards:
+  - AngryBarbarians
+  - ElectroDragon
+  - ElectroWizard
+  - Golem
+  - Heal
+  - MiniPekka
+  - SkeletonDragons
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+    MiniPekka: hero
+  weight: 576
+  winrate: 0.929
+  slugs:
+  - electro-dragon
+  - electro-wizard
+  - elite-barbarians
+  - golem
+  - heal-spirit
+  - mini-pekka
+  - skeleton-dragons
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - BabyDragon
+  - BarbLog
+  - Golem
+  - IceWizard
+  - Lightning
+  - Skeletons
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    BabyDragon: evo
+    IceWizard: hero
+  weight: 576
+  winrate: 0.857
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - elite-barbarians
+  - golem
+  - ice-wizard
+  - lightning
+  - skeletons
+  - tornado
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - GoblinCage
+  - Hunter
+  - Monk
+  - Rage
+  - RoyalGiant
+  - SkeletonWarriors
+  forms:
+    Hunter: evo
+    RoyalGiant: evo
+  weight: 576
+  winrate: 0.929
+  slugs:
+  - electro-spirit
+  - fireball
+  - goblin-cage
+  - guards
+  - hunter
+  - monk
+  - rage
+  - royal-giant
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - GoblinHut
+  - MightyMiner
+  - MinionGiant
+  - Skeletons
+  forms:
+    BabyDragon: evo
+    Skeletons: evo
+  weight: 535
+  winrate: 0.615
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - goblin-hut
+  - mighty-miner
+  - minion-giant
+  - skeletons
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - FireSpirits
+  - GoldenKnight
+  - Graveyard
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    Tesla: evo
+  weight: 535
+  winrate: 1.0
+  slugs:
+  - archers
+  - barbarian-barrel
+  - fire-spirit
+  - golden-knight
+  - graveyard
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - GoldenKnight
+  - Golem
+  - IceWizard
+  - Poison
+  - Tombstone
+  - Tornado
+  forms:
+    BabyDragon: evo
+    IceWizard: hero
+  weight: 535
+  winrate: 0.769
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - golden-knight
+  - golem
+  - ice-wizard
+  - poison
+  - tombstone
+  - tornado
+  src: new
+- cards:
+  - Arrows
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - GiantSkeleton
+  - GoldenKnight
+  - RageBarbarian
+  - WitchMother
+  forms:
+    BattleRam: evo
+    ElectroWizard: hero
+  weight: 535
+  winrate: 0.846
+  slugs:
+  - arrows
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - giant-skeleton
+  - golden-knight
+  - lumberjack
+  - mother-witch
+  src: new
+- cards:
+  - BarbLog
+  - Elixir Collector
+  - Ghost
+  - GoldenKnight
+  - Heal
+  - Hunter
+  - IceGolemite
+  - ThreeMusketeers
+  forms:
+    Ghost: evo
+    Hunter: evo
+  weight: 535
+  winrate: 0.769
+  slugs:
+  - barbarian-barrel
+  - elixir-collector
+  - golden-knight
+  - heal-spirit
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - DarkPrince
+  - ElectroWizard
+  - Fireball
+  - MegaKnight
+  - Minions
+  - Zap
+  forms:
+    BattleRam: evo
+    DarkPrince: hero
+    MegaKnight: evo
+  weight: 535
+  winrate: 0.769
+  slugs:
+  - bandit
+  - battle-ram
+  - dark-prince
+  - electro-wizard
+  - fireball
+  - mega-knight
+  - minions
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BarbLog
+  - Earthquake
+  - ElectroDragon
+  - Golem
+  - MiniPekka
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+  weight: 535
+  winrate: 0.769
+  slugs:
+  - archer-queen
+  - barbarian-barrel
+  - earthquake
+  - electro-dragon
+  - elite-barbarians
+  - golem
+  - mini-pekka
+  - tornado
+  src: new
+- cards:
+  - Arrows
+  - DarkWitch
+  - ElixirGolem
+  - Golem
+  - InfernoDragon
+  - SkeletonArmy
+  - SkeletonKing
+  - Snowball
+  forms: {}
+  weight: 535
+  winrate: 0.538
+  slugs:
+  - arrows
+  - elixir-golem
+  - giant-snowball
+  - golem
+  - inferno-dragon
+  - night-witch
+  - skeleton-army
+  - skeleton-king
+  src: new
+- cards:
+  - Earthquake
+  - ElectroSpirit
+  - Firecracker
+  - HogRider
+  - InfernoTower
+  - Log
+  - Skeletons
+  - Valkyrie
+  forms: {}
+  weight: 535
+  winrate: 0.769
+  slugs:
+  - earthquake
+  - electro-spirit
+  - firecracker
+  - hog-rider
+  - inferno-tower
+  - skeletons
+  - the-log
+  - valkyrie
+  src: new
+- cards:
+  - Arrows
+  - DarkWitch
+  - ElixirGolem
+  - Lightning
+  - Rage
+  - SkeletonArmy
+  - SkeletonKing
+  - Witch
+  forms:
+    SkeletonArmy: evo
+    Witch: evo
+  weight: 494
+  winrate: 0.333
+  slugs:
+  - arrows
+  - elixir-golem
+  - lightning
+  - night-witch
+  - rage
+  - skeleton-army
+  - skeleton-king
+  - witch
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BarbLog
+  - Earthquake
+  - ElectroGiant
+  - MovingCannon
+  - SkeletonDragons
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 494
+  winrate: 0.75
+  slugs:
+  - archer-queen
+  - barbarian-barrel
+  - cannon-cart
+  - earthquake
+  - electro-giant
+  - elite-barbarians
+  - skeleton-dragons
+  - tornado
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - GoblinCage
+  - Hunter
+  - Log
+  - Monk
+  - RoyalGiant
+  - Skeletons
+  forms:
+    GoblinCage: evo
+    Hunter: evo
+  weight: 494
+  winrate: 0.833
+  slugs:
+  - electro-spirit
+  - fireball
+  - goblin-cage
+  - hunter
+  - monk
+  - royal-giant
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - Berserker
+  - GoblinHut
+  - HogRider
+  - Log
+  - Monk
+  - Princess
+  - Tornado
+  - Wizard
+  forms:
+    Princess: evo
+    Wizard: evo
+  weight: 494
+  winrate: 0.833
+  slugs:
+  - berserker
+  - goblin-hut
+  - hog-rider
+  - monk
+  - princess
+  - the-log
+  - tornado
+  - wizard
+  src: new
+- cards:
+  - BabyDragon
+  - DarkWitch
+  - Golem
+  - IceWizard
+  - InfernoDragon
+  - MiniPekka
+  - Tornado
+  - Vines
+  forms:
+    BabyDragon: evo
+    IceWizard: hero
+    InfernoDragon: evo
+  weight: 453
+  winrate: 0.273
+  slugs:
+  - baby-dragon
+  - golem
+  - ice-wizard
+  - inferno-dragon
+  - mini-pekka
+  - night-witch
+  - tornado
+  - vines
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - GiantBuffer
+  - LittlePrince
+  - MinionGiant
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Bats: evo
+    Tesla: evo
+  weight: 453
+  winrate: 0.273
+  slugs:
+  - barbarian-barrel
+  - bats
+  - little-prince
+  - minion-giant
+  - poison
+  - rune-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - GoblinBarrel
+  - Goblins
+  - IceSpirits
+  - Log
+  - MightyMiner
+  - Princess
+  - Rocket
+  - Tesla
+  forms:
+    Princess: evo
+    Tesla: evo
+  weight: 453
+  winrate: 0.273
+  slugs:
+  - goblin-barrel
+  - goblins
+  - ice-spirit
+  - mighty-miner
+  - princess
+  - rocket
+  - tesla
+  - the-log
+  src: new
+- cards:
+  - Cannon
+  - FireSpirits
+  - GoblinDemolisher
+  - GoblinDrill
+  - Goblinstein
+  - MinionGiant
+  - Rocket
+  - Snowball
+  forms:
+    GoblinDrill: evo
+    Snowball: evo
+  weight: 453
+  winrate: 1.0
+  slugs:
+  - cannon
+  - fire-spirit
+  - giant-snowball
+  - goblin-demolisher
+  - goblin-drill
+  - goblinstein
+  - minion-giant
+  - rocket
+  src: new
+- cards:
+  - Arrows
+  - DarkWitch
+  - ElixirGolem
+  - Golem
+  - InfernoDragon
+  - Rage
+  - SkeletonKing
+  - Witch
+  forms:
+    InfernoDragon: evo
+    Witch: evo
+  weight: 453
+  winrate: 0.182
+  slugs:
+  - arrows
+  - elixir-golem
+  - golem
+  - inferno-dragon
+  - night-witch
+  - rage
+  - skeleton-king
+  - witch
+  src: new
+- cards:
+  - AngryBarbarians
+  - BabyDragon
+  - BarbLog
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - MiniSparkys
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+  weight: 453
+  winrate: 0.818
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - tornado
+  - zappies
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - BarbLog
+  - ElectroGiant
+  - FirespiritHut
+  - Lightning
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 453
+  winrate: 0.727
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - barbarian-barrel
+  - electro-giant
+  - elite-barbarians
+  - furnace
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - Arrows
+  - BattleRam
+  - Bomber
+  - MiniPekka
+  - Minions
+  - Pekka
+  - SpearGoblins
+  forms: {}
+  weight: 453
+  winrate: 1.0
+  slugs:
+  - archers
+  - arrows
+  - battle-ram
+  - bomber
+  - mini-pekka
+  - minions
+  - pekka
+  - spear-goblins
+  src: new
+- cards:
+  - ArcherQueen
+  - BombTower
+  - Earthquake
+  - GiantSkeleton
+  - HogRider
+  - IceSpirits
+  - Log
+  - Skeletons
+  forms:
+    Skeletons: evo
+  weight: 453
+  winrate: 0.909
+  slugs:
+  - archer-queen
+  - bomb-tower
+  - earthquake
+  - giant-skeleton
+  - hog-rider
+  - ice-spirit
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - Bats
+  - BombTower
+  - ElectroWizard
+  - Goblins
+  - Graveyard
+  - Knight
+  - Log
+  - Poison
+  forms:
+    Bats: evo
+    ElectroWizard: hero
+    Knight: evo
+  weight: 412
+  winrate: 0.8
+  slugs:
+  - bats
+  - bomb-tower
+  - electro-wizard
+  - goblins
+  - graveyard
+  - knight
+  - poison
+  - the-log
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - Cannon
+  - Fireball
+  - IceWizard
+  - MinionGiant
+  - Skeletons
+  - Valkyrie
+  forms:
+    Bats: evo
+    IceWizard: hero
+    Valkyrie: hero
+  weight: 412
+  winrate: 0.8
+  slugs:
+  - barbarian-barrel
+  - bats
+  - cannon
+  - fireball
+  - ice-wizard
+  - minion-giant
+  - skeletons
+  - valkyrie
+  src: new
+- cards:
+  - Arrows
+  - BlowdartGoblin
+  - GoblinGang
+  - MightyMiner
+  - Minions
+  - RoyalRecruits
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    RoyalRecruits: evo
+    SkeletonBalloon: evo
+  weight: 412
+  winrate: 0.3
+  slugs:
+  - arrows
+  - dart-goblin
+  - goblin-gang
+  - mighty-miner
+  - minions
+  - royal-recruits
+  - skeleton-barrel
+  - suspicious-bush
+  src: new
+- cards:
+  - Giant
+  - Heal
+  - MiniPekka
+  - Minions
+  - Tornado
+  - Wizard
+  - Zap
+  - ZapMachine
+  forms:
+    Giant: hero
+    Wizard: evo
+    Zap: evo
+  weight: 412
+  winrate: 0.4
+  slugs:
+  - giant
+  - heal-spirit
+  - mini-pekka
+  - minions
+  - sparky
+  - tornado
+  - wizard
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - GoldenKnight
+  - Lightning
+  - Tornado
+  forms:
+    ElectroGiant: evo
+    GoblinCage: evo
+  weight: 412
+  winrate: 0.7
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - golden-knight
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Berserker
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 412
+  winrate: 0.2
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - berserker
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - Assassin
+  - BossBandit
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    Ghost: evo
+  weight: 412
+  winrate: 0.7
+  slugs:
+  - bandit
+  - boss-bandit
+  - golden-knight
+  - hunter
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - Archer
+  - FireSpirits
+  - GoblinDrill
+  - InfernoTower
+  - Knight
+  - Poison
+  - Skeletons
+  - Snowball
+  forms:
+    GoblinDrill: evo
+    Knight: hero
+    Snowball: evo
+  weight: 412
+  winrate: 0.8
+  slugs:
+  - archers
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - inferno-tower
+  - knight
+  - poison
+  - skeletons
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    BattleRam: evo
+    Hunter: evo
+  weight: 412
+  winrate: 0.9
+  slugs:
+  - bandit
+  - battle-ram
+  - golden-knight
+  - hunter
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fisherman
+  - Hunter
+  - Log
+  - MinionGiant
+  - Monk
+  - Poison
+  - Skeletons
+  forms:
+    Hunter: evo
+    Skeletons: evo
+  weight: 412
+  winrate: 0.9
+  slugs:
+  - electro-spirit
+  - fisherman
+  - hunter
+  - minion-giant
+  - monk
+  - poison
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - AngryBarbarians
+  - BarbLog
+  - Elixir Collector
+  - Ghost
+  - Heal
+  - Hunter
+  - IceGolemite
+  - ThreeMusketeers
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+    IceGolemite: hero
+  weight: 412
+  winrate: 0.9
+  slugs:
+  - barbarian-barrel
+  - elite-barbarians
+  - elixir-collector
+  - heal-spirit
+  - hunter
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  src: new
+- cards:
+  - BabyDragon
+  - Balloon
+  - BarbLog
+  - Bowler
+  - InfernoDragon
+  - RageBarbarian
+  - Tornado
+  - Vines
+  forms:
+    BabyDragon: evo
+    BarbLog: hero
+    InfernoDragon: evo
+  weight: 412
+  winrate: 0.8
+  slugs:
+  - baby-dragon
+  - balloon
+  - barbarian-barrel
+  - bowler
+  - inferno-dragon
+  - lumberjack
+  - tornado
+  - vines
+  src: new
+- cards:
+  - Berserker
+  - InfernoTower
+  - Log
+  - Miner
+  - MinionHorde
+  - Princess
+  - SkeletonArmy
+  - Wallbreakers
+  forms:
+    Berserker: hero
+    MinionHorde: evo
+    SkeletonArmy: evo
+  weight: 370
+  winrate: 0.444
+  slugs:
+  - berserker
+  - inferno-tower
+  - miner
+  - minion-horde
+  - princess
+  - skeleton-army
+  - the-log
+  - wall-breakers
+  src: new
+- cards:
+  - BarbLog
+  - Fireball
+  - Mortar
+  - MovingCannon
+  - SkeletonBalloon
+  - SkeletonDragons
+  - SkeletonKing
+  - WitchMother
+  forms:
+    Mortar: evo
+    SkeletonBalloon: evo
+  weight: 370
+  winrate: 0.667
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - fireball
+  - mortar
+  - mother-witch
+  - skeleton-barrel
+  - skeleton-dragons
+  - skeleton-king
+  src: new
+- cards:
+  - Bomber
+  - FireSpirits
+  - GoblinDrill
+  - Knight
+  - Poison
+  - Skeletons
+  - Snowball
+  - Tesla
+  forms:
+    GoblinDrill: evo
+    Knight: hero
+    Snowball: evo
+  weight: 370
+  winrate: 0.333
+  slugs:
+  - bomber
+  - fire-spirit
+  - giant-snowball
+  - goblin-drill
+  - knight
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinCage
+  - InfernoDragon
+  - Lightning
+  - Tornado
+  - WitchMother
+  forms:
+    Bowler: hero
+    GoblinCage: evo
+    InfernoDragon: evo
+  weight: 370
+  winrate: 0.556
+  slugs:
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-cage
+  - inferno-dragon
+  - lightning
+  - mother-witch
+  - tornado
+  src: new
+- cards:
+  - BarbLog
+  - DartBarrell
+  - ElectroSpirit
+  - Fireball
+  - GoblinCage
+  - MiniSparkys
+  - RoyalHogs
+  - RoyalRecruits
+  forms:
+    BarbLog: hero
+    GoblinCage: evo
+    RoyalRecruits: evo
+  weight: 370
+  winrate: 0.667
+  slugs:
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - flying-machine
+  - goblin-cage
+  - royal-hogs
+  - royal-recruits
+  - zappies
+  src: new
+- cards:
+  - Berserker
+  - BlowdartGoblin
+  - FireSpirits
+  - Miner
+  - Poison
+  - RoyalDelivery
+  - Tesla
+  - Wallbreakers
+  forms:
+    Berserker: hero
+    Tesla: evo
+    Wallbreakers: evo
+  weight: 370
+  winrate: 0.444
+  slugs:
+  - berserker
+  - dart-goblin
+  - fire-spirit
+  - miner
+  - poison
+  - royal-delivery
+  - tesla
+  - wall-breakers
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Berserker
+  - Elixir Collector
+  - Golem
+  - MiniPekka
+  - Vines
+  - Witch
+  forms:
+    BabyDragon: evo
+    Berserker: hero
+    Witch: evo
+  weight: 370
+  winrate: 0.111
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - berserker
+  - elixir-collector
+  - golem
+  - mini-pekka
+  - vines
+  - witch
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Heal
+  - Ronin
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 370
+  winrate: 0.0
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - heal-spirit
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - AxeMan
+  - Balloon
+  - BombTower
+  - GiantSkeleton
+  - Miner
+  - Skeletons
+  - Tornado
+  - Zap
+  forms:
+    AxeMan: evo
+    Balloon: hero
+    Zap: evo
+  weight: 370
+  winrate: 0.667
+  slugs:
+  - balloon
+  - bomb-tower
+  - executioner
+  - giant-skeleton
+  - miner
+  - skeletons
+  - tornado
+  - zap
+  src: new
+- cards:
+  - Arrows
+  - BabyDragon
+  - Balloon
+  - Fireball
+  - LavaHound
+  - MegaMinion
+  - Tombstone
+  - Valkyrie
+  forms:
+    BabyDragon: evo
+    Balloon: hero
+    Valkyrie: evo
+  weight: 370
+  winrate: 0.889
+  slugs:
+  - arrows
+  - baby-dragon
+  - balloon
+  - fireball
+  - lava-hound
+  - mega-minion
+  - tombstone
+  - valkyrie
+  src: new
+- cards:
+  - AngryBarbarians
+  - Berserker
+  - BlowdartGoblin
+  - Fireball
+  - GoblinGang
+  - Log
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    AngryBarbarians: evo
+    Berserker: hero
+    SkeletonBalloon: evo
+  weight: 370
+  winrate: 0.222
+  slugs:
+  - berserker
+  - dart-goblin
+  - elite-barbarians
+  - fireball
+  - goblin-gang
+  - skeleton-barrel
+  - suspicious-bush
+  - the-log
+  src: new
+- cards:
+  - AngryBarbarians
+  - BarbLog
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - MiniPekka
+  - MiniSparkys
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+    MiniPekka: hero
+  weight: 370
+  winrate: 0.889
+  slugs:
+  - barbarian-barrel
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - mini-pekka
+  - tornado
+  - zappies
+  src: new
+- cards:
+  - ArcherQueen
+  - Bats
+  - GoblinGang
+  - MegaKnight
+  - Miner
+  - Prince
+  - Wallbreakers
+  - Zap
+  forms:
+    Bats: evo
+    MegaKnight: evo
+  weight: 370
+  winrate: 1.0
+  slugs:
+  - archer-queen
+  - bats
+  - goblin-gang
+  - mega-knight
+  - miner
+  - prince
+  - wall-breakers
+  - zap
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - BarbLog
+  - ElectroGiant
+  - Lightning
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 370
+  winrate: 0.667
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - barbarian-barrel
+  - cannon-cart
+  - electro-giant
+  - elite-barbarians
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - ElectroDragon
+  - Elixir Collector
+  - Golem
+  - Rage
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroDragon: evo
+  weight: 370
+  winrate: 0.889
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - electro-dragon
+  - elite-barbarians
+  - elixir-collector
+  - golem
+  - rage
+  - tornado
+  src: new
+- cards:
+  - BlowdartGoblin
+  - BombTower
+  - Fireball
+  - Ghost
+  - Goblins
+  - Rascals
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    Ghost: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 370
+  winrate: 0.778
+  slugs:
+  - bomb-tower
+  - dart-goblin
+  - fireball
+  - goblins
+  - rascals
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  src: new
+- cards:
+  - BarbLog
+  - IceWizard
+  - Minions
+  - Mortar
+  - MovingCannon
+  - Poison
+  - Rascals
+  - SkeletonBalloon
+  forms:
+    IceWizard: hero
+    Mortar: evo
+  weight: 370
+  winrate: 0.556
+  slugs:
+  - barbarian-barrel
+  - cannon-cart
+  - ice-wizard
+  - minions
+  - mortar
+  - poison
+  - rascals
+  - skeleton-barrel
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - Pekka
+  - Ronin
+  - WitchMother
+  forms:
+    BattleRam: evo
+    ElectroWizard: hero
+    Ghost: evo
+  weight: 370
+  winrate: 0.778
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - mother-witch
+  - pekka
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - Fireball
+  - GoblinHut
+  - Log
+  - Monk
+  - RageBarbarian
+  - RamRider
+  - SkeletonWarriors
+  - Wizard
+  forms:
+    RageBarbarian: evo
+    Wizard: evo
+  weight: 370
+  winrate: 0.778
+  slugs:
+  - fireball
+  - goblin-hut
+  - guards
+  - lumberjack
+  - monk
+  - ram-rider
+  - the-log
+  - wizard
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fireball
+  - Fisherman
+  - GoblinHut
+  - Hunter
+  - Log
+  - Monk
+  - RoyalGiant
+  forms:
+    Hunter: evo
+    RoyalGiant: evo
+  weight: 370
+  winrate: 1.0
+  slugs:
+  - electro-spirit
+  - fireball
+  - fisherman
+  - goblin-hut
+  - hunter
+  - monk
+  - royal-giant
+  - the-log
+  src: new
+- cards:
+  - BabyDragon
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - GoldenKnight
+  - Lightning
+  - Skeletons
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Skeletons: evo
+  weight: 370
+  winrate: 1.0
+  slugs:
+  - baby-dragon
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - golden-knight
+  - lightning
+  - skeletons
+  - tornado
+  src: new
+- cards:
+  - Archer
+  - Arrows
+  - Barbarians
+  - Bowler
+  - Giant
+  - Graveyard
+  - Minions
+  - Snowball
+  forms:
+    Archer: evo
+    Bowler: hero
+    Snowball: evo
+  weight: 329
+  winrate: 0.625
+  slugs:
+  - archers
+  - arrows
+  - barbarians
+  - bowler
+  - giant
+  - giant-snowball
+  - graveyard
+  - minions
+  src: new
+- cards:
+  - Fireball
+  - GoblinCage
+  - IceGolemite
+  - InfernoDragon
+  - MegaMinion
+  - Miner
+  - MinionGiant
+  - Zap
+  forms:
+    InfernoDragon: evo
+    MegaMinion: hero
+    Zap: evo
+  weight: 329
+  winrate: 0.375
+  slugs:
+  - fireball
+  - goblin-cage
+  - ice-golem
+  - inferno-dragon
+  - mega-minion
+  - miner
+  - minion-giant
+  - zap
+  src: new
+- cards:
+  - DarkPrince
+  - Elixir Collector
+  - Giant
+  - MiniPekka
+  - Minions
+  - Rage
+  - Witch
+  - Zap
+  forms:
+    Giant: hero
+    Witch: evo
+    Zap: evo
+  weight: 329
+  winrate: 0.625
+  slugs:
+  - dark-prince
+  - elixir-collector
+  - giant
+  - mini-pekka
+  - minions
+  - rage
+  - witch
+  - zap
+  src: new
+- cards:
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - GoldenKnight
+  - Hunter
+  - Ronin
+  - WitchMother
+  - Zap
+  forms:
+    BattleRam: evo
+    Zap: evo
+  weight: 329
+  winrate: 0.25
+  slugs:
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - hunter
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zap
+  src: new
+- cards:
+  - Assassin
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - GoldenKnight
+  - Heal
+  - Ronin
+  - WitchMother
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 329
+  winrate: 0.25
+  slugs:
+  - bandit
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - heal-spirit
+  - mother-witch
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - BarbLog
+  - BossBandit
+  - FirespiritHut
+  - MergeMaiden
+  - RamRider
+  - Skeletons
+  - Vines
+  - Zap
+  forms:
+    FirespiritHut: evo
+    Zap: evo
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - barbarian-barrel
+  - boss-bandit
+  - furnace
+  - ram-rider
+  - skeletons
+  - spirit-empress
+  - vines
+  - zap
+  src: new
+- cards:
+  - Arrows
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - Ronin
+  - Valkyrie
+  - WitchMother
+  forms:
+    BattleRam: evo
+    Ghost: evo
+    Valkyrie: hero
+  weight: 329
+  winrate: 0.0
+  slugs:
+  - arrows
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - valkyrie
+  src: new
+- cards:
+  - Arrows
+  - Earthquake
+  - ElectroGiant
+  - Fisherman
+  - MegaMinion
+  - Pekka
+  - Rage
+  - SkeletonWarriors
+  forms:
+    ElectroGiant: evo
+    MegaMinion: hero
+    Pekka: evo
+  weight: 329
+  winrate: 0.5
+  slugs:
+  - arrows
+  - earthquake
+  - electro-giant
+  - fisherman
+  - guards
+  - mega-minion
+  - pekka
+  - rage
+  src: new
+- cards:
+  - Arrows
+  - Clone
+  - GiantSkeleton
+  - GoblinBarrel
+  - MinionHorde
+  - SkeletonArmy
+  - Tesla
+  - ZapMachine
+  forms:
+    MinionHorde: evo
+    SkeletonArmy: evo
+  weight: 329
+  winrate: 0.125
+  slugs:
+  - arrows
+  - clone
+  - giant-skeleton
+  - goblin-barrel
+  - minion-horde
+  - skeleton-army
+  - sparky
+  - tesla
+  src: new
+- cards:
+  - GoblinBarrel
+  - GoblinGang
+  - IceSpirits
+  - InfernoTower
+  - Log
+  - Princess
+  - Rocket
+  - Valkyrie
+  forms:
+    GoblinBarrel: evo
+    Princess: evo
+    Valkyrie: hero
+  weight: 329
+  winrate: 0.0
+  slugs:
+  - goblin-barrel
+  - goblin-gang
+  - ice-spirit
+  - inferno-tower
+  - princess
+  - rocket
+  - the-log
+  - valkyrie
+  src: new
+- cards:
+  - ArcherQueen
+  - BarbLog
+  - ElectroSpirit
+  - Fireball
+  - Ghost
+  - GoblinHut
+  - RoyalHogs
+  - Skeletons
+  forms:
+    Ghost: evo
+    RoyalHogs: evo
+  weight: 329
+  winrate: 0.0
+  slugs:
+  - archer-queen
+  - barbarian-barrel
+  - electro-spirit
+  - fireball
+  - goblin-hut
+  - royal-ghost
+  - royal-hogs
+  - skeletons
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Cannon
+  - GoblinBarrel
+  - IceSpirits
+  - Knight
+  - Log
+  - Princess
+  - SkeletonArmy
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    SkeletonArmy: evo
+  weight: 329
+  winrate: 0.25
+  slugs:
+  - cannon
+  - dart-goblin
+  - goblin-barrel
+  - ice-spirit
+  - knight
+  - princess
+  - skeleton-army
+  - the-log
+  src: new
+- cards:
+  - BarbLog
+  - FirespiritHut
+  - GoblinHut
+  - Graveyard
+  - IceWizard
+  - Knight
+  - Poison
+  - SkeletonWarriors
+  forms:
+    FirespiritHut: evo
+    IceWizard: hero
+    Knight: evo
+  weight: 329
+  winrate: 0.75
+  slugs:
+  - barbarian-barrel
+  - furnace
+  - goblin-hut
+  - graveyard
+  - guards
+  - ice-wizard
+  - knight
+  - poison
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoblinHut
+  - Lightning
+  - Tornado
+  - WitchMother
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 329
+  winrate: 0.625
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - goblin-hut
+  - lightning
+  - mother-witch
+  - tornado
+  src: new
+- cards:
+  - AngryBarbarians
+  - ArcherQueen
+  - BabyDragon
+  - BarbLog
+  - DarkMagic
+  - ElectroGiant
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - archer-queen
+  - baby-dragon
+  - barbarian-barrel
+  - cannon-cart
+  - electro-giant
+  - elite-barbarians
+  - tornado
+  - void
+  src: new
+- cards:
+  - AngryBarbarians
+  - BabyDragon
+  - DarkWitch
+  - LavaHound
+  - MegaMinion
+  - Miner
+  - Poison
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    BabyDragon: evo
+    MegaMinion: hero
+  weight: 329
+  winrate: 0.75
+  slugs:
+  - baby-dragon
+  - elite-barbarians
+  - lava-hound
+  - mega-minion
+  - miner
+  - night-witch
+  - poison
+  - zap
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - IceSpirits
+  - Lightning
+  - MightyMiner
+  - MinionGiant
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    Tesla: evo
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - archers
+  - barbarian-barrel
+  - ice-spirit
+  - lightning
+  - mighty-miner
+  - minion-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Elixir Collector
+  - Golem
+  - MiniPekka
+  - Minions
+  - Vines
+  - Witch
+  forms:
+    BabyDragon: evo
+    MiniPekka: hero
+    Witch: evo
+  weight: 329
+  winrate: 1.0
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - elixir-collector
+  - golem
+  - mini-pekka
+  - minions
+  - vines
+  - witch
+  src: new
+- cards:
+  - Assassin
+  - BarbLog
+  - BattleRam
+  - ElectroWizard
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  - WitchMother
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 329
+  winrate: 0.75
+  slugs:
+  - bandit
+  - barbarian-barrel
+  - battle-ram
+  - electro-wizard
+  - golden-knight
+  - mother-witch
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - BabyDragon
+  - Bowler
+  - Cannon
+  - ElectroGiant
+  - Goblins
+  - IceWizard
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    IceWizard: hero
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - baby-dragon
+  - bowler
+  - cannon
+  - electro-giant
+  - goblins
+  - ice-wizard
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - ElectroSpirit
+  - Fisherman
+  - Hunter
+  - Lightning
+  - Log
+  - Monk
+  - RamRider
+  - Skeletons
+  forms:
+    Hunter: evo
+    Skeletons: evo
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - electro-spirit
+  - fisherman
+  - hunter
+  - lightning
+  - monk
+  - ram-rider
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - AngryBarbarians
+  - Assassin
+  - Elixir Collector
+  - Ghost
+  - IceGolemite
+  - MiniSparkys
+  - ThreeMusketeers
+  - Zap
+  forms:
+    AngryBarbarians: evo
+    Ghost: evo
+    IceGolemite: hero
+  weight: 329
+  winrate: 0.875
+  slugs:
+  - bandit
+  - elite-barbarians
+  - elixir-collector
+  - ice-golem
+  - royal-ghost
+  - three-musketeers
+  - zap
+  - zappies
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - MovingCannon
+  - Ronin
+  forms:
+    FirespiritHut: evo
+    Ghost: evo
+  weight: 288
+  winrate: 0.714
+  slugs:
+  - arrows
+  - bandit
+  - cannon-cart
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - DarkPrince
+  - ElectroGiant
+  - GoblinHut
+  - Lightning
+  - Tornado
+  forms:
+    BabyDragon: evo
+    Bowler: hero
+    ElectroGiant: evo
+  weight: 288
+  winrate: 0.857
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - dark-prince
+  - electro-giant
+  - goblin-hut
+  - lightning
+  - tornado
+  src: new
+- cards:
+  - BlowdartGoblin
+  - GoblinBarrel
+  - GoblinGang
+  - IceSpirits
+  - InfernoTower
+  - Knight
+  - Log
+  - Princess
+  forms:
+    GoblinBarrel: evo
+    Knight: hero
+    Princess: evo
+  weight: 288
+  winrate: 0.143
+  slugs:
+  - dart-goblin
+  - goblin-barrel
+  - goblin-gang
+  - ice-spirit
+  - inferno-tower
+  - knight
+  - princess
+  - the-log
+  src: new
+- cards:
+  - BabyDragon
+  - BarbLog
+  - Bowler
+  - ElectroGiant
+  - GoldenKnight
+  - Lightning
+  - Tesla
+  - Tornado
+  forms:
+    BabyDragon: evo
+    ElectroGiant: evo
+  weight: 288
+  winrate: 0.143
+  slugs:
+  - baby-dragon
+  - barbarian-barrel
+  - bowler
+  - electro-giant
+  - golden-knight
+  - lightning
+  - tesla
+  - tornado
+  src: new
+- cards:
+  - Bats
+  - IceWizard
+  - InfernoDragon
+  - MegaKnight
+  - Miner
+  - SkeletonBalloon
+  - SkeletonWarriors
+  - Zap
+  forms:
+    IceWizard: hero
+    InfernoDragon: evo
+    SkeletonBalloon: evo
+  weight: 288
+  winrate: 0.571
+  slugs:
+  - bats
+  - guards
+  - ice-wizard
+  - inferno-dragon
+  - mega-knight
+  - miner
+  - skeleton-barrel
+  - zap
+  src: new
+- cards:
+  - BabyDragon
+  - Balloon
+  - Bowler
+  - Freeze
+  - IceWizard
+  - InfernoDragon
+  - Knight
+  - Tornado
+  forms:
+    IceWizard: hero
+    InfernoDragon: evo
+    Knight: evo
+  weight: 288
+  winrate: 0.143
+  slugs:
+  - baby-dragon
+  - balloon
+  - bowler
+  - freeze
+  - ice-wizard
+  - inferno-dragon
+  - knight
+  - tornado
+  src: new
+- cards:
+  - Assassin
+  - BarbLog
+  - BattleRam
+  - ElectroWizard
+  - FirespiritHut
+  - Ghost
+  - GoldenKnight
+  - Ronin
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 288
+  winrate: 0.571
+  slugs:
+  - bandit
+  - barbarian-barrel
+  - battle-ram
+  - electro-wizard
+  - furnace
+  - golden-knight
+  - ronin
+  - royal-ghost
+  src: new
+- cards:
+  - BarbLog
+  - Bats
+  - GiantBuffer
+  - LittlePrince
+  - Miner
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Bats: evo
+    Tesla: evo
+  weight: 288
+  winrate: 0.286
+  slugs:
+  - barbarian-barrel
+  - bats
+  - little-prince
+  - miner
+  - poison
+  - rune-giant
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - BlowdartGoblin
+  - BombTower
+  - Ghost
+  - Goblins
+  - Rascals
+  - SkeletonBalloon
+  - Vines
+  - Wallbreakers
+  forms:
+    Ghost: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 288
+  winrate: 0.429
+  slugs:
+  - bomb-tower
+  - dart-goblin
+  - goblins
+  - rascals
+  - royal-ghost
+  - skeleton-barrel
+  - vines
+  - wall-breakers
+  src: new
+- cards:
+  - ElectroWizard
+  - GoblinGiant
+  - Heal
+  - MiniPekka
+  - Minions
+  - Rage
+  - Zap
+  - ZapMachine
+  forms:
+    GoblinGiant: evo
+    MiniPekka: hero
+    Zap: evo
+  weight: 288
+  winrate: 0.286
+  slugs:
+  - electro-wizard
+  - goblin-giant
+  - heal-spirit
+  - mini-pekka
+  - minions
+  - rage
+  - sparky
+  - zap
+  src: new
+- cards:
+  - BlowdartGoblin
+  - Fireball
+  - Ghost
+  - Goblins
+  - Log
+  - Rascals
+  - SkeletonBalloon
+  - SuspiciousBush
+  forms:
+    BlowdartGoblin: evo
+    Goblins: hero
+    SkeletonBalloon: evo
+  weight: 288
+  winrate: 0.0
+  slugs:
+  - dart-goblin
+  - fireball
+  - goblins
+  - rascals
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - the-log
+  src: new
+- cards:
+  - Archer
+  - BarbLog
+  - Goblinstein
+  - Graveyard
+  - IceSpirits
+  - Poison
+  - Skeletons
+  - Tesla
+  forms:
+    Archer: evo
+    Tesla: evo
+  weight: 288
+  winrate: 0.429
+  slugs:
+  - archers
+  - barbarian-barrel
+  - goblinstein
+  - graveyard
+  - ice-spirit
+  - poison
+  - skeletons
+  - tesla
+  src: new
+- cards:
+  - Arrows
+  - Assassin
+  - BattleRam
+  - Ghost
+  - GoldenKnight
+  - MiniSparkys
+  - Ronin
+  - WitchMother
+  forms:
+    BattleRam: evo
+    Ghost: evo
+  weight: 288
+  winrate: 0.143
+  slugs:
+  - arrows
+  - bandit
+  - battle-ram
+  - golden-knight
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - zappies
+  src: new
+- cards:
+  - Ghost
+  - Goblins
+  - MinionHorde
+  - Ronin
+  - SkeletonBalloon
+  - SuspiciousBush
+  - Vines
+  - WitchMother
+  forms:
+    Goblins: hero
+    MinionHorde: evo
+    SkeletonBalloon: evo
+  weight: 288
+  winrate: 0.714
+  slugs:
+  - goblins
+  - minion-horde
+  - mother-witch
+  - ronin
+  - royal-ghost
+  - skeleton-barrel
+  - suspicious-bush
+  - vines
+  src: new
+- cards:
+  - BarbLog
+  - ElectroWizard
+  - Fireball
+  - Fisherman
+  - Ghost
+  - Hunter
+  - RoyalGiant
+  - Skeletons
+  forms:
+    ElectroWizard: hero
+    Ghost: evo
+    RoyalGiant: evo
+  weight: 288
+  winrate: 0.143
+  slugs:
+  - barbarian-barrel
+  - electro-wizard
+  - fireball
+  - fisherman
+  - hunter
+  - royal-ghost
+  - royal-giant
+  - skeletons
+  src: new
+- cards:
+  - AngryBarbarians
+  - BabyDragon
+  - Earthquake
+  - ElectroGiant
+  - ElectroWizard
+  - MiniSparkys
+  - MovingCannon
+  - Tornado
+  forms:
+    AngryBarbarians: evo
+    ElectroGiant: evo
+    ElectroWizard: hero
+  weight: 288
+  winrate: 0.714
+  slugs:
+  - baby-dragon
+  - cannon-cart
+  - earthquake
+  - electro-giant
+  - electro-wizard
+  - elite-barbarians
+  - tornado
+  - zappies
+  src: new
+- cards:
+  - Arrows
+  - Berserker
+  - Bomber
+  - ElectroSpirit
+  - InfernoDragon
+  - Pekka
+  - Snowball
+  - Wizard
+  forms:
+    Pekka: evo
+  weight: 288
+  winrate: 1.0
+  slugs:
+  - arrows
+  - berserker
+  - bomber
+  - electro-spirit
+  - giant-snowball
+  - inferno-dragon
+  - pekka
+  - wizard
+  src: new
+- cards:
+  - Earthquake
+  - Firecracker
+  - HogRider
+  - InfernoTower
+  - Log
+  - RoyalDelivery
+  - Skeletons
+  - Valkyrie
+  forms: {}
+  weight: 288
+  winrate: 0.429
+  slugs:
+  - earthquake
+  - firecracker
+  - hog-rider
+  - inferno-tower
+  - royal-delivery
+  - skeletons
+  - the-log
+  - valkyrie
+  src: new
+- cards:
+  - ArcherQueen
+  - Arrows
+  - Assassin
+  - Barbarians
+  - BattleRam
+  - EliteArcher
+  - Ghost
+  - Heal
+  forms:
+    Barbarians: evo
+    BattleRam: evo
+  weight: 288
+  winrate: 0.714
+  slugs:
+  - archer-queen
+  - arrows
+  - bandit
+  - barbarians
+  - battle-ram
+  - heal-spirit
+  - magic-archer
+  - royal-ghost
+  src: new
+- cards:
+  - Fireball
+  - Fisherman
+  - Heal
+  - Hunter
+  - Log
+  - MinionGiant
+  - Monk
+  - Skeletons
+  forms:
+    Hunter: evo
+    Skeletons: evo
+  weight: 288
+  winrate: 0.857
+  slugs:
+  - fireball
+  - fisherman
+  - heal-spirit
+  - hunter
+  - minion-giant
+  - monk
+  - skeletons
+  - the-log
+  src: new
+- cards:
+  - Bowler
+  - Freeze
+  - GoldenKnight
+  - Graveyard
+  - InfernoDragon
+  - MiniSparkys
+  - Tornado
+  - Wizard
+  forms:
+    InfernoDragon: evo
+    Wizard: evo
+  weight: 247
+  winrate: 0.167
+  slugs:
+  - bowler
+  - freeze
+  - golden-knight
+  - graveyard
+  - inferno-dragon
+  - tornado
+  - wizard
+  - zappies
+  src: new
+- cards:
+  - Bats
+  - DarkPrince
+  - Fireball
+  - Giant
+  - GoblinGang
+  - Prince
+  - SpearGoblins
+  - Zap
+  forms:
+    Bats: evo
+    Giant: hero
+    Zap: evo
+  weight: 247
+  winrate: 0.667
+  slugs:
+  - bats
+  - dark-prince
+  - fireball
+  - giant
+  - goblin-gang
+  - prince
+  - spear-goblins
+  - zap
+  src: new

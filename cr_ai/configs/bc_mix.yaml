@@ -1,0 +1,7 @@
+# 用打散后的分片训 BC（叠加在 bc.yaml 之上）：
+#   python -m cr_ai.tools.reshard_bc --src data_bc/il_replay --dst data_bc/il_replay_mix --workers 8   # 一次性：输出约 14 GB（打散后压缩率下降，约为原数据的 1.8 倍）；第 1 遍的临时文件压缩后另占约 13 GB，第 2 遍边写边删
+#   python -m cr_ai.train.bc --config cr_ai/configs/bc.yaml cr_ai/configs/bc_mix.yaml --run runs/bcX
+# 打散后一个 loader 缓冲区里同一局最多十来个样本，不会再“记住这几局的结果”，价值损失全量算（原来只在 10% 的样本上算）。
+bc:
+  data_dirs: [data_bc/il_replay_mix]
+  value_frac: 1.0

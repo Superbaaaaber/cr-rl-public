@@ -1,0 +1,64 @@
+# M3/M4 循环 PPO。用法：python -m cr_ai.train.ppo --config cr_ai/configs/ppo.yaml --run runs/ppo1
+ppo:
+  bc_ckpt: runs/bc1/bc_final.pt          # 初始化 + KL 约束的参考策略 + 固定锚点对手
+  init_ckpt: null                        # 可选：从别的存档初始化（如带记忆的 BC，train/bc_seq.py）；null = 用 bc_ckpt
+  workers: 28                            # 环境进程数（每进程一个引擎，约 1 GB/个）。AutoDL 20 核上实测：采样是逐步来回的，环境进程大半时间在等，多开能填空档（16 个 1,120 步/秒 → 28 个 1,590）
+  actors: 2                              # 采样进程数（各带 workers 个环境、各占 2 个 rollout 槽）。单个采样进程受逐步来回的延迟限制（约 1,450 步/秒，CPU、显卡都只用了三成），两个并行约翻倍
+  actor_threads: null                    # 采样进程的 torch CPU 线程数（null = 不超过 CPU 配额）；它只在 GPU 上算，线程多了会和环境进程抢核
+  # 2026-10-16：每批从 28 × 576（1.6 万步，约 20 局打完）加大到 3 倍。小模型 ppo3 每次更新 approx_kl 只有 0.0008、clipfrac 0.8%，
+  # 提学习率反而变差 → 瓶颈像是每批信息量太少、梯度噪声大，学习率不动，先加大批。rollout 槽两份共约 5.6 GB 共享内存（AutoDL /dev/shm 45 GB）。
+  steps_per_env: 1728                    # 每批每个环境的步数（28 × 1728 = 48384 步/批）；须是 seq_len 的整数倍
+  seq_len: 64                            # LSTM 截断长度（16 秒）
+  epochs: 2
+  minibatches: 4
+  micro_batches: 12                      # 每个小批拆成几份累积梯度（显存：每份约 1000 步 × 64 序列；批加大 3 倍，份数跟着 ×3）
+  # 2026-10-16：γ 0.998 → 0.9995、λ 0.95 → 0.97（与 reward.gamma 保持一致，势能塑形才严格成立）。
+  # 每步 0.25 s、一局约 810 步：0.998 时开局看到的终局奖励只剩 0.2（0.9995 时约 0.67），前期决策的梯度天然小；λ 0.95 只回看约 5 秒。
+  gamma: 0.9995
+  gae_lambda: 0.97
+  # 2026-10-28 解耦 GAE：策略的优势按这个 λ 算（null = 和 gae_lambda 相同）；价值目标仍按 gae_lambda。
+  # 影子 λ 实测：λ 0.95 时策略梯度的单样本方差是 0.97 的 0.66 倍、0.90 时 0.40 倍
+  policy_lambda: null
+  clip: 0.2
+  lr: 1.0e-4
+  lr_decay_steps: 200000000              # 学习率在 2 亿步内线性衰减（中途停下也没关系）
+  lr_floor: 0.05
+  vf_coef: 0.5
+  ent_card: 0.005
+  ent_place: 0.002
+  kl_bc_start: 0.2                       # KL(π ‖ π_BC) 系数：前 5000 万步从 0.2 线性退火到 0.02
+  kl_bc_end: 0.02
+  kl_bc_anneal_steps: 50000000
+  # 2026-10-30 技能概率下限（定向探索英雄/冠军技能）：采样进程里的当前策略在有技能可以按的步上按 (1−ε)·π + ε·（可按的技能均分）抽动作，
+  # 记下的 logp、学习端的比率/熵/KL 仍按 π（见 model/infer.py: ab_floor_mix：这样被抽中的技能样本才会按优势推动技能 logit；有偏，要退火）。
+  # 联赛快照、评测、BC 参考网络都不带。ε：ab_floor_hold_until 步之前是 ab_floor，之后线性降到 ab_floor_until 步时的 0（总步数）；
+  # ab_floor_until = 0 → 一直是 ab_floor。ab_floor = 0：关（和以前完全一样）
+  ab_floor: 0.0
+  ab_floor_hold_until: 0
+  ab_floor_until: 0
+  # 2026-10-24：采样进程每几步算一次 BC 参考分布。1 = 每步（KL 系数 > 0 时必须是 1）；KL 系数为 0 时可设 16 之类：
+  # 只在这些步算（看 kl_bc 漂移），其余步省掉 BC 网络的前向（没有 BC 对手时整块不算）
+  bc_ref_every: 1
+  grad_clip: 0.5
+  # 2026-10-28 影子 λ（只读梯度、不影响训练）：如 [0.9, 0.95, 0.97]——同一批数据按这些 GAE λ 另算优势，
+  # 每 noise_lambda_every 次更新在 4 个微批上测各自策略梯度项的单样本梯度方差（日志 gns_trS_lam*、adv_var_lam*），约多花 4% 学习器时间
+  noise_lambdas: []
+  noise_lambda_every: 4
+  critic_warmup_steps: 1000000           # 先只训价值头（策略不动）
+  critic_rewarm_until: 0                 # 续训中途改了价值目标（如打开 model.value_prior）时：只训价值头直到这个绝对步数（0 = 不用）
+  critic_warmup_lr: 3.0e-4
+  forget_bias: -4.0                      # BC 单步模型转带状态 LSTM 时遗忘门的偏置（见 model/net.py: init_recurrence）
+  total_steps: 50000000                  # 本次训练的步数上限
+  ckpt_every_updates: 10
+  snapshot_every_steps: 1000000          # 历史快照（M4 的历史对手、评测）
+  eval_every_steps: 4000000              # 规格书写 200 万步；200 局 × 3 种对手约 13 分钟，200 万步一次会让评测几乎不停、拖慢训练 15–20%
+  eval_games: 200
+  eval_workers: 2                        # 评测和训练同时用显卡/内存：少开几个环境，降低峰值占用
+  max_actor_restarts: 5                  # 采样进程崩溃（显卡驱动报错等）后自动重启的次数上限；再多就整体退出交给守护脚本
+  actor_restart_wait: 20
+  ready_timeout: 600                     # 这么久没收到采样数据就当采样进程卡死，重启它
+
+league:
+  mode: fixed                            # M3：对手只用固定池（冻结的 BC 策略 + 规则 AI）
+  opponents: {bc: 0.9, rule: 0.1}
+  opp_main_prob: 0.15                    # bc 对手用主角卡组（镜像 = “BC 野猪”）的概率；其余从对手池按使用量抽

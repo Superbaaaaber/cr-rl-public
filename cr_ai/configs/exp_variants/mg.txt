@@ -1,0 +1,3 @@
+# 专项剥削者：只用含亡灵巨人的卡组打主模型（主模型一方仍是龙骑墓）
+paths.deck_pool=cr_ai/configs/deck_pool_spec_mg.yaml
+league.agent_main_prob=0.0

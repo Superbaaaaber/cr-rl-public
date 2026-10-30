@@ -1,0 +1,107 @@
+# cr_ai 默认配置。路径相对仓库根目录（cr-rl/）。
+# 其它配置文件用 cr_ai.config.load('default', 'xxx.yaml', overrides) 叠加。
+
+seed: 1
+
+paths:
+  engine_base: re/snap/base               # 引擎战前基础快照
+  # 卡牌/单位数据表（观测用：单位类别、部署时间、采集器产出间隔……）。auto = 跟着 engine_base 走：re/snap/base → data/game/csv_logic，
+  # re/snap/base_1006 → data/game_1006/csv_logic（python tools/balance/apply.py 1006 生成，不进库）。2026-10-19 起
+  logic_dir: auto
+  assets: cr_ai/assets                    # 词表、放置 mask 等（由 cr_ai/tools 生成，入库）
+  deck: cr_ai/configs/deck_graveyard.yaml        # 主角卡组：龙骑墓（墓园 + 进化小皮龙 + 进化骑士 + 英雄墓碑，2026-10-12 起）。原来的骷髅巨人卡组是 deck.yaml
+  # 2026-10-17：之前默认还是 deck.yaml，只有小模型的 m4_gy.yaml 改了，结果 ppo_b（大模型 M3）误用骷髅巨人卡组练了 5,000 万步
+  deck_pool: cr_ai/configs/deck_pool.yaml
+  replays: data/il_replay                 # HF IL_Replay（replays/*.parquet）
+  runs: runs                              # 训练输出（checkpoint、TensorBoard）
+
+engine:
+  backend: c
+  # 等级：数值随等级等比例缩放、观测里血量一律用比例，统一用天梯的 16 级（与回放数据一致）
+  king_level: 16
+  card_level: 16
+  tower_level: 16
+  tower_troop: tower-princess             # 默认塔兵；对局可按玩家覆盖
+
+env:
+  frame_skip: 5                           # 一步 = 5 tick = 0.25 s
+  max_ticks: 6000                         # 300 s 截止（常规 180 s + 加时 120 s）
+  min_deploy_tick: 90                     # 开局 4.5 s 内引擎拒绝出牌
+  deploy_delay_ticks: 20                  # 出牌命令下达 → 生效（单位出生、扣费、手牌补位）
+  grid_w: 18
+  grid_h: 32
+  max_abilities: 2                        # 牌头里的技能选项数（英雄/冠军）
+  # 时间与圣水规则（与引擎一致，见 docs/ENGINE_MAP.md §2）
+  regulation_ticks: 3600
+  double_elixir_tick: 2400
+  triple_elixir_tick: 4800
+  elixir_per_tick: [0.0178, 0.0357, 0.0537]   # 单/双/三倍
+  start_elixir: 6.0
+  elixir_max: 10.0
+
+latency:
+  # 动作延迟：决策在 t + d_act 步执行。引擎自身的 ~1.05 s（出牌命令 → 单位出生）就是实测下牌延迟，这里不再额外加。
+  d_act_steps: [0]
+  # 观测延迟：决策看到的是 t - d_obs 步的观测
+  d_obs_steps: [0]
+
+reward:
+  win: 1.0
+  shaping_scale: 0.3                      # Φ(s) = 0.3 × (Σ我方 w·血量比 − Σ敌方 w·血量比)
+  princess_w: 0.25
+  king_w: 0.5
+  shaping_c_start: 1.0                    # 塑形系数 c：前 shaping_anneal_steps 步内从 1 线性退火到 0.2
+  shaping_c_end: 0.2
+  shaping_anneal_steps: 100000000
+  gamma: 0.9995                           # 必须与 ppo.gamma 相同（2026-10-16 从 0.998 改，见 ppo.yaml）
+  overflow_penalty: 0.0005                # 圣水满 10 时每步
+
+obs:
+  max_units: 128                          # 单位列表的上限（超出按血量截断）
+  speed_norm: 100.0                       # 速度归一化（世界单位 / tick）
+  deploy_norm_ms: 1000.0
+  count_norm: 4.0
+  wait_norm_s: 10.0                       # “还差几秒能出”的归一化
+  since_norm_s: 30.0                      # 对手“距上次打出”的归一化
+  # 2026-10-28 观测修补（默认关 = 旧观测；推荐组合见 configs/obs_v3.yaml）
+  show_effects: false                     # 狂暴（瓶子 + 区域）、英雄技能区域、冰人死亡减速区等以前被归成“特效”丢掉的对象，画进法术层和单位列表
+  king_shots: false                       # 国王塔开过火就算已激活（龙卷风拉人激活国王塔时规则近似算不到）
+  ext: false                              # 观测里带扩展字段（model.obs_ext 打开时自动带；这里是给不用它的网络也出这些字段，如 arena 的对手）
+
+vec_env:
+  workers: 8                              # 每进程一个引擎（引擎内存是进程级全局的）
+  priority: idle                          # 用户常在同机打游戏
+  omp_threads: 1                          # 环境进程里 OpenBLAS/torch 只用 1 线程（省内存与 CPU）
+
+model:
+  channels: 96                            # 16×9 主干通道（吞吐不足时先降到 64）
+  skip_channels: 64                       # 32×18 skip 通道
+  res_blocks: 4
+  hidden: 384                             # FC / LSTM 宽度
+  # 2026-10-16 架构开关：默认都是旧结构（旧存档照常加载）；打开任何一个网络结构都会变，要重训 BC。推荐组合见 configs/arch_v2.yaml
+  place_res_blocks: 0                     # 位置头在 32×18 上的残差块数
+  place_film_full: false                  # 位置头在 32×18 上再用选中牌做一次 FiLM
+  deck_pool: mean                         # 卡组编码：mean（嵌入取平均 → 线性）| mlp（每张先 MLP，再 mean + max 池化）
+  hand_slot: onehot                       # 手牌槽位特征：onehot（5 维）| next（只标“是否下一张”）
+  entity: false                           # 实体分支：单位列表（obs.max_units 个）→ 小 Transformer → 按格子散射回 32×18 网格 + 池化向量进融合层
+  entity_dim: 64
+  entity_layers: 2
+  entity_grid_channels: 32
+  # 2026-10-28 蒸馏进更大的网络用（train/distill.py，方案 A）：融合层和各个头的隐藏层加 LayerNorm、各个头的隐藏宽度。默认 = 旧结构
+  ln: false
+  head_hidden: 128
+  # 2026-10-28 主干出口：16×9 特征 → Conv s2 exit_channels@8×5 → FC grid_dim（进融合层；出牌只看得到这一路）。默认 = 旧结构。
+  # 训练中途扩容（不蒸馏、函数不变）见 model/grow.py、tools/grow.py
+  exit_channels: 64
+  grid_dim: 256
+  obs_ext: false                         # 扩展观测：技能状态、进化充能（手牌和对手）、单位状态（见 env/features.py）；新输入层权重从 0 开始 = 打开时函数不变
+  priv_value: false                      # 特权价值头：RL 时价值头另看对手真实手牌和圣水（策略头不用、部署不受影响；BC 存档里没有它，PPO 热身时从头学）
+  # 2026-10-27 胜率先验（见 net.py: win_prior）：价值输出 = 网络（tanh）+ value_prior × tanh(z/2)，z 是按塔的状态估计的胜率 logit。
+  # 在 GAE-PPO 里等价于以 value_prior × tanh(z/2) 为势能的势能塑形（报告 reports/皇室战争势能奖励塑形可行性研究.md），
+  # 但自动满足终局为 0、γ 一致、截断处照常自举。0 = 关（旧行为）。打开时把 reward.shaping_c_* 设 0（旧塔血塑形和它重复）。
+  value_prior: 0.0
+  # 系数：431M 自我对弈 400 局、每 5 秒一个状态的逻辑回归（scratchpad/deep/fit_potential.py，前后各半对局交叉检验校准良好）。
+  # 常规时间：公主塔血差、冠差、冠差×τ（τ = 已过时间 / 3 分钟）、最低存活公主塔血差、国王塔血差、国王激活差（敌方 − 我方）
+  value_prior_reg: [1.35, -0.6, 4.1, 1.0, 0.25, -0.9]
+  # 加时（拿冠即结束，没有冠差项）：公主塔血差、最低存活公主塔血差、国王塔血差（拟合值 3.5 是相关不是因果，压到 0.5）
+  value_prior_ot: [2.8, 1.2, 0.5]

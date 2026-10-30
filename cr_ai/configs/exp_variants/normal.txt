@@ -1,0 +1,1 @@
+# 普通剥削者：exploit.yaml + exploit_v2.yaml 原样（一半用龙骑墓镜像、一半用混合卡组池）

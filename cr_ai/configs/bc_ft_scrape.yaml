@@ -1,0 +1,16 @@
+# 用 cr_scrape 的新版本回放微调 BC（叠加在 bc.yaml + arch_v2.yaml 之上；2026-10-19）：
+#   python -m cr_ai.data.replay_resim --scrape ../cr_scrape/data/replays.jsonl --out data_bc/scrape_1017 --workers 6 --idle
+#   服务器上 data_bc/bc_ft_mix 放软链接：新回放分片重复 3 遍 + 等量随机抽的 il_replay_mix 老分片（新旧样本约 1:1，不忘旧版本的打法）
+#   python -m cr_ai.train.bc --config cr_ai/configs/bc.yaml cr_ai/configs/arch_v2.yaml cr_ai/configs/bc_ft_scrape.yaml \
+#       --run runs/bc_v2_ft --init runs/bc_v2/bc_final.pt --samples-est <混合目录样本数> model.channels=192 model.res_blocks=8 model.hidden=768
+# 新回放只有 2,674 局，学习率比从头训小一个量级，只走一遍混合数据。
+bc:
+  data_dirs: [data_bc/bc_ft_mix]
+  epochs: 1
+  lr: 3.0e-5
+  lr_end: 1.0e-6
+  warmup_steps: 300
+  value_frac: 0.1                         # 新回放分片没打散（一个分片 50 局），价值损失只在 10% 的样本上算
+  val_shards: 100000                      # 混合目录里的全部分片都扫验证局（按局号哈希切，新旧都有）
+  eval_every: 2000
+  ckpt_every: 2000

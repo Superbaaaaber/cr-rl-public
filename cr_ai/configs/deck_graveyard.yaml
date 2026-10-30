@@ -1,0 +1,13 @@
+# 主角卡组（2026-10-12 用户改为墓园）：HF IL_Replay 使用量第 13 的卡组，3,396 方，胜率 54.3%。
+# 形态取最常见的一种（49%）：进化小皮龙 + 进化骑士 + 英雄墓碑；其次是进化小皮龙 + 进化骑士 + 英雄野蛮人滚桶（28%）。
+# slug = RoyaleAPI 卡牌名；engine = 引擎内部牌名（crx/royaleapi.py 的 SLUG2NAME）；form = evo（进化）/ hero（英雄）/ 省略（普通）。
+name: graveyard_poison
+cards:
+  - {slug: graveyard,        engine: Graveyard}
+  - {slug: baby-dragon,      engine: BabyDragon,      form: evo}
+  - {slug: knight,           engine: Knight,          form: evo}
+  - {slug: tombstone,        engine: Tombstone,       form: hero}
+  - {slug: ice-wizard,       engine: IceWizard}
+  - {slug: poison,           engine: Poison}
+  - {slug: tornado,          engine: Tornado}
+  - {slug: barbarian-barrel, engine: BarbLog}

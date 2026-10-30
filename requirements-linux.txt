@@ -1,0 +1,7 @@
+# Linux 训练机（AutoDL）上的依赖：torch 用镜像自带的（2.x + CUDA 12.x），这里只装其余的，版本与本机 .venv 一致。
+# numpy 必须是 2.2.6（与 Windows 参考结果逐局对拍时版本相同，观测里的数值计算才不会有差异）。
+numpy==2.2.6
+PyYAML==6.0.3
+pyarrow==25.0.1
+pytest==9.1.1
+tensorboard==2.21.0

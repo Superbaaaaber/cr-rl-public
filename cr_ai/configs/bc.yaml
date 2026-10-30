@@ -1,0 +1,23 @@
+# M2 行为克隆。用法：python -m cr_ai.train.bc --config cr_ai/configs/bc.yaml --run runs/bc1
+bc:
+  data_dirs: [data_bc/il_replay]
+  val_frac: 0.02                          # 按局号哈希切分
+  val_shards: 300                         # 验证只扫前 N 个分片里的验证局（约 300 局、10 万样本）
+  batch_size: 512
+  epochs: 1
+  lr: 3.0e-4
+  lr_end: 1.0e-5                          # 余弦衰减到这里
+  warmup_steps: 2000
+  weight_decay: 1.0e-4
+  grad_clip: 1.0
+  noop_w: 0.15                            # “不出”类的损失权重（规格 0.1–0.2）；推理时用 log(1/noop_w) 还原先验
+  place_sigma: 0.7                        # 位置标签的高斯平滑（格）
+  place_w: 1.0
+  value_w: 0.5
+  value_frac: 0.1                         # 只在 10% 的样本上算价值损失（防止记住缓冲区里对局的结果）
+  mirror_prob: 0.5
+  loader_workers: 7
+  shards_in_buffer: 12                    # 每个 loader 进程同时混洗的分片数（约 600 局，13 MB/分片）
+  log_every: 100
+  eval_every: 5000                        # 步
+  ckpt_every: 5000

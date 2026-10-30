@@ -1,0 +1,38 @@
+# M4：完整联赛 + 多卡组训练。叠加在 ppo.yaml 之上：
+#   python -m cr_ai.tools.supervise -- python -m cr_ai.train.ppo --config cr_ai/configs/ppo.yaml cr_ai/configs/m4.yaml --run runs/ppo2 --init runs/ppo1/ppo_m3_final.pt --resume
+ppo:
+  # [T, W, 2]：双方都可能是训练数据。2026-10-16：28 × 384（约 1.45 万步/批、13 局打完）加大到 4 倍：28 × 1536 × 约 1.35 ≈ 5.8 万步/批（理由见 ppo.yaml）
+  steps_per_env: 1536
+  # 2026-10-18：截断反传 64 → 128 步（16 秒 → 32 秒），让 LSTM 学到更长的因果（如对手 20–40 秒前出过哪些牌）；
+  # 1536 = 12 × 128。每份微批的总行数不变（段数减半），显存基本不变；换局处的补齐比例约 4% → 8%
+  seq_len: 128
+  micro_batches: 16                      # 批 ×4，份数跟着 ×4，每份显存不变
+  total_steps: 300000000                 # 上限（从 M3 的 3600 万步接着数）；随时可以停
+  eval_suite: bc_main,bc_pool,pool:bc_pool   # pool:bc_pool：agent 也从 299 套里抽卡组，测其他卡组有没有变强；规则 AI 已稳定 100%，不再评
+  eval_every_steps: 8000000              # 一轮评测约 33 分钟、和训练抢显卡；400 万步一次时评测占约 80% 的时间，训练慢约 27%
+  # 2026-10-16：固定考官评测（tools/gauntlet.py，考官见 configs/examiners.yaml）：BC 评测已饱和，改看对固定考官的 Bradley–Terry Elo。
+  # 5 个考官 × 200 局 = 1000 局一轮，和普通评测错开跑；结果 runs/<run>/gauntlet.jsonl、gauntlet_elo.json
+  gauntlet_every_steps: 16000000
+  gauntlet_games: 200
+
+league:
+  mode: league
+  # 2026-10-16：固定锚点从 20% 降到 7%（对规则 AI 胜率 100%、对 BC 85–98%，几乎没有学习信号），省下的给历史快照。
+  # 以前是 {self: 0.35, hist: 0.45, bc: 0.15, rule: 0.05}
+  opponents: {self: 0.35, hist: 0.58, bc: 0.06, rule: 0.01}
+  # 历史快照槽（采样进程同时加载几个快照；每局开局绑定一个槽、整局不换；一个槽接满 hist_games_per_snap 局、手上的局打完后换上新的 PFSP 候选）
+  hist_slots: 4
+  hist_games_per_snap: 4
+  agent_main_prob: 0.5                   # agent 一方一半用主角卡组，一半从对手池（299 套，按使用量）抽
+  opp_main_prob: 0.0                     # 对手池里本来就有主角卡组（使用量第 1，5.3%）
+  self_opp_weight: 0.5                   # 自我对弈时对手一方的损失权重（规格书 0.5）
+  max_snapshots: 50                      # 只在没配 recent_snapshots 时用（旧规则：满了丢最旧的，只覆盖最近 5000 万步）
+  recent_snapshots: 30                   # 2026-10-16：最近 30 个全留
+  old_snapshots: 20                      # 更早的最多留 20 个，越老越稀（几何间隔），最老的一个总留着
+  seed_snapshots: ppo1/ppo_step*.pt      # 初始快照池：M3 的快照（相对 runs/）
+  # 初始快照的 Elo（以 BC 为 0）：按 M3 各存档对 BC 主卡组、BC 对手池两项评测胜率的平均换算
+  seed_elo: {0: 65, 4015872: 171, 8015616: 184, 12015360: 212, 20014848: 218, 24014592: 233, 28014336: 275, 32014080: 295}
+  init_elo: 300                          # 当前策略（M3 终点，3600 万步）的起始 Elo
+  pfsp_floor: 0.01
+  stat_decay: 0.995                      # 快照胜率统计的衰减（当前策略一直在变）
+  elo_k: 4.0

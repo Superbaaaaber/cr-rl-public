@@ -1,0 +1,33 @@
+# 大模型（arch_v2）的固定考官（2026-10-20 起；cr_ai/tools/gauntlet.py，M4 用 ppo.gauntlet_examiners 指过来）。
+# 考官一旦定下就别改（改了以前的分数就不可比）；要加新考官就追加在后面。
+# 全部在 10-19 版本的引擎上比（env），卡组池也固定（专项评测用的三份 deck_pool_exam_*.yaml 由 tools/build_exam_pools.py 生成后冻结）。
+# 大模型考官的存档拷到 runs/examiners/（只留模型，不会被快照清理删掉）。
+# 2026-10-21（审查会话建议、用户同意）：100 局的 95% 区间约 ±10 个点，看不出 5 个点以内的变化——每段只对 big_248M 打 400 局，
+# 三项专项照旧各 100 局（总局数和以前 7 × 100 差不多）。其余三个考官停用（以前的结果还在 gauntlet.jsonl 里，拟合照常用）。
+# 2026-10-24（第三次审查，用户交给 AutoDL 会话安排）：主指标改成 meta_248M（主卡组打主流卡组，最接近实战）400 局；
+# 龙骑墓镜像在训练里只占约 0.4% 的对局，降到 200 局，只作参考。
+# 2026-10-24 用户定目标 = 什么卡组都会打的通用模型：主指标改成 gen_248M（双方都从 200 套随机卡组里抽，被测方也抽）400 局；
+# 龙骑墓的几项（镜像、主流、亡灵巨人、随机）降为参考各 100 局，每段总共 800 局（再多两次考官评测会重叠、后一次被跳过）。
+# 2026-10-26 用户同意停掉亡灵巨人和随机两项（考官评测和训练抢资源，每段约 72 分钟、训练整体慢约 10%）：
+# 亡灵巨人卡组是主流卡组池的子集，结果和 meta 几乎同步；随机卡组由 gen_248M（双方随机、400 局）测得更直接。每段剩 600 局。
+# 2026-10-27 用户同意：主指标改成 metagen_248M——双方都从主流卡组池（deck_pool_exam_meta，和训练的卡组分布一致）抽，配对换边
+# （同一对卡组换边各打一局，抵消卡组运气），400 局 = 200 对。gen_248M（随机拼凑的卡组，训练里没有）降为参考 200 局，也改成配对换边
+# （期望值不变，误差更小）。每段 800 局。
+# 2026-10-28 用户同意（深度研究报告 reports/皇室战争训练停滞原因.md）：每段只打 metagen_248M 400 局，其余三项停用——
+# 每段只该进步 5–7 Elo，100–200 局的参考项分辨不出（±35–50 Elo），只和训练抢资源（考官约让训练慢 11%）；趋势看 metagen 多段斜率，
+# 做决定改用两个模型直接配对对打。以前的结果还在 gauntlet.jsonl 里。
+env:
+  paths.engine_base: re/snap/base_1019
+examiners:
+  # 停用 - {name: small_176M, ckpt: runs/ppo3/ppo_step176007448.pt, opp: bc_main}      # 小模型最终版：和以前的考官成绩衔接（第一个 = Elo 0 分）
+  # 停用 - {name: big_176M, ckpt: runs/examiners/big_176M.pt, opp: bc_main}            # 旧卡组池时期正式评测最好的（三项平均 0.973）
+  # 停用 - {name: big_210M, ckpt: runs/examiners/big_210M.pt, opp: bc_main}            # 换混合卡组池后、换 10-19 引擎前
+  # 停用 - {name: big_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_main, games: 100}            # 10-19 引擎上练了 1,350 万步
+  # 专项评测（不进 Elo，只看胜率）：同一个考官 big_248M 拿三种卡组打被测模型（被测方用主卡组）
+  # 停用 - {name: meta_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_pool, pool: cr_ai/configs/deck_pool_exam_meta.yaml}   # 主流卡组
+  # 停用 - {name: mg_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_pool, pool: cr_ai/configs/deck_pool_exam_mg.yaml}       # 亡灵巨人卡组
+  # 停用 - {name: rand_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_pool, pool: cr_ai/configs/deck_pool_exam_rand.yaml}   # 随机卡组
+  # 主指标（10-27 起）：双方都用主流卡组，配对换边
+  - {name: metagen_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_pool, pool: cr_ai/configs/deck_pool_exam_meta.yaml, deck: pool, paired: true, games: 400}
+  # 随机卡组通用性（10-24 到 10-26 的主指标，10-27 起参考）：双方都从随机卡组池里抽（被测方不用主卡组）
+  # 停用 - {name: gen_248M, ckpt: runs/examiners/big_248M.pt, opp: bc_pool, pool: cr_ai/configs/deck_pool_exam_rand.yaml, deck: pool, paired: true, games: 200}

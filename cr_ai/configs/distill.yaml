@@ -1,0 +1,27 @@
+# 蒸馏（cr_ai/train/distill.py，2026-10-28 方案 A）：把训好的模型（老师）蒸馏进更大的学生网络。
+# 学生配置 = 老师存档里的配置 ← 这个文件 ← 命令行覆盖；这里的 model 只写学生和老师不同的几项。
+model:
+  hidden: 1536              # LSTM / 融合层宽度（老师 768）：只占每步计算的约 2%，学习器只慢约 3–5%
+  ln: true                  # 融合层和各个头的隐藏层加 LayerNorm
+  head_hidden: 256          # 各个头的隐藏宽度（老师 128）
+
+distill:
+  workers: 28               # 环境进程数（每进程一个引擎）
+  steps_per_env: 256        # 每次采样每个环境的步数（须是 seq_len 的整数倍）；每批 = workers × 2 名玩家 × steps_per_env 行
+  seq_len: 256              # LSTM 截断长度（和老师训练时一样，64 秒）
+  epochs: 2                 # 每批数据过几遍（监督学习，标签是确定的分布，不像 PPO 那样怕重复用）
+  minibatches: 4
+  micro_batches: 8          # 每个小批拆成几份累积梯度（显存）
+  lr: 3.0e-4                # 新的部分（融合层、LSTM、各个头）
+  lr_copied: 3.0e-5         # 从老师复制过来的部分（卷积主干、嵌入、实体分支、输入 MLP、位置卷积）
+  freeze_copied_updates: 200   # 前这么多次更新只训新的部分（新部分是随机初始化，开头的梯度别把复制来的主干带偏）
+  grad_clip: 1.0
+  place_coef: 1.0           # 位置头 KL 的系数（只在出了手牌的步上算，按这些步平均）
+  value_coef: 0.5           # 价值头对老师价值的均方误差系数
+  # 谁出手（每局开局时每名玩家各抽一次）：老师出手的概率从 start 线性退到 end（DAgger：后期主要在学生自己会走到的局面上学）
+  teacher_act_start: 1.0
+  teacher_act_end: 0.25
+  teacher_act_anneal_steps: 20000000
+  total_steps: 30000000     # 采样总行数上限（每批约 1.4 万行；看 KL / 一致率 / 对老师直接对打决定什么时候停）
+  ckpt_every_updates: 20    # distill_latest.pt（续训）
+  snapshot_every_updates: 200   # student_step<N>.pt（只有模型和配置，约 120 MB 一个）

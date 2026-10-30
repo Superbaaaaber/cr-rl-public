@@ -1,0 +1,5 @@
+# 训练环境（Python 3.10+；已验证 Python 3.10 + Windows 10 + RTX 3070）
+# torch 要装 CUDA 12.4 的版本：pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# 其余：pip install -r requirements.txt（torch 那一行会被上面的专用源满足；没有 GPU 就装 CPU 版 torch，其余不变）
+numpy==2.2.6
+torch==2.6.0

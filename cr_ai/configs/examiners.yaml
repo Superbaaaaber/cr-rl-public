@@ -1,0 +1,10 @@
+# 固定考官（cr_ai/tools/gauntlet.py）：被测存档对每个考官各打 N 局，结果合起来用 Bradley–Terry 拟合 Elo（第一个考官 = 0 分）。
+# 考官一旦定下就别改（改了以前的分数就不可比）；要加新考官就追加在后面。
+# 都是小模型（96 通道、4 残差块、隐层 384，墓园主卡组）；大模型可以直接和它们对打（arena 按各自存档的配置建网）。
+# AutoDL 上需要先把这几个存档传上去（缺了会跳过并提示）。
+examiners:
+  - {name: small_176M, ckpt: runs/ppo3/ppo_step176007448.pt, opp: bc_main}   # 小模型最终版
+  - {name: small_150M, ckpt: runs/ppo3/ppo_step150003712.pt, opp: bc_main}
+  - {name: small_100M, ckpt: runs/ppo3/ppo_step100007346.pt, opp: bc_main}
+  - {name: small_50M, ckpt: runs/ppo2/ppo_step50007383.pt, opp: bc_main}
+  - {name: exploiter_g0, ckpt: runs/exp_g0/ppo_latest.pt, opp: bc_pool}     # 剥削者第 0 代（针对 130M 墓园训的，用对手池卡组）

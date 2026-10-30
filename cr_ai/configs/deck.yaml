@@ -1,0 +1,12 @@
+# 主角卡组（2026-10-09 用户确定）：HF IL_Replay 使用量第 1 的卡组，15,398 方，胜率 52.2%；99% 的人用下面这套形态。
+# slug = RoyaleAPI 卡牌名；engine = 引擎内部牌名（crx/royaleapi.py 的 SLUG2NAME）；form = evo（进化）/ hero（英雄）/ 省略（普通）。
+name: giant_skeleton_ram_witch
+cards:
+  - {slug: giant-skeleton,   engine: GiantSkeleton}
+  - {slug: battle-ram,       engine: BattleRam,       form: evo}
+  - {slug: mother-witch,     engine: WitchMother}
+  - {slug: elite-barbarians, engine: AngryBarbarians, form: evo}
+  - {slug: wizard,           engine: Wizard,          form: hero}
+  - {slug: zappies,          engine: MiniSparkys}
+  - {slug: vines,            engine: Vines}
+  - {slug: barbarian-barrel, engine: BarbLog}

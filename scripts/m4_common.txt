@@ -1,0 +1,9 @@
+ppo.bc_ckpt=runs/bc_v2_ft3/bc_final.pt
+ppo.eval_workers=6
+ppo.seq_len=128
+paths.deck_pool=cr_ai/configs/deck_pool_mix.yaml
+paths.engine_base=re/snap/base_1019
+model.channels=192
+model.res_blocks=8
+model.hidden=768
+ppo.lr_floor=0.3

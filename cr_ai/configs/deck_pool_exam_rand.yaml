@@ -1,0 +1,2447 @@
+source: 随机生成（种子 20261020，122 张正常对战牌）
+note: 固定考官专项评测：随机卡组（不要改）
+decks:
+- cards:
+  - Archer
+  - RageBarbarian
+  - Goblinstein
+  - Prince
+  - Pekka
+  - Musketeer
+  - GoldenKnight
+  - Earthquake
+  forms:
+    Archer: evo
+  weight: 1
+- cards:
+  - Minions
+  - BarbarianHut
+  - Rascals
+  - SkeletonArmy
+  - BattleHealer
+  - EliteArcher
+  - MovingCannon
+  - MightyMiner
+  forms:
+    SkeletonArmy: evo
+  weight: 1
+- cards:
+  - AngryBarbarians
+  - GoblinHut
+  - SkeletonDragons
+  - Poison
+  - Golem
+  - Bomber
+  - GiantBuffer
+  - Minions
+  forms:
+    Bomber: evo
+    AngryBarbarians: evo
+  weight: 1
+- cards:
+  - RoyalRecruits
+  - AxeMan
+  - IceGolemite
+  - SkeletonArmy
+  - GoblinMachine
+  - RoyalGiant
+  - SkeletonKing
+  - Zap
+  forms: {}
+  weight: 1
+- cards:
+  - Archer
+  - RoyalGiant
+  - Bats
+  - MightyMiner
+  - Tornado
+  - Firecracker
+  - ElixirGolem
+  - SuspiciousBush
+  forms:
+    Firecracker: evo
+    Archer: evo
+  weight: 1
+- cards:
+  - Bats
+  - RageBarbarian
+  - ElectroWizard
+  - LittlePrince
+  - Fireball
+  - InfernoTower
+  - RoyalDelivery
+  - Wallbreakers
+  forms: {}
+  weight: 1
+- cards:
+  - Clone
+  - LittlePrince
+  - SkeletonArmy
+  - SuspiciousBush
+  - BombTower
+  - SkeletonKing
+  - BarbLog
+  - IceGolemite
+  forms:
+    SkeletonArmy: evo
+  weight: 1
+- cards:
+  - Ghost
+  - MinionHorde
+  - Goblinstein
+  - BabyDragon
+  - Snowball
+  - InfernoDragon
+  - RoyalRecruits
+  - BlowdartGoblin
+  forms:
+    Ghost: evo
+  weight: 1
+- cards:
+  - Princess
+  - HogRider
+  - DarkWitch
+  - MovingCannon
+  - RoyalDelivery
+  - Elixir Collector
+  - AngryBarbarians
+  - SkeletonWarriors
+  forms: {}
+  weight: 1
+- cards:
+  - Snowball
+  - MovingCannon
+  - Prince
+  - SpearGoblins
+  - BarbarianHut
+  - InfernoTower
+  - Graveyard
+  - Cannon
+  forms: {}
+  weight: 1
+- cards:
+  - GoldenKnight
+  - MinionHorde
+  - Knight
+  - BossBandit
+  - Snowball
+  - Heal
+  - GoblinGiant
+  - Bomber
+  forms:
+    Knight: hero
+  weight: 1
+- cards:
+  - ElectroDragon
+  - SkeletonDragons
+  - ZapMachine
+  - MegaKnight
+  - AxeMan
+  - Hunter
+  - Miner
+  - Balloon
+  forms:
+    ElectroDragon: evo
+    MegaKnight: evo
+  weight: 1
+- cards:
+  - Graveyard
+  - Rage
+  - RoyalGiant
+  - Bats
+  - MinionHorde
+  - GoblinCage
+  - Giant
+  - DarkWitch
+  forms:
+    Bats: evo
+    Giant: hero
+  weight: 1
+- cards:
+  - InfernoTower
+  - SkeletonBalloon
+  - Clone
+  - DarkPrince
+  - IceWizard
+  - BattleHealer
+  - Barbarians
+  - RoyalGiant
+  forms:
+    Barbarians: evo
+    RoyalGiant: evo
+  weight: 1
+- cards:
+  - Bowler
+  - Prince
+  - BombTower
+  - Balloon
+  - SpearGoblins
+  - Tesla
+  - Princess
+  - RoyalHogs
+  forms: {}
+  weight: 1
+- cards:
+  - Fireball
+  - MinionGiant
+  - Bomber
+  - Zap
+  - Hunter
+  - Minions
+  - MiniSparkys
+  - GoblinGiant
+  forms: {}
+  weight: 1
+- cards:
+  - Goblins
+  - Freeze
+  - GoblinMachine
+  - Earthquake
+  - Golem
+  - BlowdartGoblin
+  - Phoenix
+  - Pekka
+  forms:
+    Goblins: hero
+  weight: 1
+- cards:
+  - Heal
+  - GoblinHut
+  - Minions
+  - Zap
+  - FirespiritHut
+  - Tesla
+  - ElixirGolem
+  - Poison
+  forms: {}
+  weight: 1
+- cards:
+  - Assassin
+  - DarkPrince
+  - InfernoDragon
+  - Freeze
+  - MinionGiant
+  - SkeletonBalloon
+  - GoldenKnight
+  - Bomber
+  forms:
+    SkeletonBalloon: evo
+    InfernoDragon: evo
+  weight: 1
+- cards:
+  - Freeze
+  - MiniSparkys
+  - GoblinCurse
+  - ZapMachine
+  - GoblinHut
+  - Vines
+  - ElectroSpirit
+  - SkeletonDragons
+  forms: {}
+  weight: 1
+- cards:
+  - Giant
+  - BarbLog
+  - Witch
+  - HogRider
+  - MinionHorde
+  - Rage
+  - Fireball
+  - Minions
+  forms:
+    Giant: hero
+  weight: 1
+- cards:
+  - SkeletonKing
+  - RoyalHogs
+  - MegaKnight
+  - Musketeer
+  - Elixir Collector
+  - Knight
+  - Witch
+  - Fireball
+  forms:
+    Musketeer: evo
+  weight: 1
+- cards:
+  - Balloon
+  - ArcherQueen
+  - Fireball
+  - Witch
+  - Hunter
+  - RoyalDelivery
+  - Firecracker
+  - LittlePrince
+  forms:
+    Witch: evo
+    Firecracker: evo
+    Balloon: hero
+  weight: 1
+- cards:
+  - Ghost
+  - GoblinGang
+  - RoyalGiant
+  - GoblinCage
+  - Bats
+  - BombTower
+  - Earthquake
+  - Rocket
+  forms:
+    Bats: evo
+  weight: 1
+- cards:
+  - Zap
+  - Lightning
+  - SkeletonArmy
+  - Freeze
+  - ArcherQueen
+  - RamRider
+  - Archer
+  - RoyalRecruits
+  forms: {}
+  weight: 1
+- cards:
+  - EliteArcher
+  - DarkMagic
+  - BossBandit
+  - Hunter
+  - Balloon
+  - WitchMother
+  - Earthquake
+  - MinionHorde
+  forms:
+    MinionHorde: evo
+    Balloon: hero
+  weight: 1
+- cards:
+  - Minions
+  - Firecracker
+  - Phoenix
+  - RamRider
+  - Cannon
+  - IceGolemite
+  - SkeletonWarriors
+  - AxeMan
+  forms: {}
+  weight: 1
+- cards:
+  - Earthquake
+  - BossBandit
+  - RoyalGiant
+  - GoblinCage
+  - IceGolemite
+  - Graveyard
+  - Wizard
+  - Arrows
+  forms:
+    Wizard: evo
+    RoyalGiant: evo
+  weight: 1
+- cards:
+  - RoyalHogs
+  - Princess
+  - LavaHound
+  - SkeletonDragons
+  - IceSpirits
+  - Goblins
+  - Tornado
+  - MovingCannon
+  forms: {}
+  weight: 1
+- cards:
+  - Bats
+  - Zap
+  - Firecracker
+  - Hunter
+  - RageBarbarian
+  - SkeletonWarriors
+  - GoldenKnight
+  - Ghost
+  forms: {}
+  weight: 1
+- cards:
+  - RageBarbarian
+  - GoblinDrill
+  - EliteArcher
+  - SkeletonArmy
+  - Hunter
+  - Arrows
+  - SpearGoblins
+  - Lightning
+  forms:
+    GoblinDrill: evo
+    RageBarbarian: evo
+  weight: 1
+- cards:
+  - HogRider
+  - GoblinDemolisher
+  - SkeletonWarriors
+  - MiniPekka
+  - DarkMagic
+  - Tesla
+  - ElixirGolem
+  - MegaMinion
+  forms:
+    Tesla: evo
+  weight: 1
+- cards:
+  - Hunter
+  - Skeletons
+  - Fireball
+  - BabyDragon
+  - Log
+  - Musketeer
+  - IceSpirits
+  - Tombstone
+  forms: {}
+  weight: 1
+- cards:
+  - Musketeer
+  - Poison
+  - GoldenKnight
+  - Goblinstein
+  - ElixirGolem
+  - ZapMachine
+  - Giant
+  - BossBandit
+  forms:
+    Musketeer: hero
+  weight: 1
+- cards:
+  - Lightning
+  - RamRider
+  - Tombstone
+  - Firecracker
+  - SuspiciousBush
+  - Poison
+  - Balloon
+  - Log
+  forms:
+    Firecracker: evo
+    Tombstone: hero
+  weight: 1
+- cards:
+  - Bomber
+  - BombTower
+  - Fisherman
+  - Assassin
+  - SkeletonDragons
+  - ArcherQueen
+  - GiantSkeleton
+  - HogRider
+  forms:
+    Bomber: evo
+  weight: 1
+- cards:
+  - IceWizard
+  - Ghost
+  - GoblinDrill
+  - MinionGiant
+  - Archer
+  - BossBandit
+  - Berserker
+  - Prince
+  forms:
+    Archer: evo
+    GoblinDrill: evo
+  weight: 1
+- cards:
+  - Golem
+  - Berserker
+  - ArcherQueen
+  - Giant
+  - DarkWitch
+  - SkeletonArmy
+  - SkeletonDragons
+  - Rage
+  forms:
+    SkeletonArmy: evo
+    Giant: hero
+  weight: 1
+- cards:
+  - MiniPekka
+  - SkeletonDragons
+  - Earthquake
+  - Rocket
+  - Assassin
+  - RoyalDelivery
+  - DarkPrince
+  - MinionGiant
+  forms:
+    DarkPrince: hero
+  weight: 1
+- cards:
+  - Poison
+  - LavaHound
+  - BlowdartGoblin
+  - Cannon
+  - BabyDragon
+  - DarkWitch
+  - AxeMan
+  - DarkPrince
+  forms:
+    DarkPrince: hero
+  weight: 1
+- cards:
+  - GiantSkeleton
+  - Miner
+  - Cannon
+  - RoyalHogs
+  - DarkPrince
+  - Rage
+  - Rocket
+  - Freeze
+  forms:
+    Cannon: evo
+    RoyalHogs: evo
+  weight: 1
+- cards:
+  - MiniPekka
+  - SkeletonKing
+  - ZapMachine
+  - MegaMinion
+  - Assassin
+  - Minions
+  - RoyalDelivery
+  - RoyalGiant
+  forms: {}
+  weight: 1
+- cards:
+  - Earthquake
+  - DartBarrell
+  - Firecracker
+  - BossBandit
+  - Skeletons
+  - Arrows
+  - MegaKnight
+  - BombTower
+  forms: {}
+  weight: 1
+- cards:
+  - Ghost
+  - BarbarianHut
+  - WitchMother
+  - ElixirGolem
+  - RageBarbarian
+  - EliteArcher
+  - Ronin
+  - Witch
+  forms: {}
+  weight: 1
+- cards:
+  - Hunter
+  - MinionHorde
+  - Zap
+  - Mortar
+  - SkeletonKing
+  - MightyMiner
+  - GoblinBarrel
+  - Golem
+  forms:
+    Zap: evo
+  weight: 1
+- cards:
+  - GoldenKnight
+  - RamRider
+  - DartBarrell
+  - GoblinCurse
+  - GoblinDemolisher
+  - Earthquake
+  - MegaKnight
+  - Princess
+  forms:
+    MegaKnight: evo
+  weight: 1
+- cards:
+  - SkeletonKing
+  - Bowler
+  - Rage
+  - BattleHealer
+  - BossBandit
+  - GoblinBarrel
+  - Barbarians
+  - IceGolemite
+  forms:
+    Barbarians: evo
+    GoblinBarrel: evo
+    IceGolemite: hero
+  weight: 1
+- cards:
+  - Tesla
+  - MergeMaiden
+  - Fireball
+  - Bowler
+  - Rage
+  - GoblinCurse
+  - Prince
+  - MegaKnight
+  forms:
+    Tesla: evo
+    Bowler: hero
+  weight: 1
+- cards:
+  - FirespiritHut
+  - Earthquake
+  - RoyalRecruits
+  - GoblinDemolisher
+  - Skeletons
+  - Phoenix
+  - Bats
+  - Goblins
+  forms:
+    Skeletons: evo
+  weight: 1
+- cards:
+  - GiantSkeleton
+  - MinionHorde
+  - Hunter
+  - WitchMother
+  - Bowler
+  - Elixir Collector
+  - Zap
+  - Rocket
+  forms:
+    Zap: evo
+    MinionHorde: evo
+    Bowler: hero
+  weight: 1
+- cards:
+  - GoblinCurse
+  - BattleRam
+  - Musketeer
+  - Hunter
+  - Fisherman
+  - SkeletonArmy
+  - Golem
+  - MegaMinion
+  forms:
+    Musketeer: hero
+  weight: 1
+- cards:
+  - Prince
+  - GoldenKnight
+  - RageBarbarian
+  - Goblinstein
+  - Witch
+  - RoyalDelivery
+  - GoblinBarrel
+  - GoblinMachine
+  forms: {}
+  weight: 1
+- cards:
+  - Elixir Collector
+  - InfernoTower
+  - Xbow
+  - RoyalDelivery
+  - Prince
+  - GoblinBarrel
+  - FirespiritHut
+  - MiniPekka
+  forms:
+    FirespiritHut: evo
+  weight: 1
+- cards:
+  - Barbarians
+  - MightyMiner
+  - Princess
+  - SpearGoblins
+  - ZapMachine
+  - Tornado
+  - DarkPrince
+  - RoyalHogs
+  forms:
+    RoyalHogs: evo
+    Barbarians: evo
+    DarkPrince: hero
+  weight: 1
+- cards:
+  - BabyDragon
+  - Phoenix
+  - Goblins
+  - LavaHound
+  - BattleHealer
+  - InfernoDragon
+  - Miner
+  - RoyalHogs
+  forms:
+    Goblins: hero
+  weight: 1
+- cards:
+  - LittlePrince
+  - LavaHound
+  - Vines
+  - Elixir Collector
+  - HogRider
+  - SkeletonDragons
+  - IceWizard
+  - ElixirGolem
+  forms: {}
+  weight: 1
+- cards:
+  - ZapMachine
+  - RoyalGiant
+  - SuspiciousBush
+  - Assassin
+  - SkeletonKing
+  - Mortar
+  - Prince
+  - SkeletonDragons
+  forms: {}
+  weight: 1
+- cards:
+  - DarkMagic
+  - SkeletonWarriors
+  - GoblinMachine
+  - SkeletonDragons
+  - GoblinGang
+  - Ghost
+  - Giant
+  - Bowler
+  forms:
+    Ghost: evo
+    Bowler: hero
+  weight: 1
+- cards:
+  - MinionGiant
+  - IceGolemite
+  - Wallbreakers
+  - Miner
+  - Valkyrie
+  - Snowball
+  - DartBarrell
+  - Heal
+  forms:
+    Valkyrie: evo
+    Wallbreakers: evo
+  weight: 1
+- cards:
+  - Balloon
+  - SkeletonKing
+  - Ghost
+  - MinionGiant
+  - SuspiciousBush
+  - MergeMaiden
+  - DarkPrince
+  - EliteArcher
+  forms:
+    Ghost: evo
+    EliteArcher: hero
+  weight: 1
+- cards:
+  - Poison
+  - Lightning
+  - Pekka
+  - WitchMother
+  - GoblinDemolisher
+  - Snowball
+  - RoyalDelivery
+  - BombTower
+  forms:
+    Snowball: evo
+  weight: 1
+- cards:
+  - Giant
+  - Pekka
+  - Mortar
+  - MiniPekka
+  - GoblinDemolisher
+  - GoblinHut
+  - GoldenKnight
+  - RoyalDelivery
+  forms:
+    MiniPekka: hero
+  weight: 1
+- cards:
+  - IceGolemite
+  - DarkWitch
+  - MiniSparkys
+  - Earthquake
+  - MegaMinion
+  - MinionHorde
+  - Log
+  - Vines
+  forms: {}
+  weight: 1
+- cards:
+  - ElectroSpirit
+  - Skeletons
+  - IceGolemite
+  - RoyalDelivery
+  - Princess
+  - RoyalRecruits
+  - InfernoTower
+  - BlowdartGoblin
+  forms:
+    Princess: evo
+  weight: 1
+- cards:
+  - Miner
+  - WitchMother
+  - SkeletonBalloon
+  - Balloon
+  - Monk
+  - FireSpirits
+  - ZapMachine
+  - Elixir Collector
+  forms:
+    SkeletonBalloon: evo
+    Balloon: hero
+  weight: 1
+- cards:
+  - Firecracker
+  - Freeze
+  - FireSpirits
+  - Tornado
+  - MightyMiner
+  - Archer
+  - GoblinGang
+  - MinionHorde
+  forms: {}
+  weight: 1
+- cards:
+  - LavaHound
+  - BarbLog
+  - DarkPrince
+  - ElectroSpirit
+  - ElixirGolem
+  - SpearGoblins
+  - Wallbreakers
+  - DarkMagic
+  forms:
+    Wallbreakers: evo
+    BarbLog: hero
+  weight: 1
+- cards:
+  - FireSpirits
+  - Xbow
+  - RoyalGiant
+  - Vines
+  - Prince
+  - SkeletonArmy
+  - Rascals
+  - DarkPrince
+  forms:
+    DarkPrince: hero
+  weight: 1
+- cards:
+  - IceSpirits
+  - DarkWitch
+  - DartBarrell
+  - Fisherman
+  - EliteArcher
+  - Pekka
+  - RoyalGiant
+  - Phoenix
+  forms:
+    IceSpirits: evo
+    EliteArcher: hero
+  weight: 1
+- cards:
+  - Assassin
+  - Bomber
+  - Hunter
+  - Elixir Collector
+  - DarkMagic
+  - Earthquake
+  - BarbLog
+  - Miner
+  forms:
+    Bomber: evo
+    Hunter: evo
+    BarbLog: hero
+  weight: 1
+- cards:
+  - Goblinstein
+  - ElectroGiant
+  - Fisherman
+  - Assassin
+  - Skeletons
+  - DarkWitch
+  - DarkPrince
+  - SpearGoblins
+  forms: {}
+  weight: 1
+- cards:
+  - Pekka
+  - DarkPrince
+  - GoldenKnight
+  - Zap
+  - SkeletonDragons
+  - SpearGoblins
+  - Firecracker
+  - Snowball
+  forms:
+    Firecracker: evo
+    Snowball: evo
+    DarkPrince: hero
+  weight: 1
+- cards:
+  - Elixir Collector
+  - Fireball
+  - Clone
+  - ElectroDragon
+  - Phoenix
+  - IceWizard
+  - Ronin
+  - Mortar
+  forms:
+    IceWizard: hero
+  weight: 1
+- cards:
+  - Bomber
+  - MinionHorde
+  - GoblinDemolisher
+  - Rocket
+  - ElixirGolem
+  - Wizard
+  - WitchMother
+  - LavaHound
+  forms:
+    Wizard: evo
+    Bomber: evo
+  weight: 1
+- cards:
+  - Mortar
+  - MegaKnight
+  - SpearGoblins
+  - Musketeer
+  - Balloon
+  - Fisherman
+  - Earthquake
+  - ElectroGiant
+  forms: {}
+  weight: 1
+- cards:
+  - Skeletons
+  - SkeletonKing
+  - BombTower
+  - MinionGiant
+  - ArcherQueen
+  - MiniPekka
+  - SkeletonDragons
+  - ElectroDragon
+  forms:
+    ElectroDragon: evo
+    Skeletons: evo
+  weight: 1
+- cards:
+  - Bomber
+  - AxeMan
+  - ThreeMusketeers
+  - IceSpirits
+  - BlowdartGoblin
+  - RageBarbarian
+  - Arrows
+  - Freeze
+  forms: {}
+  weight: 1
+- cards:
+  - ElectroSpirit
+  - MightyMiner
+  - ElectroGiant
+  - Pekka
+  - Goblinstein
+  - Prince
+  - Balloon
+  - BossBandit
+  forms:
+    Pekka: evo
+    Balloon: hero
+  weight: 1
+- cards:
+  - BabyDragon
+  - ElectroDragon
+  - MegaKnight
+  - DartBarrell
+  - GoblinMachine
+  - RoyalRecruits
+  - Lightning
+  - Fisherman
+  forms:
+    BabyDragon: evo
+    RoyalRecruits: evo
+  weight: 1
+- cards:
+  - WitchMother
+  - Musketeer
+  - Tesla
+  - RoyalDelivery
+  - BlowdartGoblin
+  - RageBarbarian
+  - SkeletonWarriors
+  - SkeletonKing
+  forms:
+    BlowdartGoblin: evo
+  weight: 1
+- cards:
+  - Princess
+  - Log
+  - BlowdartGoblin
+  - MightyMiner
+  - SpearGoblins
+  - Elixir Collector
+  - SkeletonKing
+  - BattleHealer
+  forms:
+    Princess: evo
+    BlowdartGoblin: evo
+  weight: 1
+- cards:
+  - MiniSparkys
+  - Heal
+  - FireSpirits
+  - MightyMiner
+  - GoblinGiant
+  - Monk
+  - Giant
+  - MiniPekka
+  forms:
+    GoblinGiant: evo
+  weight: 1
+- cards:
+  - BabyDragon
+  - IceGolemite
+  - DarkMagic
+  - Goblins
+  - Ronin
+  - Wizard
+  - RamRider
+  - Arrows
+  forms:
+    Wizard: evo
+    Goblins: hero
+  weight: 1
+- cards:
+  - MinionHorde
+  - Witch
+  - GoblinGang
+  - GoblinDemolisher
+  - Princess
+  - LavaHound
+  - DarkMagic
+  - GoblinBarrel
+  forms:
+    Princess: evo
+  weight: 1
+- cards:
+  - Fireball
+  - Snowball
+  - BabyDragon
+  - Bowler
+  - Bats
+  - RoyalHogs
+  - Rage
+  - SpearGoblins
+  forms:
+    BabyDragon: evo
+    Bats: evo
+    Bowler: hero
+  weight: 1
+- cards:
+  - Zap
+  - Princess
+  - MinionGiant
+  - Heal
+  - Ronin
+  - ThreeMusketeers
+  - GoblinCage
+  - Barbarians
+  forms:
+    Zap: evo
+  weight: 1
+- cards:
+  - GoblinCage
+  - GiantSkeleton
+  - Xbow
+  - RamRider
+  - Phoenix
+  - Knight
+  - SkeletonWarriors
+  - Ronin
+  forms:
+    Knight: hero
+  weight: 1
+- cards:
+  - DartBarrell
+  - Xbow
+  - SkeletonBalloon
+  - MiniPekka
+  - ElectroGiant
+  - Log
+  - Firecracker
+  - Giant
+  forms:
+    SkeletonBalloon: evo
+    Giant: hero
+  weight: 1
+- cards:
+  - SkeletonKing
+  - Skeletons
+  - Goblinstein
+  - Rascals
+  - ElectroWizard
+  - ElectroGiant
+  - RageBarbarian
+  - FireSpirits
+  forms:
+    RageBarbarian: evo
+    ElectroWizard: hero
+  weight: 1
+- cards:
+  - AngryBarbarians
+  - Wallbreakers
+  - Bowler
+  - Rascals
+  - WitchMother
+  - DarkWitch
+  - RoyalGiant
+  - RamRider
+  forms:
+    Wallbreakers: evo
+    RoyalGiant: evo
+    Bowler: hero
+  weight: 1
+- cards:
+  - Ghost
+  - MegaMinion
+  - IceSpirits
+  - Fireball
+  - Ronin
+  - Graveyard
+  - InfernoDragon
+  - Berserker
+  forms: {}
+  weight: 1
+- cards:
+  - SkeletonWarriors
+  - Phoenix
+  - BarbLog
+  - Barbarians
+  - Berserker
+  - WitchMother
+  - BattleHealer
+  - EliteArcher
+  forms: {}
+  weight: 1
+- cards:
+  - Tesla
+  - Princess
+  - MinionGiant
+  - BattleRam
+  - SkeletonDragons
+  - SpearGoblins
+  - Berserker
+  - ElectroGiant
+  forms:
+    BattleRam: evo
+  weight: 1
+- cards:
+  - Musketeer
+  - Graveyard
+  - GoblinMachine
+  - LittlePrince
+  - Tornado
+  - Bomber
+  - LavaHound
+  - BlowdartGoblin
+  forms:
+    Musketeer: hero
+  weight: 1
+- cards:
+  - MegaMinion
+  - ThreeMusketeers
+  - Rascals
+  - Archer
+  - LittlePrince
+  - RoyalDelivery
+  - Princess
+  - Ronin
+  forms: {}
+  weight: 1
+- cards:
+  - BlowdartGoblin
+  - ElectroGiant
+  - SkeletonDragons
+  - Miner
+  - Xbow
+  - Elixir Collector
+  - MinionHorde
+  - Rocket
+  forms:
+    ElectroGiant: evo
+  weight: 1
+- cards:
+  - ElixirGolem
+  - InfernoDragon
+  - EliteArcher
+  - MiniSparkys
+  - RoyalDelivery
+  - LittlePrince
+  - Bats
+  - GoblinDemolisher
+  forms:
+    InfernoDragon: evo
+    EliteArcher: hero
+  weight: 1
+- cards:
+  - Ghost
+  - Monk
+  - Log
+  - InfernoTower
+  - Bomber
+  - ElixirGolem
+  - BossBandit
+  - MiniSparkys
+  forms:
+    Ghost: evo
+  weight: 1
+- cards:
+  - SkeletonBalloon
+  - BlowdartGoblin
+  - Xbow
+  - Hunter
+  - Wallbreakers
+  - ThreeMusketeers
+  - Arrows
+  - Wizard
+  forms:
+    Hunter: evo
+  weight: 1
+- cards:
+  - MiniSparkys
+  - Tombstone
+  - GiantSkeleton
+  - GoblinGang
+  - Mortar
+  - SkeletonKing
+  - Snowball
+  - ElectroDragon
+  forms:
+    Mortar: evo
+  weight: 1
+- cards:
+  - Miner
+  - IceSpirits
+  - BarbarianHut
+  - RoyalHogs
+  - GoblinDemolisher
+  - Tombstone
+  - GoldenKnight
+  - ElixirGolem
+  forms:
+    Tombstone: hero
+  weight: 1
+- cards:
+  - Firecracker
+  - Arrows
+  - AxeMan
+  - Assassin
+  - SkeletonDragons
+  - BattleRam
+  - HogRider
+  - SkeletonArmy
+  forms:
+    Firecracker: evo
+    AxeMan: evo
+  weight: 1
+- cards:
+  - SpearGoblins
+  - Bomber
+  - MegaKnight
+  - Fireball
+  - RageBarbarian
+  - Snowball
+  - RoyalHogs
+  - SkeletonArmy
+  forms:
+    Snowball: evo
+  weight: 1
+- cards:
+  - GoblinCage
+  - Miner
+  - HogRider
+  - MiniPekka
+  - BabyDragon
+  - ArcherQueen
+  - Log
+  - Barbarians
+  forms:
+    BabyDragon: evo
+  weight: 1
+- cards:
+  - RoyalRecruits
+  - Fisherman
+  - MergeMaiden
+  - GoblinCage
+  - Tornado
+  - Prince
+  - BarbarianHut
+  - Rascals
+  forms:
+    RoyalRecruits: evo
+    GoblinCage: evo
+  weight: 1
+- cards:
+  - Wizard
+  - Rage
+  - Tornado
+  - IceWizard
+  - Phoenix
+  - BarbLog
+  - WitchMother
+  - MovingCannon
+  forms:
+    BarbLog: hero
+  weight: 1
+- cards:
+  - GoblinCage
+  - Wallbreakers
+  - Bomber
+  - Miner
+  - ElectroDragon
+  - Giant
+  - Goblins
+  - ElectroSpirit
+  forms:
+    Wallbreakers: evo
+    Goblins: hero
+  weight: 1
+- cards:
+  - GoblinDrill
+  - MegaKnight
+  - Arrows
+  - EliteArcher
+  - GoblinGiant
+  - MiniPekka
+  - Golem
+  - BombTower
+  forms:
+    GoblinGiant: evo
+  weight: 1
+- cards:
+  - GoblinHut
+  - Snowball
+  - Assassin
+  - Skeletons
+  - MovingCannon
+  - ElectroGiant
+  - MergeMaiden
+  - Heal
+  forms:
+    Snowball: evo
+  weight: 1
+- cards:
+  - Freeze
+  - Heal
+  - Skeletons
+  - ArcherQueen
+  - Snowball
+  - Rage
+  - ElixirGolem
+  - Golem
+  forms: {}
+  weight: 1
+- cards:
+  - Berserker
+  - DarkMagic
+  - GoblinDemolisher
+  - GoblinCurse
+  - EliteArcher
+  - Graveyard
+  - SkeletonKing
+  - Tornado
+  forms: {}
+  weight: 1
+- cards:
+  - Vines
+  - FirespiritHut
+  - MiniSparkys
+  - Fireball
+  - Cannon
+  - Log
+  - IceWizard
+  - MergeMaiden
+  forms:
+    FirespiritHut: evo
+  weight: 1
+- cards:
+  - Goblins
+  - SkeletonDragons
+  - GoblinDemolisher
+  - Vines
+  - RamRider
+  - LittlePrince
+  - Balloon
+  - Clone
+  forms:
+    Goblins: hero
+  weight: 1
+- cards:
+  - ThreeMusketeers
+  - GiantSkeleton
+  - Princess
+  - Musketeer
+  - Giant
+  - Zap
+  - RoyalDelivery
+  - Tesla
+  forms:
+    Musketeer: evo
+    Tesla: evo
+    Giant: hero
+  weight: 1
+- cards:
+  - SkeletonWarriors
+  - RageBarbarian
+  - RoyalDelivery
+  - Mortar
+  - Balloon
+  - FirespiritHut
+  - BombTower
+  - BossBandit
+  forms:
+    Balloon: hero
+  weight: 1
+- cards:
+  - SkeletonBalloon
+  - Graveyard
+  - SkeletonDragons
+  - SuspiciousBush
+  - GoblinGang
+  - RoyalDelivery
+  - BlowdartGoblin
+  - GiantSkeleton
+  forms:
+    SkeletonBalloon: evo
+    BlowdartGoblin: evo
+  weight: 1
+- cards:
+  - RoyalGiant
+  - BombTower
+  - GoblinGang
+  - Balloon
+  - IceGolemite
+  - Wizard
+  - GoblinCurse
+  - Bowler
+  forms:
+    IceGolemite: hero
+  weight: 1
+- cards:
+  - FirespiritHut
+  - Fisherman
+  - Prince
+  - BlowdartGoblin
+  - AxeMan
+  - DarkMagic
+  - Rocket
+  - SkeletonDragons
+  forms:
+    AxeMan: evo
+    FirespiritHut: evo
+  weight: 1
+- cards:
+  - MinionGiant
+  - Goblins
+  - Knight
+  - WitchMother
+  - Graveyard
+  - MegaMinion
+  - Phoenix
+  - ElectroSpirit
+  forms:
+    Knight: evo
+  weight: 1
+- cards:
+  - Snowball
+  - InfernoDragon
+  - Miner
+  - GoblinMachine
+  - LittlePrince
+  - RoyalRecruits
+  - SkeletonWarriors
+  - Zap
+  forms:
+    RoyalRecruits: evo
+    InfernoDragon: evo
+  weight: 1
+- cards:
+  - Assassin
+  - Log
+  - Earthquake
+  - Goblinstein
+  - Freeze
+  - Tombstone
+  - Fisherman
+  - DarkPrince
+  forms: {}
+  weight: 1
+- cards:
+  - Bowler
+  - Wallbreakers
+  - HogRider
+  - SkeletonArmy
+  - SkeletonDragons
+  - BattleHealer
+  - ZapMachine
+  - MinionGiant
+  forms:
+    Bowler: hero
+  weight: 1
+- cards:
+  - Barbarians
+  - Skeletons
+  - IceGolemite
+  - Knight
+  - Berserker
+  - Prince
+  - Cannon
+  - Log
+  forms:
+    Knight: evo
+  weight: 1
+- cards:
+  - LavaHound
+  - Bowler
+  - Zap
+  - ElectroWizard
+  - Balloon
+  - RoyalDelivery
+  - Witch
+  - Cannon
+  forms:
+    Cannon: evo
+    ElectroWizard: hero
+  weight: 1
+- cards:
+  - BlowdartGoblin
+  - Xbow
+  - DarkWitch
+  - MegaKnight
+  - Giant
+  - BarbarianHut
+  - Tornado
+  - Log
+  forms:
+    Giant: hero
+  weight: 1
+- cards:
+  - Tornado
+  - BarbarianHut
+  - Monk
+  - WitchMother
+  - SkeletonDragons
+  - BattleHealer
+  - Fisherman
+  - Cannon
+  forms: {}
+  weight: 1
+- cards:
+  - BlowdartGoblin
+  - Princess
+  - ArcherQueen
+  - Bomber
+  - Miner
+  - GiantBuffer
+  - Phoenix
+  - ThreeMusketeers
+  forms:
+    BlowdartGoblin: evo
+  weight: 1
+- cards:
+  - GoblinCurse
+  - DarkWitch
+  - ElectroGiant
+  - BabyDragon
+  - FirespiritHut
+  - Freeze
+  - RoyalGiant
+  - ElixirGolem
+  forms:
+    BabyDragon: evo
+  weight: 1
+- cards:
+  - Archer
+  - InfernoTower
+  - AngryBarbarians
+  - Tesla
+  - Cannon
+  - Skeletons
+  - Vines
+  - Clone
+  forms: {}
+  weight: 1
+- cards:
+  - SuspiciousBush
+  - ArcherQueen
+  - SkeletonDragons
+  - Barbarians
+  - Pekka
+  - Xbow
+  - Balloon
+  - Goblins
+  forms:
+    Pekka: evo
+    Barbarians: evo
+    Balloon: hero
+  weight: 1
+- cards:
+  - Freeze
+  - Rage
+  - IceGolemite
+  - Witch
+  - BombTower
+  - GoblinDrill
+  - Bats
+  - Goblins
+  forms: {}
+  weight: 1
+- cards:
+  - Giant
+  - WitchMother
+  - Bats
+  - Phoenix
+  - MinionGiant
+  - MiniPekka
+  - DarkWitch
+  - Fireball
+  forms: {}
+  weight: 1
+- cards:
+  - RoyalGiant
+  - Clone
+  - Log
+  - EliteArcher
+  - SkeletonBalloon
+  - RamRider
+  - IceWizard
+  - GoblinBarrel
+  forms:
+    SkeletonBalloon: evo
+  weight: 1
+- cards:
+  - Tombstone
+  - RoyalRecruits
+  - GoldenKnight
+  - Fireball
+  - RoyalGiant
+  - Rage
+  - BombTower
+  - DarkMagic
+  forms:
+    RoyalGiant: evo
+    Tombstone: hero
+  weight: 1
+- cards:
+  - Earthquake
+  - GoblinGang
+  - GoblinBarrel
+  - BlowdartGoblin
+  - Vines
+  - GoblinCurse
+  - Bowler
+  - BossBandit
+  forms:
+    Bowler: hero
+  weight: 1
+- cards:
+  - Rascals
+  - InfernoDragon
+  - Bomber
+  - MegaKnight
+  - Fireball
+  - GoblinMachine
+  - Pekka
+  - LittlePrince
+  forms:
+    InfernoDragon: evo
+  weight: 1
+- cards:
+  - BattleRam
+  - MinionHorde
+  - FirespiritHut
+  - GoblinMachine
+  - Elixir Collector
+  - ElectroGiant
+  - Archer
+  - RoyalHogs
+  forms:
+    RoyalHogs: evo
+    Archer: evo
+  weight: 1
+- cards:
+  - GoblinBarrel
+  - Balloon
+  - Prince
+  - AngryBarbarians
+  - MiniSparkys
+  - HogRider
+  - ElectroWizard
+  - Pekka
+  forms:
+    GoblinBarrel: evo
+  weight: 1
+- cards:
+  - Lightning
+  - SkeletonBalloon
+  - BarbLog
+  - MinionGiant
+  - GoldenKnight
+  - Berserker
+  - MiniPekka
+  - GoblinBarrel
+  forms:
+    GoblinBarrel: evo
+    MiniPekka: hero
+  weight: 1
+- cards:
+  - Tesla
+  - Rocket
+  - Barbarians
+  - Wallbreakers
+  - FirespiritHut
+  - ElectroSpirit
+  - InfernoDragon
+  - InfernoTower
+  forms: {}
+  weight: 1
+- cards:
+  - Ronin
+  - GoblinBarrel
+  - SkeletonArmy
+  - Bowler
+  - MovingCannon
+  - Fisherman
+  - SpearGoblins
+  - BarbarianHut
+  forms:
+    GoblinBarrel: evo
+  weight: 1
+- cards:
+  - BossBandit
+  - RageBarbarian
+  - LavaHound
+  - ElectroSpirit
+  - MightyMiner
+  - GoblinCurse
+  - Skeletons
+  - Wallbreakers
+  forms:
+    Skeletons: evo
+    RageBarbarian: evo
+  weight: 1
+- cards:
+  - ElectroWizard
+  - GoblinHut
+  - Mortar
+  - Pekka
+  - RoyalRecruits
+  - SkeletonDragons
+  - BarbarianHut
+  - Monk
+  forms:
+    Mortar: evo
+    Pekka: evo
+    ElectroWizard: hero
+  weight: 1
+- cards:
+  - RoyalRecruits
+  - Wallbreakers
+  - Balloon
+  - BombTower
+  - InfernoDragon
+  - GoblinHut
+  - ArcherQueen
+  - Wizard
+  forms:
+    RoyalRecruits: evo
+    Wizard: hero
+  weight: 1
+- cards:
+  - Prince
+  - MegaKnight
+  - ElectroGiant
+  - Wallbreakers
+  - HogRider
+  - Golem
+  - Bowler
+  - RoyalGiant
+  forms:
+    RoyalGiant: evo
+    ElectroGiant: evo
+  weight: 1
+- cards:
+  - Mortar
+  - Princess
+  - MovingCannon
+  - AxeMan
+  - Lightning
+  - RoyalDelivery
+  - Miner
+  - Goblins
+  forms: {}
+  weight: 1
+- cards:
+  - Hunter
+  - MiniSparkys
+  - FirespiritHut
+  - DarkPrince
+  - Earthquake
+  - Fisherman
+  - GiantSkeleton
+  - GoblinCage
+  forms:
+    FirespiritHut: evo
+    GoblinCage: evo
+  weight: 1
+- cards:
+  - BossBandit
+  - Berserker
+  - Rascals
+  - Lightning
+  - DarkPrince
+  - GoblinBarrel
+  - Musketeer
+  - Goblins
+  forms:
+    Musketeer: evo
+    GoblinBarrel: evo
+  weight: 1
+- cards:
+  - MinionHorde
+  - Miner
+  - Witch
+  - Assassin
+  - MergeMaiden
+  - Xbow
+  - Golem
+  - GiantSkeleton
+  forms:
+    Witch: evo
+    MinionHorde: evo
+  weight: 1
+- cards:
+  - RoyalHogs
+  - Fisherman
+  - GoblinMachine
+  - BattleHealer
+  - IceSpirits
+  - Berserker
+  - DarkMagic
+  - GoblinGang
+  forms:
+    RoyalHogs: evo
+    IceSpirits: evo
+    Berserker: hero
+  weight: 1
+- cards:
+  - Goblins
+  - IceWizard
+  - ZapMachine
+  - Minions
+  - GiantBuffer
+  - GiantSkeleton
+  - Tesla
+  - LittlePrince
+  forms:
+    Tesla: evo
+    IceWizard: hero
+  weight: 1
+- cards:
+  - Berserker
+  - Balloon
+  - Skeletons
+  - Wizard
+  - GoblinCage
+  - GoblinMachine
+  - Miner
+  - Giant
+  forms:
+    GoblinCage: evo
+  weight: 1
+- cards:
+  - Golem
+  - Knight
+  - Hunter
+  - MinionHorde
+  - Rage
+  - GoblinDemolisher
+  - MovingCannon
+  - Skeletons
+  forms:
+    Knight: hero
+  weight: 1
+- cards:
+  - MovingCannon
+  - SkeletonArmy
+  - SkeletonKing
+  - BattleHealer
+  - LavaHound
+  - Princess
+  - DarkWitch
+  - GoblinDrill
+  forms:
+    SkeletonArmy: evo
+    Princess: evo
+  weight: 1
+- cards:
+  - Heal
+  - SkeletonKing
+  - BlowdartGoblin
+  - FirespiritHut
+  - WitchMother
+  - SkeletonArmy
+  - SuspiciousBush
+  - Clone
+  forms:
+    SkeletonArmy: evo
+  weight: 1
+- cards:
+  - Hunter
+  - SkeletonArmy
+  - Goblinstein
+  - Princess
+  - MiniSparkys
+  - BossBandit
+  - GoldenKnight
+  - MergeMaiden
+  forms:
+    SkeletonArmy: evo
+    Hunter: evo
+  weight: 1
+- cards:
+  - LittlePrince
+  - Knight
+  - Berserker
+  - Ronin
+  - RoyalDelivery
+  - BombTower
+  - Elixir Collector
+  - MightyMiner
+  forms:
+    Knight: evo
+    Berserker: hero
+  weight: 1
+- cards:
+  - BattleRam
+  - ElixirGolem
+  - HogRider
+  - LavaHound
+  - Earthquake
+  - GoblinDrill
+  - Firecracker
+  - Clone
+  forms: {}
+  weight: 1
+- cards:
+  - ElectroDragon
+  - AxeMan
+  - BabyDragon
+  - ZapMachine
+  - Snowball
+  - Prince
+  - LittlePrince
+  - Phoenix
+  forms: {}
+  weight: 1
+- cards:
+  - Musketeer
+  - InfernoDragon
+  - Princess
+  - Phoenix
+  - BossBandit
+  - WitchMother
+  - Vines
+  - Ronin
+  forms:
+    Princess: evo
+  weight: 1
+- cards:
+  - AngryBarbarians
+  - GoblinCurse
+  - Wizard
+  - BattleHealer
+  - Rascals
+  - ElectroWizard
+  - MiniSparkys
+  - RoyalHogs
+  forms:
+    Wizard: evo
+    AngryBarbarians: evo
+  weight: 1
+- cards:
+  - Skeletons
+  - Log
+  - BlowdartGoblin
+  - WitchMother
+  - Lightning
+  - BattleHealer
+  - Clone
+  - AxeMan
+  forms:
+    AxeMan: evo
+    Skeletons: evo
+  weight: 1
+- cards:
+  - Barbarians
+  - Valkyrie
+  - Lightning
+  - EliteArcher
+  - Heal
+  - Ronin
+  - Assassin
+  - ElectroWizard
+  forms:
+    Valkyrie: evo
+  weight: 1
+- cards:
+  - RoyalRecruits
+  - Tombstone
+  - BarbarianHut
+  - Princess
+  - Vines
+  - RageBarbarian
+  - RamRider
+  - Musketeer
+  forms: {}
+  weight: 1
+- cards:
+  - Elixir Collector
+  - MinionHorde
+  - HogRider
+  - Wizard
+  - Fireball
+  - DartBarrell
+  - Tesla
+  - Prince
+  forms:
+    MinionHorde: evo
+    Wizard: evo
+  weight: 1
+- cards:
+  - InfernoDragon
+  - Bowler
+  - Wallbreakers
+  - Prince
+  - BattleRam
+  - ElectroSpirit
+  - BarbLog
+  - ThreeMusketeers
+  forms:
+    Wallbreakers: evo
+    BattleRam: evo
+  weight: 1
+- cards:
+  - Elixir Collector
+  - Skeletons
+  - SkeletonWarriors
+  - Graveyard
+  - BarbLog
+  - Lightning
+  - GoblinMachine
+  - GoblinDemolisher
+  forms:
+    Skeletons: evo
+    BarbLog: hero
+  weight: 1
+- cards:
+  - Goblins
+  - MiniPekka
+  - Cannon
+  - SkeletonKing
+  - GoblinHut
+  - SkeletonDragons
+  - GoblinGang
+  - Phoenix
+  forms:
+    Goblins: hero
+  weight: 1
+- cards:
+  - GoblinHut
+  - Knight
+  - Skeletons
+  - InfernoTower
+  - Ronin
+  - Fisherman
+  - Phoenix
+  - Minions
+  forms:
+    Knight: evo
+  weight: 1
+- cards:
+  - Princess
+  - Wallbreakers
+  - Tornado
+  - ThreeMusketeers
+  - Golem
+  - Goblins
+  - Mortar
+  - DarkMagic
+  forms:
+    Wallbreakers: evo
+  weight: 1
+- cards:
+  - Bats
+  - Valkyrie
+  - InfernoDragon
+  - DarkMagic
+  - RoyalHogs
+  - RamRider
+  - AxeMan
+  - GiantSkeleton
+  forms:
+    AxeMan: evo
+    RoyalHogs: evo
+  weight: 1
+- cards:
+  - Ronin
+  - MergeMaiden
+  - GoblinCage
+  - Balloon
+  - Wallbreakers
+  - AxeMan
+  - ElectroSpirit
+  - BarbLog
+  forms: {}
+  weight: 1
+- cards:
+  - DarkPrince
+  - Xbow
+  - GoblinCage
+  - Mortar
+  - IceWizard
+  - DarkMagic
+  - ElectroDragon
+  - LavaHound
+  forms: {}
+  weight: 1
+- cards:
+  - Rascals
+  - Lightning
+  - MegaMinion
+  - Snowball
+  - FireSpirits
+  - RoyalRecruits
+  - MinionHorde
+  - Rocket
+  forms:
+    RoyalRecruits: evo
+  weight: 1
+- cards:
+  - Bomber
+  - Knight
+  - Miner
+  - Fireball
+  - Xbow
+  - MinionHorde
+  - Bats
+  - MegaKnight
+  forms:
+    Knight: hero
+  weight: 1
+- cards:
+  - GoblinDrill
+  - Princess
+  - BabyDragon
+  - MegaKnight
+  - LittlePrince
+  - DarkPrince
+  - Rage
+  - Valkyrie
+  forms:
+    BabyDragon: evo
+    MegaKnight: evo
+    Valkyrie: hero
+  weight: 1
+- cards:
+  - IceWizard
+  - DartBarrell
+  - MegaMinion
+  - RoyalDelivery
+  - Balloon
+  - GoblinMachine
+  - AngryBarbarians
+  - Mortar
+  forms: {}
+  weight: 1
+- cards:
+  - Berserker
+  - Monk
+  - Ghost
+  - Freeze
+  - ThreeMusketeers
+  - Tesla
+  - SkeletonDragons
+  - Goblinstein
+  forms:
+    Tesla: evo
+  weight: 1
+- cards:
+  - Firecracker
+  - Berserker
+  - MightyMiner
+  - Rascals
+  - SkeletonKing
+  - Skeletons
+  - MiniPekka
+  - MegaKnight
+  forms:
+    Firecracker: evo
+    MegaKnight: evo
+    Berserker: hero
+  weight: 1
+- cards:
+  - BlowdartGoblin
+  - BossBandit
+  - Princess
+  - DartBarrell
+  - GoblinDemolisher
+  - DarkMagic
+  - BarbarianHut
+  - ElixirGolem
+  forms: {}
+  weight: 1
+- cards:
+  - RoyalHogs
+  - Golem
+  - RoyalDelivery
+  - Barbarians
+  - Firecracker
+  - Ronin
+  - Elixir Collector
+  - AxeMan
+  forms:
+    AxeMan: evo
+  weight: 1
+- cards:
+  - MegaKnight
+  - ElectroSpirit
+  - MiniPekka
+  - Mortar
+  - Giant
+  - Log
+  - ZapMachine
+  - MinionGiant
+  forms:
+    MiniPekka: hero
+  weight: 1
+- cards:
+  - MegaMinion
+  - Log
+  - Valkyrie
+  - Freeze
+  - IceWizard
+  - Barbarians
+  - Berserker
+  - Rascals
+  forms:
+    Barbarians: evo
+  weight: 1
+- cards:
+  - MinionHorde
+  - Ghost
+  - BossBandit
+  - SkeletonWarriors
+  - HogRider
+  - Rocket
+  - ElectroSpirit
+  - ElectroGiant
+  forms: {}
+  weight: 1
+- cards:
+  - Tesla
+  - Goblinstein
+  - GoblinGiant
+  - MiniSparkys
+  - GoblinDemolisher
+  - GoblinCurse
+  - LittlePrince
+  - Wizard
+  forms:
+    Wizard: hero
+  weight: 1
+- cards:
+  - ElectroDragon
+  - BattleHealer
+  - Tornado
+  - IceWizard
+  - Fireball
+  - Berserker
+  - MegaKnight
+  - Rage
+  forms:
+    MegaKnight: evo
+    ElectroDragon: evo
+  weight: 1
+- cards:
+  - Graveyard
+  - Bats
+  - BlowdartGoblin
+  - Heal
+  - Firecracker
+  - DarkWitch
+  - Knight
+  - Miner
+  forms: {}
+  weight: 1
+- cards:
+  - GoblinMachine
+  - Xbow
+  - LavaHound
+  - Rage
+  - Barbarians
+  - Tombstone
+  - WitchMother
+  - GoblinGiant
+  forms:
+    Barbarians: evo
+    GoblinGiant: evo
+    Tombstone: hero
+  weight: 1
+- cards:
+  - Poison
+  - DarkMagic
+  - Monk
+  - InfernoTower
+  - Archer
+  - RamRider
+  - MegaMinion
+  - GoblinGang
+  forms:
+    Archer: evo
+    MegaMinion: hero
+  weight: 1
+- cards:
+  - SkeletonArmy
+  - Zap
+  - MegaMinion
+  - DarkWitch
+  - MinionGiant
+  - IceGolemite
+  - GoblinDrill
+  - RoyalRecruits
+  forms:
+    Zap: evo
+    IceGolemite: hero
+  weight: 1
+- cards:
+  - Poison
+  - MiniSparkys
+  - Rage
+  - Witch
+  - InfernoTower
+  - Zap
+  - Heal
+  - Rascals
+  forms:
+    Zap: evo
+    Witch: evo
+  weight: 1
+- cards:
+  - EliteArcher
+  - Bowler
+  - MovingCannon
+  - BabyDragon
+  - MergeMaiden
+  - LittlePrince
+  - Fisherman
+  - Valkyrie
+  forms:
+    Valkyrie: evo
+  weight: 1
+- cards:
+  - HogRider
+  - Elixir Collector
+  - BabyDragon
+  - GiantSkeleton
+  - AxeMan
+  - Minions
+  - IceSpirits
+  - LittlePrince
+  forms: {}
+  weight: 1
+- cards:
+  - Firecracker
+  - SkeletonWarriors
+  - ElixirGolem
+  - Witch
+  - Fireball
+  - Prince
+  - MinionGiant
+  - BombTower
+  forms:
+    Firecracker: evo
+  weight: 1
+- cards:
+  - SkeletonDragons
+  - Tesla
+  - Barbarians
+  - Princess
+  - MovingCannon
+  - GoblinDemolisher
+  - MegaMinion
+  - Giant
+  forms:
+    Barbarians: evo
+    Giant: hero
+  weight: 1
+- cards:
+  - RoyalRecruits
+  - Lightning
+  - GoblinCage
+  - RageBarbarian
+  - Rocket
+  - MiniPekka
+  - Tesla
+  - Fisherman
+  forms:
+    MiniPekka: hero
+  weight: 1
+- cards:
+  - Zap
+  - SkeletonArmy
+  - ThreeMusketeers
+  - ElectroDragon
+  - Berserker
+  - FirespiritHut
+  - ElectroGiant
+  - Tesla
+  forms:
+    Berserker: hero
+  weight: 1
+- cards:
+  - RamRider
+  - ElectroWizard
+  - AngryBarbarians
+  - Monk
+  - Fisherman
+  - ElectroDragon
+  - Goblins
+  - Ronin
+  forms:
+    ElectroWizard: hero
+  weight: 1
+- cards:
+  - SkeletonDragons
+  - SkeletonBalloon
+  - DarkPrince
+  - Snowball
+  - Skeletons
+  - Arrows
+  - ElectroDragon
+  - Goblins
+  forms: {}
+  weight: 1
+- cards:
+  - GoblinGiant
+  - AxeMan
+  - GoblinGang
+  - Snowball
+  - BattleHealer
+  - Goblins
+  - Miner
+  - GoblinHut
+  forms:
+    Snowball: evo
+    Goblins: hero
+  weight: 1

@@ -1,0 +1,3 @@
+# 专项剥削者：只用新版本卡组（10-06 之后真人对局里的热门卡组）打主模型（主模型一方仍是龙骑墓）
+paths.deck_pool=cr_ai/configs/deck_pool_spec_new.yaml
+league.agent_main_prob=0.0

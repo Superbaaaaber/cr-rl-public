@@ -1,0 +1,28 @@
+# M4（墓园主卡组）：叠加在 ppo.yaml、m4.yaml 之上，从 runs/ppo2 的存档接着训；联赛状态（快照池、Elo）沿用 ppo2 的 league.json。
+#   copy runs/ppo2/league.json → runs/ppo3/league.json，然后：
+#   python -m cr_ai.tools.supervise -- python -m cr_ai.train.ppo --config cr_ai/configs/ppo.yaml cr_ai/configs/m4.yaml cr_ai/configs/m4_gy.yaml --run runs/ppo3 --init runs/ppo2/ppo_latest.pt --resume
+#
+# 学习率实验（已回退）：9,710 万步起把学习率从 5.1e-5 提到 9e-5（lr 1e-4、lr_decay_steps 1e9）。approx_kl 0.0012 → 0.003、clipfrac 1.2% → 2.2%，
+# 数值平稳，但 1.04 亿步评测墓园镜像对 BC 从 89.5% 掉到 76.5%，对同一批历史快照的胜率、Elo 也一直下降；其他卡组 78.5%（ppo2 79.5–82%）。
+# 于是退回 ppo_step97000468.pt、学习率恢复 ppo.yaml 的按 2 亿步衰减；实验分支（日志、快照、评测）存在 runs/ppo3/lrexp/。
+paths:
+  deck: cr_ai/configs/deck_graveyard.yaml
+
+league:
+  # 2026-10-13：剥削者（tools/league_loop.py 分时训练）的快照放这里，主模型的联赛定期扫描加入 PFSP 池
+  exploiter_dir: ppo3/exploiters
+  max_exploiters: 10
+
+ppo:
+  # 2026-10-13：学习率下限从 5e-6（0.05）提到 2e-5（0.2）。线性衰减到 1.6 亿步才碰到下限，之前不受影响；
+  # 之后不再继续降，便于训到 3 亿步以上（Elo 仍在线性上涨）。
+  lr_floor: 0.2
+  # 2026-10-14 实验：取消 KL(π ‖ π_BC) 约束（0.02 → 0）。1.15 亿步后 Elo 每百万步只涨约 1 分，对 4500 万步前的自己只赢 54%；
+  # 试试不再往 BC 方向拉能不能突破。分支起点存为 runs/ppo3/klexp_base.pt（+ league_klexp_base.json），变差就退回那里并删掉这一行。
+  # BC 仍是联赛里 15% 的固定对手，熵奖励（ent_card/ent_place）照旧。
+  kl_bc_end: 0.0
+
+reward:
+  # 2026-10-14（约 1.70 亿步起，用户要求）：国王塔的塔血势能权重从 0.5 降到和公主塔一样的 0.25。
+  # 势能塑形整局抵消，不改变最优策略；c = 0.2 时一座塔的分量只有 ±0.015，只影响中途的即时反馈。
+  king_w: 0.25

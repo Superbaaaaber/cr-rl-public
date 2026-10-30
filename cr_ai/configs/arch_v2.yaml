@@ -1,0 +1,11 @@
+# 第二版网络结构（2026-10-16 审查后的推荐组合）：叠加在 bc.yaml / ppo.yaml 等之上，要从 BC 开始重训。
+#   python -m cr_ai.train.bc --config cr_ai/configs/bc.yaml cr_ai/configs/arch_v2.yaml [cr_ai/configs/bc_mix.yaml] model.channels=… --run runs/bc_v2
+#   PPO 也要叠加这个文件（rollout 里的 BC/历史快照网络都按当前配置建网，大小结构要一致）。
+# 各项的说明见 default.yaml 的 model 段。
+model:
+  place_res_blocks: 2
+  place_film_full: true
+  deck_pool: mlp
+  hand_slot: next
+  entity: true
+  priv_value: true

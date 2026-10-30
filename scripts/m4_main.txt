@@ -1,0 +1,49 @@
+league.seed_snapshots=ppo_v2/ppo_step*.pt
+league.seed_elo={0: -41, 4015872: -48, 8757504: 23, 13547520: 189, 18289152: 140, 23030784: 207, 27530496: 214, 32126976: 259, 36626688: 232, 40981248: 294, 45335808: 253}
+league.init_elo=253
+league.deck_pfsp=0.5
+ppo.gauntlet_examiners=cr_ai/configs/examiners_v2.yaml
+ppo.gauntlet_games=100
+ppo.gauntlet_every_steps=0
+ppo.eval_games=100
+league.agent_main_prob=0.3
+ppo.total_steps=1000000000
+league.opponents={self: 0.8, hist: 0.2, bc: 0, rule: 0}
+# 10-25 回退到 3.59 亿做对照：学习率下限 0.3 → 0.05（3e-5 → 5e-6，即 2.63 亿之前的值），其他和 10-24 那次回退完全一样
+# 10-27 原计划学习率 5e-6 → 1e-5，用户改为先单独做势能实验（学习率保持 5e-6），1e-5 留到下一步。起点存档备份在 runs/ppo_v2_m4_bak/
+# 10-28 用户同意（深度研究报告 reports/皇室战争训练停滞原因.md）：每批只过 1 遍（epochs 2 → 1）、学习率 5e-6 → 1e-5——一阶近似下每批的更新幅度不变，
+# 学习器（现在的瓶颈，每次约 41 秒、从不等数据）工作量减半，目的是提吞吐（预计 +20–40%）。不是“单独升学习率”。备份 m4_main.txt.bak_epoch2。
+# 验收：每秒步数上升；approx_kl、B_simple、价值解释度（约 0.945）不变。止损：价值解释度 < 0.93、approx_kl 尖峰 > 0.002、熵持续 > 0.125 → 恢复 epochs 2 + 5e-6
+ppo.lr_floor=0.1
+ppo.epochs=1
+# 10-28 用户同意：影子 λ 测量（只读梯度、不影响训练，提交 0c675420）：比较 GAE λ 0.90/0.95/0.97 的单样本梯度方差
+ppo.noise_lambdas=[0.9,0.95,0.97]
+# 10-28 用户同意：策略的 GAE λ 0.97 → 0.95，价值目标保持 0.97（解耦 GAE，提交 e6d2a13d）。影子 λ 16 次：策略梯度单样本方差 0.66 倍。
+# 备份 m4_main.txt.bak_lam097。止损：价值解释度 < 0.93、approx_kl 尖峰 > 0.002、熵持续 > 0.125 → 删掉这一行
+ppo.policy_lambda=0.95
+# 10-27 用户同意：胜率先验势能（价值头形式，见 net.py: win_prior）λ = 0.5；旧塔血塑形关掉（和它重复）；
+# 价值头先单独热身到 5.502 亿步（约 240 万步，策略不动；第一次热身因截断 bug 无效，修好后从 5.478 亿重热）。止损（任一出现就关掉先验、退回 5.458 亿）：
+# 热身后价值解释度（explained_var）明显低于原来的 0.94（vf 不能比：λ 回报靠自举，目标里带着先验，切换后数值本来就变大）、熵持续 >0.12、approx_kl 尖峰 >0.002、win_hist 持续 <0.50、bc_pool <0.92
+model.value_prior=0.5
+reward.shaping_c_start=0.0
+reward.shaping_c_end=0.0
+ppo.critic_rewarm_until=550165650
+# 10-26 用户同意：常规评测去掉 bc_main（早已饱和 0.97–1.00，漂移报警由 bc_pool 覆盖）；只改评测
+ppo.eval_suite=bc_pool,pool:bc_pool
+# 10-26 起 LSTM 截断 64 秒（128 → 256 步；1536 = 6 × 256）；10-27 用户要求保持
+ppo.seq_len=256
+# 10-28 用户同意：扩容手术（提交 6f298a78，model/grow.py、tools/grow.py；不蒸馏，扩容后和 6.832 亿是同一个函数，本地严格 fp32 核对最大差 ≤ 1.5e-5）：
+# 融合层/LSTM 768 → 1536、各个头 128 → 256、主干出口 64 → 128 通道 / 256 → 512 维、位置头残差块 2 → 4、实体分支 2 → 4 层（1,467 万 → 3,537 万参数）。
+# 联赛旧快照和 BC 由 load_weights(grow=True) 加载时自动补成新结构。备份 m4_main.txt.bak_pregrow、ppo_latest_pregrow.pt；回退 bash /root/grow_undo.sh
+model.hidden=1536
+model.head_hidden=256
+model.exit_channels=128
+model.grid_dim=512
+model.place_res_blocks=4
+model.entity_layers=4
+# 10-28 用户同意：扩容跑起来后的下一段打开观测修补（审查会话的 e2bc5cd3、479f9386，我补修 8d5d6f67；同 configs/obs_v3.yaml）：
+# show_effects：狂暴、英雄技能区域、冰人死亡减速区等以前当“特效”丢掉的对象画进法术层和单位列表；king_shots：国王塔开过火就算已激活；
+# obs_ext：技能状态、进化充能、单位状态（新输入层权重从 0 开始，优化器状态接上）。备份 m4_main.txt.bak_preobs；止损 /root/guard2.py → /root/obs_undo.sh
+obs.show_effects=true
+obs.king_shots=true
+model.obs_ext=true
