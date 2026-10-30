@@ -21,7 +21,7 @@ import time
 import numpy as np
 import torch
 
-from ..config import ROOT, cpu_count, load
+from ..config import ROOT, _wrap, cpu_count, load
 from ..env import masks as MK
 from ..env.vec_env import CTL, VecEnv
 from ..model.infer import InferEngine
@@ -34,7 +34,7 @@ class Policy:
     def __init__(self, ckpt, device='cuda', stateful=False, temperature=1.0):
         st = torch.load(ckpt, map_location=device, weights_only=False)
         self.cfg = load(overrides=())
-        self.cfg.update(st['cfg'])
+        self.cfg.update(_wrap(st['cfg']))                 # 存档里的 cfg 可能是普通 dict（发布的权重）：转成支持属性访问的配置
         self.net = Net(self.cfg).to(device)
         self.net.load_state_dict(st['model'])
         self.net.eval()
